@@ -20,6 +20,8 @@ namespace www.facturas.electronica.com.Bll
     {
         private static string conexion = "Server=10.10.10.28;Database=FEPE_SC;User ID=dmendoza;Password=Bata2013;Trusted_Connection=False;";
 
+
+
         private static DataTable dt_getxmldoc_empresa(string _ruc,string _tipo_doc,string _ser_doc,Decimal _num_doc)
         {
             string sqlquery = "USP_GET_DOC_XML_EMPRESA";
