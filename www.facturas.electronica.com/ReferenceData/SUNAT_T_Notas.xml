@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SUNAT_T_Notas>
+  <nota codigo="01" descripcion="Anulación de la operación"/>
+  <nota codigo="02" descripcion="Anulación por error en el RUC"/>
+  <nota codigo="03" descripcion="Corrección por error en la descripción"/>
+  <nota codigo="04" descripcion="Descuento global"/>
+  <nota codigo="05" descripcion="Descuento por ítem"/>
+  <nota codigo="06" descripcion="Devolución total"/>
+  <nota codigo="07" descripcion="Devolución por ítem"/>
+  <nota codigo="08" descripcion="Bonificación"/>
+  <nota codigo="09" descripcion="Disminución en el valor"/>
+  <nota codigo="01" descripcion="Intereses por mora"/>
+  <nota codigo="02" descripcion="Aumento en el valor"/>
+</SUNAT_T_Notas>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SUNAT_T_Documentos_Identidad>
+  <documento codigo="0" descripcion="DOC.TRIB.NO.DOM.SIN.RUC "/>
+  <documento codigo="1" descripcion="DOC. NACIONAL DE IDENTIDAD" UBL="ARI"/>
+  <documento codigo="4" descripcion="CARNET DE EXTRANJERIA" UBL="ASX"/>
+  <documento codigo="6" descripcion="REG. UNICO DE CONTRIBUYENTES " UBL="ARH"/>
+  <documento codigo="7" descripcion="PASAPORTE" UBL="AIG"/>
+  <documento codigo="A" descripcion="CED. DIPLOMATICA DE IDENTIDAD"/>
+</SUNAT_T_Documentos_Identidad>

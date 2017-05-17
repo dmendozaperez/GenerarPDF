@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SUNAT_T_Documentos>
+  <documento codigo="01" descripcion="FACTURA" UBL="380"/>
+  <documento codigo="02" descripcion="RECIBO POR HONORARIOS"/>
+  <documento codigo="03" descripcion="BOLETA DE VENTA" UBL="346"/>
+  <documento codigo="04" descripcion="LIQUIDACION DE COMPRA"/>
+  <documento codigo="06" descripcion="CARTA DE PORTE AEREO"/>
+  <documento codigo="07" descripcion="NOTA DE CREDITO" UBL="381"/>
+  <documento codigo="08" descripcion="NOTA DE DEBITO" UBL="383"/>
+  <documento codigo="09" descripcion="GUIA DE REMISION - REMITENTE"/>
+  <documento codigo="12" descripcion="TICKET DE MAQUINA REGISTRADORA"/>
+  <documento codigo="16" descripcion="BOLETO DE VIAJE-TRANSPORTE INTERPROVINCIAL"/>
+  <documento codigo="20" descripcion="COMPROBANTE DE RETENCION"/>
+  <documento codigo="23" descripcion="POLIZA DE ADJUDICACION POR REMATE DE BIENES"/>
+  <documento codigo="25" descripcion="DOCUMENTO DE ATRIBUCION"/>
+  <documento codigo="31" descripcion="GUIA DE REMISION - TRANSPORTISTA"/>
+  <documento codigo="33" descripcion="MANIFIESTO DE PASAJEROS"/>
+  <documento codigo="40" descripcion="COMPROBANTE DE PERCEPCION"/>
+  <documento codigo="41" descripcion="COMPROBANTE DE PERCEPCION - VENTA INTERNA"/>
+</SUNAT_T_Documentos>

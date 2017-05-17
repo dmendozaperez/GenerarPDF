@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SUNAT_T_Sis_Calculo_ISC>
+  <afectacion codigo="01" descripcion="Sistema al valor (Apéndice IV, lit. A – T.U.O IGV e ISC)"/>
+  <afectacion codigo="02" descripcion="Aplicación del Monto Fijo (Apéndice IV, lit. B – T.U.O IGV e ISC)"/>
+  <afectacion codigo="03" descripcion="Sistema de Precios de Venta al Público (Apéndice IV, lit. C – T.U.O IGV e ISC)"/>
+</SUNAT_T_Sis_Calculo_ISC>

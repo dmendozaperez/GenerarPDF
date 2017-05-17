@@ -1,0 +1,1095 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UNECE_T_Unidad_Medida>
+  <unidad codigo="04" descripcion="small spray"/>
+  <unidad codigo="05" descripcion="Lift"/>
+  <unidad codigo="08" descripcion="heat lot"/>
+  <unidad codigo="10" descripcion="group"/>
+  <unidad codigo="11" descripcion="outfit"/>
+  <unidad codigo="13" descripcion="ration"/>
+  <unidad codigo="14" descripcion="shot"/>
+  <unidad codigo="15" descripcion="stick"/>
+  <unidad codigo="16" descripcion="hundred fifteen kg drum"/>
+  <unidad codigo="17" descripcion="hundred lb drum"/>
+  <unidad codigo="18" descripcion="fiftyfive gallon (US) drum"/>
+  <unidad codigo="19" descripcion="tank truck"/>
+  <unidad codigo="1A" descripcion="car mile"/>
+  <unidad codigo="1B" descripcion="car count"/>
+  <unidad codigo="1C" descripcion="locomotive count"/>
+  <unidad codigo="1D" descripcion="caboose count"/>
+  <unidad codigo="1E" descripcion="empty car"/>
+  <unidad codigo="1F" descripcion="train mile"/>
+  <unidad codigo="1G" descripcion="fuel usage gallon (US)"/>
+  <unidad codigo="1H" descripcion="caboose mile"/>
+  <unidad codigo="1I" descripcion="fixed rate"/>
+  <unidad codigo="1J" descripcion="ton mile"/>
+  <unidad codigo="1K" descripcion="locomotive mile"/>
+  <unidad codigo="1L" descripcion="total car count"/>
+  <unidad codigo="1M" descripcion="total car mile"/>
+  <unidad codigo="1X" descripcion="quarter mile"/>
+  <unidad codigo="20" descripcion="twenty foot container"/>
+  <unidad codigo="21" descripcion="forty foot container"/>
+  <unidad codigo="22" descripcion="decilitre per gram"/>
+  <unidad codigo="23" descripcion="gram per cubic centimetre"/>
+  <unidad codigo="24" descripcion="theoretical pound"/>
+  <unidad codigo="25" descripcion="gram per square centimetre"/>
+  <unidad codigo="26" descripcion="actual ton"/>
+  <unidad codigo="27" descripcion="theoretical ton"/>
+  <unidad codigo="28" descripcion="kilogram per square metre"/>
+  <unidad codigo="29" descripcion="pound per thousand square feet"/>
+  <unidad codigo="2A" descripcion="radian per second"/>
+  <unidad codigo="2B" descripcion="radian per second squared"/>
+  <unidad codigo="2C" descripcion="rôntgen"/>
+  <unidad codigo="2I" descripcion="British thermal unit per hour"/>
+  <unidad codigo="2J" descripcion="cubic centimetre per second"/>
+  <unidad codigo="2K" descripcion="cubic foot per hour"/>
+  <unidad codigo="2L" descripcion="cubic foot per minute"/>
+  <unidad codigo="2M" descripcion="centimetre per second"/>
+  <unidad codigo="2N" descripcion="Decibel"/>
+  <unidad codigo="2P" descripcion="Kilobyte"/>
+  <unidad codigo="2Q" descripcion="kilobecquerel"/>
+  <unidad codigo="2R" descripcion="Kilocurie"/>
+  <unidad codigo="2U" descripcion="Megagram"/>
+  <unidad codigo="2V" descripcion="megagram per hour"/>
+  <unidad codigo="2W" descripcion="Bin"/>
+  <unidad codigo="2X" descripcion="metre per minute"/>
+  <unidad codigo="2Y" descripcion="millirôntgen"/>
+  <unidad codigo="2Z" descripcion="Millivolt"/>
+  <unidad codigo="30" descripcion="horse power day per air dry metric ton"/>
+  <unidad codigo="31" descripcion="catch weight"/>
+  <unidad codigo="32" descripcion="kilogram per air dry metric ton"/>
+  <unidad codigo="33" descripcion="kilopascal square metres per gram"/>
+  <unidad codigo="34" descripcion="kilopascals per millimetre"/>
+  <unidad codigo="35" descripcion="millilitres per square centimetre second"/>
+  <unidad codigo="36" descripcion="cubic feet per minute per square foot"/>
+  <unidad codigo="37" descripcion="ounce per square foot"/>
+  <unidad codigo="38" descripcion="ounces per square foot per 0,01 inch"/>
+  <unidad codigo="3B" descripcion="Megajoule"/>
+  <unidad codigo="3C" descripcion="Manmonth"/>
+  <unidad codigo="3E" descripcion="pound per pound of product"/>
+  <unidad codigo="3G" descripcion="pound per piece of product"/>
+  <unidad codigo="3H" descripcion="kilogram per kilogram of product"/>
+  <unidad codigo="3I" descripcion="kilogram per piece of product"/>
+  <unidad codigo="40" descripcion="millilitre per second"/>
+  <unidad codigo="41" descripcion="millilitre per minute"/>
+  <unidad codigo="43" descripcion="super bulk bag"/>
+  <unidad codigo="44" descripcion="fivehundred kg bulk bag"/>
+  <unidad codigo="45" descripcion="threehundred kg bulk bag"/>
+  <unidad codigo="46" descripcion="fifty lb bulk bag"/>
+  <unidad codigo="47" descripcion="fifty lb bag"/>
+  <unidad codigo="48" descripcion="bulk car load"/>
+  <unidad codigo="4A" descripcion="Bobbin"/>
+  <unidad codigo="4B" descripcion="Cap"/>
+  <unidad codigo="4C" descripcion="Centistokes"/>
+  <unidad codigo="4E" descripcion="twenty pack"/>
+  <unidad codigo="4G" descripcion="microlitre"/>
+  <unidad codigo="4H" descripcion="micrometre (micron)"/>
+  <unidad codigo="4K" descripcion="milliampere"/>
+  <unidad codigo="4L" descripcion="megabyte"/>
+  <unidad codigo="4M" descripcion="milligram per hour"/>
+  <unidad codigo="4N" descripcion="megabecquerel"/>
+  <unidad codigo="4O" descripcion="microfarad"/>
+  <unidad codigo="4P" descripcion="newton per metre"/>
+  <unidad codigo="4Q" descripcion="ounce inch"/>
+  <unidad codigo="4R" descripcion="ounce foot"/>
+  <unidad codigo="4T" descripcion="picofarad"/>
+  <unidad codigo="4U" descripcion="pound per hour"/>
+  <unidad codigo="4W" descripcion="ton(US) per hour"/>
+  <unidad codigo="4X" descripcion="kilolitre per hour"/>
+  <unidad codigo="53" descripcion="theoretical kilograms"/>
+  <unidad codigo="54" descripcion="theoretical tone"/>
+  <unidad codigo="56" descripcion="Sitas"/>
+  <unidad codigo="57" descripcion="Mesh"/>
+  <unidad codigo="58" descripcion="net kilogram"/>
+  <unidad codigo="59" descripcion="part per million"/>
+  <unidad codigo="5A" descripcion="barrel per minute"/>
+  <unidad codigo="5B" descripcion="Batch"/>
+  <unidad codigo="5C" descripcion="gallon(US) per thousand"/>
+  <unidad codigo="5E" descripcion="MMSCF/day"/>
+  <unidad codigo="5F" descripcion="pounds per thousand"/>
+  <unidad codigo="5G" descripcion="Pump"/>
+  <unidad codigo="5H" descripcion="Stage"/>
+  <unidad codigo="5I" descripcion="standard cubic foot"/>
+  <unidad codigo="5J" descripcion="hydraulic horse power"/>
+  <unidad codigo="5K" descripcion="count per minute"/>
+  <unidad codigo="5P" descripcion="seismic level"/>
+  <unidad codigo="5Q" descripcion="seismic line"/>
+  <unidad codigo="60" descripcion="percent weight"/>
+  <unidad codigo="61" descripcion="part per billion (US)"/>
+  <unidad codigo="62" descripcion="percent per 1000 hour"/>
+  <unidad codigo="63" descripcion="failure rate in time"/>
+  <unidad codigo="64" descripcion="pound per square inch, gauge"/>
+  <unidad codigo="66" descripcion="Oersted"/>
+  <unidad codigo="69" descripcion="test specific scale"/>
+  <unidad codigo="71" descripcion="volt ampere per pound"/>
+  <unidad codigo="72" descripcion="watt per pound"/>
+  <unidad codigo="73" descripcion="ampere tum per centimeter"/>
+  <unidad codigo="74" descripcion="millipascal"/>
+  <unidad codigo="76" descripcion="Gauss"/>
+  <unidad codigo="77" descripcion="milli-inch"/>
+  <unidad codigo="78" descripcion="Kilogauss"/>
+  <unidad codigo="80" descripcion="pounds per square inch absolute"/>
+  <unidad codigo="81" descripcion="Henry"/>
+  <unidad codigo="84" descripcion="kilopound per square inch"/>
+  <unidad codigo="85" descripcion="foot pound-force"/>
+  <unidad codigo="87" descripcion="pound per cubic foot"/>
+  <unidad codigo="89" descripcion="Poise"/>
+  <unidad codigo="90" descripcion="Saybold universal second"/>
+  <unidad codigo="91" descripcion="Stokes"/>
+  <unidad codigo="92" descripcion="calorie per cubic centimeter"/>
+  <unidad codigo="93" descripcion="calorie per gram"/>
+  <unidad codigo="94" descripcion="curl unit"/>
+  <unidad codigo="95" descripcion="twenty thousand gallon (US) tankcar"/>
+  <unidad codigo="96" descripcion="ten thousand gallon (US) tankcar"/>
+  <unidad codigo="97" descripcion="ten kg drum"/>
+  <unidad codigo="98" descripcion="fifteen kg drum"/>
+  <unidad codigo="A1" descripcion="15  C calorie"/>
+  <unidad codigo="A10" descripcion="ampere square metre per joule second"/>
+  <unidad codigo="A11" descripcion="Angstrôm"/>
+  <unidad codigo="A12" descripcion="astronomical unit"/>
+  <unidad codigo="A13" descripcion="Attojoule"/>
+  <unidad codigo="A14" descripcion="Barn"/>
+  <unidad codigo="A15" descripcion="barn per electron volt"/>
+  <unidad codigo="A16" descripcion="barn per steradian electron volt,"/>
+  <unidad codigo="A17" descripcion="barn per sterdian"/>
+  <unidad codigo="A18" descripcion="becquerel per kilogram"/>
+  <unidad codigo="A19" descripcion="becquerel per metre cubed"/>
+  <unidad codigo="A2" descripcion="ampere per centimeter"/>
+  <unidad codigo="A20" descripcion="British thermal unit per second square foot degree Rankin"/>
+  <unidad codigo="A21" descripcion="British thermal unit per pound degree Rankin"/>
+  <unidad codigo="A22" descripcion="British thermal unit per second foot degree Rankin"/>
+  <unidad codigo="A23" descripcion="British thermal unit per hour square foot degree Rankin"/>
+  <unidad codigo="A24" descripcion="candela per square metre"/>
+  <unidad codigo="A25" descripcion="cheval vapeur"/>
+  <unidad codigo="A26" descripcion="coulomb metre"/>
+  <unidad codigo="A27" descripcion="coulomb metre squared per volt"/>
+  <unidad codigo="A28" descripcion="coulomb per cubic centimetre"/>
+  <unidad codigo="A29" descripcion="coulomb per cubic metre"/>
+  <unidad codigo="A3" descripcion="ampere per millimetre"/>
+  <unidad codigo="A30" descripcion="coulomb per cubic millimetre"/>
+  <unidad codigo="A31" descripcion="coulomb per kilogram second"/>
+  <unidad codigo="A32" descripcion="coulomb per mole"/>
+  <unidad codigo="A33" descripcion="coulomb per square centimetre"/>
+  <unidad codigo="A34" descripcion="coulomb per square metre"/>
+  <unidad codigo="A35" descripcion="coulomb per square millimetre"/>
+  <unidad codigo="A36" descripcion="cubic centimetre per mole"/>
+  <unidad codigo="A37" descripcion="cubic decimetre per mole"/>
+  <unidad codigo="A38" descripcion="cubic metre per coulomb"/>
+  <unidad codigo="A39" descripcion="cubic metre per kilogram"/>
+  <unidad codigo="A4" descripcion="ampere per square centimetre"/>
+  <unidad codigo="A40" descripcion="cubic metre per mole"/>
+  <unidad codigo="A41" descripcion="ampere per square metre"/>
+  <unidad codigo="A42" descripcion="curie per kilogram"/>
+  <unidad codigo="A43" descripcion="deadweight tonnage"/>
+  <unidad codigo="A44" descripcion="Decalitre"/>
+  <unidad codigo="A45" descripcion="Decameter"/>
+  <unidad codigo="A47" descripcion="Decitex"/>
+  <unidad codigo="A48" descripcion="degree Rankin"/>
+  <unidad codigo="A49" descripcion="Denier"/>
+  <unidad codigo="A5" descripcion="ampere square metre"/>
+  <unidad codigo="A50" descripcion="dyn second per cubic centimetre"/>
+  <unidad codigo="A51" descripcion="dyne second per centimetre"/>
+  <unidad codigo="A52" descripcion="dyne second per centimetre to the fifth"/>
+  <unidad codigo="A53" descripcion="Electronvolt"/>
+  <unidad codigo="A54" descripcion="electronvolt  per metre"/>
+  <unidad codigo="A55" descripcion="electronvolt square metre"/>
+  <unidad codigo="A56" descripcion="electronvolt square metre per kilogram"/>
+  <unidad codigo="A57" descripcion="Erg"/>
+  <unidad codigo="A58" descripcion="erg per centimeter"/>
+  <unidad codigo="A6" descripcion="ampere per square metre kelvin squared"/>
+  <unidad codigo="A60" descripcion="erg per cubic centimeter"/>
+  <unidad codigo="A61" descripcion="erg per gram"/>
+  <unidad codigo="A62" descripcion="erg per gram second"/>
+  <unidad codigo="A63" descripcion="erg per second"/>
+  <unidad codigo="A64" descripcion="erg per second square centimeter"/>
+  <unidad codigo="A65" descripcion="erg per square centimetre second"/>
+  <unidad codigo="A66" descripcion="erg square centimeter"/>
+  <unidad codigo="A67" descripcion="erg square centimetre per gram"/>
+  <unidad codigo="A68" descripcion="Exajoule"/>
+  <unidad codigo="A69" descripcion="farad per metre"/>
+  <unidad codigo="A7" descripcion="ampere per square millimeter"/>
+  <unidad codigo="A70" descripcion="Femtojoule"/>
+  <unidad codigo="A71" descripcion="Femtometre"/>
+  <unidad codigo="A73" descripcion="foot per second squared"/>
+  <unidad codigo="A74" descripcion="foot pound-force per second"/>
+  <unidad codigo="A75" descripcion="freight ton"/>
+  <unidad codigo="A76" descripcion="Gal"/>
+  <unidad codigo="A77" descripcion="Gaussian CGS unit of displacement"/>
+  <unidad codigo="A78" descripcion="Gaussian CGS unit of electic current"/>
+  <unidad codigo="A79" descripcion="Gaussian CGS unit of electric charge"/>
+  <unidad codigo="A8" descripcion="ampere second"/>
+  <unidad codigo="A80" descripcion="Gaussian CGS unit of electric field strength"/>
+  <unidad codigo="A81" descripcion="Gaussian CGS unit of electric polarization"/>
+  <unidad codigo="A82" descripcion="Gaussian CGS unit of electric potential"/>
+  <unidad codigo="A83" descripcion="Gaussian CGS unit of magnetization"/>
+  <unidad codigo="A84" descripcion="gigacoulomb per cubic metre"/>
+  <unidad codigo="A85" descripcion="Gigaelectronvolt"/>
+  <unidad codigo="A86" descripcion="Gigahertz"/>
+  <unidad codigo="A87" descripcion="Gigaohm"/>
+  <unidad codigo="A88" descripcion="gigaohm metre"/>
+  <unidad codigo="A89" descripcion="Gigapascal"/>
+  <unidad codigo="A9" descripcion="Rate"/>
+  <unidad codigo="A90" descripcion="Gigawatt"/>
+  <unidad codigo="A91" descripcion="Gon"/>
+  <unidad codigo="A93" descripcion="gram per cubic metre"/>
+  <unidad codigo="A94" descripcion="gram per mole"/>
+  <unidad codigo="A95" descripcion="Gray"/>
+  <unidad codigo="A96" descripcion="gray per second"/>
+  <unidad codigo="A97" descripcion="Hectopascal"/>
+  <unidad codigo="A98" descripcion="henry per metre"/>
+  <unidad codigo="AA" descripcion="Ball"/>
+  <unidad codigo="AB" descripcion="bulk pack"/>
+  <unidad codigo="ACR" descripcion="Acre"/>
+  <unidad codigo="AD" descripcion="Byte"/>
+  <unidad codigo="AE" descripcion="ampere per metre"/>
+  <unidad codigo="AH" descripcion="additional minute"/>
+  <unidad codigo="AI" descripcion="average minute per call"/>
+  <unidad codigo="AJ" descripcion="Cop"/>
+  <unidad codigo="AK" descripcion="Fathom"/>
+  <unidad codigo="AL" descripcion="access line"/>
+  <unidad codigo="AM" descripcion="Ampoule"/>
+  <unidad codigo="AMH" descripcion="ampere hour"/>
+  <unidad codigo="AMP" descripcion="Ampere"/>
+  <unidad codigo="ANN" descripcion="Year"/>
+  <unidad codigo="AP" descripcion="aluminium pound only"/>
+  <unidad codigo="APZ" descripcion="troy ounce or apothecaries' ounce"/>
+  <unidad codigo="AQ" descripcion="anti-hemophilic factor (AHF) unit"/>
+  <unidad codigo="AR" descripcion="Suppository"/>
+  <unidad codigo="ARE" descripcion="Are"/>
+  <unidad codigo="AS" descripcion="Assortment"/>
+  <unidad codigo="ASM" descripcion="alcoholic strength by mass"/>
+  <unidad codigo="ASU" descripcion="alcoholic strength by volume"/>
+  <unidad codigo="ATM" descripcion="standard atmosphere"/>
+  <unidad codigo="ATT" descripcion="technical atmosphere"/>
+  <unidad codigo="AV" descripcion="Capsule"/>
+  <unidad codigo="AW" descripcion="powder filled vial"/>
+  <unidad codigo="AY" descripcion="Assembly"/>
+  <unidad codigo="AZ" descripcion="British thermal unit per pound"/>
+  <unidad codigo="B0" descripcion="Btu per cubic foot"/>
+  <unidad codigo="B1" descripcion="barrel (US) per day"/>
+  <unidad codigo="B11" descripcion="joule per kilogram kelvin"/>
+  <unidad codigo="B12" descripcion="joule per metre"/>
+  <unidad codigo="B13" descripcion="joule per square metre"/>
+  <unidad codigo="B14" descripcion="joule per metre to the fourth power"/>
+  <unidad codigo="B15" descripcion="joule per mole"/>
+  <unidad codigo="B16" descripcion="joule per mole kelvin"/>
+  <unidad codigo="B18" descripcion="joule second"/>
+  <unidad codigo="B2" descripcion="Bunk"/>
+  <unidad codigo="B20" descripcion="joule square metre per kilogram"/>
+  <unidad codigo="B21" descripcion="kelvin per watt"/>
+  <unidad codigo="B22" descripcion="Kiloampere"/>
+  <unidad codigo="B23" descripcion="kiloampere per square metre"/>
+  <unidad codigo="B24" descripcion="kiloampere per metre"/>
+  <unidad codigo="B25" descripcion="kilobecquerel per kilogram"/>
+  <unidad codigo="B26" descripcion="kilocoulomb"/>
+  <unidad codigo="B27" descripcion="kilocoulomb per cubic metre"/>
+  <unidad codigo="B28" descripcion="kilocoulomb per square metre"/>
+  <unidad codigo="B29" descripcion="kiloelectronvolt"/>
+  <unidad codigo="B3" descripcion="batting pound"/>
+  <unidad codigo="B31" descripcion="kilogram metre per second"/>
+  <unidad codigo="B32" descripcion="kilogram metre squared"/>
+  <unidad codigo="B33" descripcion="kilogram metre squared per second"/>
+  <unidad codigo="B34" descripcion="kilogram per cubic decimetre"/>
+  <unidad codigo="B35" descripcion="kilogram per litre"/>
+  <unidad codigo="B36" descripcion="thermochemical calorie per gram"/>
+  <unidad codigo="B37" descripcion="kilogram-force"/>
+  <unidad codigo="B38" descripcion="kilogram-force metre"/>
+  <unidad codigo="B39" descripcion="kilogram-force metre per second"/>
+  <unidad codigo="B4" descripcion="barrel, imperial"/>
+  <unidad codigo="B40" descripcion="kilogram-force per square metre"/>
+  <unidad codigo="B41" descripcion="kilojoule per kelvin"/>
+  <unidad codigo="B42" descripcion="kilojoule per kilogram"/>
+  <unidad codigo="B43" descripcion="kilojoule per kilogram kelvin"/>
+  <unidad codigo="B44" descripcion="kilojoule per mole"/>
+  <unidad codigo="B45" descripcion="kilomole"/>
+  <unidad codigo="B46" descripcion="kilomole per cubic metre"/>
+  <unidad codigo="B47" descripcion="kilonewton"/>
+  <unidad codigo="B48" descripcion="kilonewton metre"/>
+  <unidad codigo="B49" descripcion="kiloohm"/>
+  <unidad codigo="B5" descripcion="Billet"/>
+  <unidad codigo="B50" descripcion="kiloohm metre"/>
+  <unidad codigo="B51" descripcion="kilopond"/>
+  <unidad codigo="B52" descripcion="kilosecond"/>
+  <unidad codigo="B53" descripcion="kilosiemens"/>
+  <unidad codigo="B54" descripcion="kilosiemens per metre"/>
+  <unidad codigo="B55" descripcion="kilovolt per metre"/>
+  <unidad codigo="B56" descripcion="kiloweber per metre"/>
+  <unidad codigo="B57" descripcion="light year"/>
+  <unidad codigo="B58" descripcion="litre per mole"/>
+  <unidad codigo="B59" descripcion="lumen hour"/>
+  <unidad codigo="B6" descripcion="Bun"/>
+  <unidad codigo="B60" descripcion="lumen per square metre"/>
+  <unidad codigo="B61" descripcion="lumen per watt"/>
+  <unidad codigo="B62" descripcion="lumen second"/>
+  <unidad codigo="B63" descripcion="lux hour"/>
+  <unidad codigo="B64" descripcion="lux second"/>
+  <unidad codigo="B65" descripcion="Maxwell"/>
+  <unidad codigo="B66" descripcion="megaampere per square metre"/>
+  <unidad codigo="B67" descripcion="megabecquerel per kilogram"/>
+  <unidad codigo="B69" descripcion="megacoulomb per cubic metre"/>
+  <unidad codigo="B7" descripcion="Cycle"/>
+  <unidad codigo="B70" descripcion="megacoulomb per square metre"/>
+  <unidad codigo="B71" descripcion="megaelectronvolt"/>
+  <unidad codigo="B72" descripcion="megagram per cubic metre"/>
+  <unidad codigo="B73" descripcion="Meganewton"/>
+  <unidad codigo="B74" descripcion="meganewton metre"/>
+  <unidad codigo="B75" descripcion="Megaohm"/>
+  <unidad codigo="B76" descripcion="megaohm metre"/>
+  <unidad codigo="B77" descripcion="megasiemens per metre"/>
+  <unidad codigo="B78" descripcion="Megavolt"/>
+  <unidad codigo="B79" descripcion="megavolt per metre"/>
+  <unidad codigo="B8" descripcion="joule per cubic metre"/>
+  <unidad codigo="B81" descripcion="reciprocal metre squared reciprocal second"/>
+  <unidad codigo="B83" descripcion="metre to the fourth power"/>
+  <unidad codigo="B84" descripcion="microampere"/>
+  <unidad codigo="B85" descripcion="microbar"/>
+  <unidad codigo="B86" descripcion="microcoulomb"/>
+  <unidad codigo="B87" descripcion="microcoulomb per cubic metre"/>
+  <unidad codigo="B88" descripcion="microcoulomb per square metre"/>
+  <unidad codigo="B89" descripcion="microfarad per metre"/>
+  <unidad codigo="B9" descripcion="batt"/>
+  <unidad codigo="B90" descripcion="microhenry"/>
+  <unidad codigo="B91" descripcion="microhenry per metre"/>
+  <unidad codigo="B92" descripcion="micronewton"/>
+  <unidad codigo="B93" descripcion="micronewton metre"/>
+  <unidad codigo="B94" descripcion="microohm"/>
+  <unidad codigo="B95" descripcion="microohm metre"/>
+  <unidad codigo="B96" descripcion="micropascal"/>
+  <unidad codigo="B97" descripcion="microradian"/>
+  <unidad codigo="B98" descripcion="microsecond"/>
+  <unidad codigo="B99" descripcion="microsiemens"/>
+  <unidad codigo="BAR" descripcion="bar"/>
+  <unidad codigo="BB" descripcion="base box"/>
+  <unidad codigo="BD" descripcion="board"/>
+  <unidad codigo="BE" descripcion="bundle"/>
+  <unidad codigo="BFT" descripcion="board foot"/>
+  <unidad codigo="BG" descripcion="bag"/>
+  <unidad codigo="BH" descripcion="Brush"/>
+  <unidad codigo="BHP" descripcion="brake horse power"/>
+  <unidad codigo="BIL" descripcion="trillion (US)"/>
+  <unidad codigo="BJ" descripcion="bucket"/>
+  <unidad codigo="BK" descripcion="basket"/>
+  <unidad codigo="BL" descripcion="Bale"/>
+  <unidad codigo="BLD" descripcion="dry barrel (US)"/>
+  <unidad codigo="BLL" descripcion="barrel (US) (petroleum etc.)"/>
+  <unidad codigo="BO" descripcion="Bottle"/>
+  <unidad codigo="BP" descripcion="hundred board feet"/>
+  <unidad codigo="BQL" descripcion="becquerel"/>
+  <unidad codigo="BR" descripcion="Bar"/>
+  <unidad codigo="BT" descripcion="Bolt"/>
+  <unidad codigo="BTU" descripcion="British thermal unit"/>
+  <unidad codigo="BUA" descripcion="bushel  (US)"/>
+  <unidad codigo="BUI" descripcion="bushel (UK)"/>
+  <unidad codigo="BW" descripcion="base weight"/>
+  <unidad codigo="BX" descripcion="Box"/>
+  <unidad codigo="BZ" descripcion="million BTUs"/>
+  <unidad codigo="C0" descripcion="Call"/>
+  <unidad codigo="C1" descripcion="composite product pound (total weight)"/>
+  <unidad codigo="C10" descripcion="millifarad"/>
+  <unidad codigo="C11" descripcion="milligal"/>
+  <unidad codigo="C12" descripcion="milligram per metre"/>
+  <unidad codigo="C13" descripcion="milligray"/>
+  <unidad codigo="C14" descripcion="millihenry"/>
+  <unidad codigo="C15" descripcion="millijoule"/>
+  <unidad codigo="C16" descripcion="millimetre per second"/>
+  <unidad codigo="C17" descripcion="millimetre squared per second"/>
+  <unidad codigo="C18" descripcion="millimole"/>
+  <unidad codigo="C19" descripcion="mole per kilogram"/>
+  <unidad codigo="C2" descripcion="carset"/>
+  <unidad codigo="C20" descripcion="millinewton"/>
+  <unidad codigo="C22" descripcion="millinewton per metre"/>
+  <unidad codigo="C23" descripcion="milliohm metre"/>
+  <unidad codigo="C24" descripcion="millipascal second"/>
+  <unidad codigo="C25" descripcion="milliradian"/>
+  <unidad codigo="C26" descripcion="millisecond"/>
+  <unidad codigo="C27" descripcion="millisiemens"/>
+  <unidad codigo="C28" descripcion="millisievert"/>
+  <unidad codigo="C29" descripcion="millitesla"/>
+  <unidad codigo="C3" descripcion="microvolt per metre"/>
+  <unidad codigo="C30" descripcion="millivolt per metre"/>
+  <unidad codigo="C31" descripcion="milliwatt"/>
+  <unidad codigo="C32" descripcion="milliwatt per square metre"/>
+  <unidad codigo="C33" descripcion="milliweber"/>
+  <unidad codigo="C34" descripcion="mole"/>
+  <unidad codigo="C35" descripcion="mole per cubic decimetre"/>
+  <unidad codigo="C36" descripcion="mole per cubic metre"/>
+  <unidad codigo="C38" descripcion="mole per litre"/>
+  <unidad codigo="C39" descripcion="nanoampere"/>
+  <unidad codigo="C4" descripcion="carload"/>
+  <unidad codigo="C40" descripcion="nanocoulomb"/>
+  <unidad codigo="C41" descripcion="nanofarad"/>
+  <unidad codigo="C42" descripcion="nanofarad per metre"/>
+  <unidad codigo="C43" descripcion="nanohenry"/>
+  <unidad codigo="C44" descripcion="nanohenry per metre"/>
+  <unidad codigo="C45" descripcion="nanometre"/>
+  <unidad codigo="C46" descripcion="nanoohm metre"/>
+  <unidad codigo="C47" descripcion="nanosecond"/>
+  <unidad codigo="C48" descripcion="nanotesla"/>
+  <unidad codigo="C49" descripcion="nanowatt"/>
+  <unidad codigo="C5" descripcion="cost"/>
+  <unidad codigo="C50" descripcion="neper"/>
+  <unidad codigo="C51" descripcion="neper per second"/>
+  <unidad codigo="C52" descripcion="picometre"/>
+  <unidad codigo="C53" descripcion="newton metre second"/>
+  <unidad codigo="C54" descripcion="newton metre squared  kilogram squared"/>
+  <unidad codigo="C55" descripcion="newton per square metre"/>
+  <unidad codigo="C56" descripcion="newton per square millimetre"/>
+  <unidad codigo="C57" descripcion="newton second"/>
+  <unidad codigo="C58" descripcion="newton second per metre"/>
+  <unidad codigo="C59" descripcion="octave"/>
+  <unidad codigo="C6" descripcion="cell"/>
+  <unidad codigo="C60" descripcion="ohm centimetre"/>
+  <unidad codigo="C61" descripcion="ohm metre"/>
+  <unidad codigo="C62" descripcion="one"/>
+  <unidad codigo="C63" descripcion="parsec"/>
+  <unidad codigo="C64" descripcion="pascal per kelvin"/>
+  <unidad codigo="C65" descripcion="pascal second"/>
+  <unidad codigo="C66" descripcion="pascal second per cubic metre"/>
+  <unidad codigo="C67" descripcion="pascal second per metre"/>
+  <unidad codigo="C68" descripcion="petajoule"/>
+  <unidad codigo="C69" descripcion="phon"/>
+  <unidad codigo="C7" descripcion="centipoise"/>
+  <unidad codigo="C70" descripcion="picoampere"/>
+  <unidad codigo="C71" descripcion="picocoulomb"/>
+  <unidad codigo="C72" descripcion="picofarad per metre"/>
+  <unidad codigo="C73" descripcion="picohenry"/>
+  <unidad codigo="C75" descripcion="picowatt"/>
+  <unidad codigo="C76" descripcion="picowatt per square metre"/>
+  <unidad codigo="C77" descripcion="pound gage"/>
+  <unidad codigo="C78" descripcion="pound-force"/>
+  <unidad codigo="C8" descripcion="millicoulomb per kilogram"/>
+  <unidad codigo="C80" descripcion="Rad"/>
+  <unidad codigo="C81" descripcion="radian"/>
+  <unidad codigo="C82" descripcion="radian meter squared per mole"/>
+  <unidad codigo="C83" descripcion="radian metre squared per kilogram"/>
+  <unidad codigo="C84" descripcion="radian per metre"/>
+  <unidad codigo="C85" descripcion="reciprocal Angstrôm"/>
+  <unidad codigo="C86" descripcion="reciprocal cubic metre"/>
+  <unidad codigo="C87" descripcion="reciprocal cubic metre per second"/>
+  <unidad codigo="C88" descripcion="reciprocal electron volt per cubic metre"/>
+  <unidad codigo="C89" descripcion="reciprocal henry"/>
+  <unidad codigo="C9" descripcion="coil group"/>
+  <unidad codigo="C90" descripcion="reciprocal joule per cubic metre"/>
+  <unidad codigo="C91" descripcion="reciprocal kelvin or kelvin to the power minus one"/>
+  <unidad codigo="C92" descripcion="reciprocal metre"/>
+  <unidad codigo="C93" descripcion="reciprocal square metre"/>
+  <unidad codigo="C94" descripcion="reciprocal minute"/>
+  <unidad codigo="C95" descripcion="reciprocal mole"/>
+  <unidad codigo="C96" descripcion="reciprocal pascal or pascal to the power minus one"/>
+  <unidad codigo="C97" descripcion="reciprocal second"/>
+  <unidad codigo="C98" descripcion="reciprocal second per cubic metre"/>
+  <unidad codigo="C99" descripcion="reciprocal second per metre squared"/>
+  <unidad codigo="CA" descripcion="Can"/>
+  <unidad codigo="CCT" descripcion="carrying capacity in metric ton"/>
+  <unidad codigo="CDL" descripcion="candela"/>
+  <unidad codigo="CEL" descripcion="degree Celsius"/>
+  <unidad codigo="CEN" descripcion="hundred"/>
+  <unidad codigo="CG" descripcion="Card"/>
+  <unidad codigo="CGM" descripcion="centigram"/>
+  <unidad codigo="CH" descripcion="container"/>
+  <unidad codigo="CJ" descripcion="Cone"/>
+  <unidad codigo="CK" descripcion="connector"/>
+  <unidad codigo="CKG" descripcion="coulomb per kilogram"/>
+  <unidad codigo="CL" descripcion="Coil"/>
+  <unidad codigo="CLF" descripcion="hundred leave"/>
+  <unidad codigo="CLT" descripcion="centilitre"/>
+  <unidad codigo="CMK" descripcion="square centimetre"/>
+  <unidad codigo="CMQ" descripcion="cubic centimetre"/>
+  <unidad codigo="CMT" descripcion="centimetre"/>
+  <unidad codigo="CNP" descripcion="hundred pack"/>
+  <unidad codigo="CNT" descripcion="cental (UK)"/>
+  <unidad codigo="CO" descripcion="carboy"/>
+  <unidad codigo="COU" descripcion="coulomb"/>
+  <unidad codigo="CQ" descripcion="cartridge"/>
+  <unidad codigo="CR" descripcion="crate"/>
+  <unidad codigo="CS" descripcion="case"/>
+  <unidad codigo="CT" descripcion="carton"/>
+  <unidad codigo="CTM" descripcion="metric carat"/>
+  <unidad codigo="CU" descripcion="cup"/>
+  <unidad codigo="CUR" descripcion="curie"/>
+  <unidad codigo="CV" descripcion="cover"/>
+  <unidad codigo="CWA" descripcion="hundred pounds (cwt)/hundred weight (US)"/>
+  <unidad codigo="CWI" descripcion="hundred weight (UK)"/>
+  <unidad codigo="CY" descripcion="cylinder"/>
+  <unidad codigo="CZ" descripcion="combo"/>
+  <unidad codigo="D1" descripcion="reciprocal second per steradian"/>
+  <unidad codigo="D10" descripcion="siemens per metre"/>
+  <unidad codigo="D12" descripcion="siemens square metre per mole"/>
+  <unidad codigo="D13" descripcion="sievert"/>
+  <unidad codigo="D14" descripcion="thousand linear yard"/>
+  <unidad codigo="D15" descripcion="sone"/>
+  <unidad codigo="D16" descripcion="square centimetre per erg"/>
+  <unidad codigo="D17" descripcion="square centimetre per steradian erg"/>
+  <unidad codigo="D18" descripcion="metre kelvin"/>
+  <unidad codigo="D19" descripcion="square metre kelvin per watt"/>
+  <unidad codigo="D2" descripcion="reciprocal second per steradian metre squared"/>
+  <unidad codigo="D20" descripcion="square metre per joule"/>
+  <unidad codigo="D21" descripcion="square metre per kilogram"/>
+  <unidad codigo="D22" descripcion="square metre per mole"/>
+  <unidad codigo="D23" descripcion="pen gram (protein)"/>
+  <unidad codigo="D24" descripcion="square metre per steradian"/>
+  <unidad codigo="D25" descripcion="square metre per steradian joule"/>
+  <unidad codigo="D26" descripcion="square metre per volt second"/>
+  <unidad codigo="D27" descripcion="steradian"/>
+  <unidad codigo="D28" descripcion="syphon"/>
+  <unidad codigo="D29" descripcion="terahertz"/>
+  <unidad codigo="D30" descripcion="terajoule"/>
+  <unidad codigo="D31" descripcion="terawatt"/>
+  <unidad codigo="D32" descripcion="terawatt hour"/>
+  <unidad codigo="D33" descripcion="Tesla"/>
+  <unidad codigo="D34" descripcion="Tex"/>
+  <unidad codigo="D35" descripcion="thermochemical calorie"/>
+  <unidad codigo="D37" descripcion="thermochemical calorie per gram kelvin"/>
+  <unidad codigo="D38" descripcion="thermochemical calorie per second centimetre kelvin"/>
+  <unidad codigo="D39" descripcion="thermochemical calorie per second square centimetre kelvin"/>
+  <unidad codigo="D40" descripcion="thousand litre"/>
+  <unidad codigo="D41" descripcion="tonne per cubic metre"/>
+  <unidad codigo="D42" descripcion="tropical year"/>
+  <unidad codigo="D43" descripcion="unified atomic mass unit"/>
+  <unidad codigo="D44" descripcion="Var"/>
+  <unidad codigo="D45" descripcion="volt  squared per kelvin squared"/>
+  <unidad codigo="D46" descripcion="volt - ampere"/>
+  <unidad codigo="D47" descripcion="volt per centimetre"/>
+  <unidad codigo="D48" descripcion="volt per kelvin"/>
+  <unidad codigo="D49" descripcion="millivolt per kelvin"/>
+  <unidad codigo="D5" descripcion="kilogram per square centimeter"/>
+  <unidad codigo="D50" descripcion="volt per metre"/>
+  <unidad codigo="D51" descripcion="volt per millimetre"/>
+  <unidad codigo="D52" descripcion="watt per kelvin"/>
+  <unidad codigo="D53" descripcion="watt per metre kelvin"/>
+  <unidad codigo="D54" descripcion="watt per square metre"/>
+  <unidad codigo="D55" descripcion="watt per square metre kelvin"/>
+  <unidad codigo="D56" descripcion="watt per square metre kelvin to the fourth power"/>
+  <unidad codigo="D57" descripcion="watt per steradian"/>
+  <unidad codigo="D58" descripcion="watt per steradian square metre"/>
+  <unidad codigo="D59" descripcion="weber per metre"/>
+  <unidad codigo="D6" descripcion="rôntgen per second"/>
+  <unidad codigo="D60" descripcion="weber per millimetre"/>
+  <unidad codigo="D61" descripcion="minute"/>
+  <unidad codigo="D62" descripcion="second"/>
+  <unidad codigo="D63" descripcion="Book"/>
+  <unidad codigo="D64" descripcion="Block"/>
+  <unidad codigo="D65" descripcion="Round"/>
+  <unidad codigo="D66" descripcion="cassette"/>
+  <unidad codigo="D67" descripcion="dollar per hour"/>
+  <unidad codigo="D69" descripcion="inch to the fourth power"/>
+  <unidad codigo="D7" descripcion="sandwich"/>
+  <unidad codigo="D70" descripcion="International Table (IT) calorie"/>
+  <unidad codigo="D71" descripcion="International Table (IT) calorie per second centimetre kelvin"/>
+  <unidad codigo="D72" descripcion="International Table (IT) calorie per second square centimetre kelvin"/>
+  <unidad codigo="D73" descripcion="joule square metre"/>
+  <unidad codigo="D74" descripcion="kilogram per mole"/>
+  <unidad codigo="D75" descripcion="International Table (IT) calorie per gram"/>
+  <unidad codigo="D76" descripcion="International Table (IT) calorie per gram kelvin"/>
+  <unidad codigo="D77" descripcion="megacoulomb"/>
+  <unidad codigo="D79" descripcion="beam"/>
+  <unidad codigo="D8" descripcion="draize score"/>
+  <unidad codigo="D80" descripcion="microwatt"/>
+  <unidad codigo="D81" descripcion="microtesla"/>
+  <unidad codigo="D82" descripcion="microvolt"/>
+  <unidad codigo="D83" descripcion="millinewton metre"/>
+  <unidad codigo="D85" descripcion="microwatt per square metre"/>
+  <unidad codigo="D86" descripcion="millicoulomb"/>
+  <unidad codigo="D87" descripcion="millimole per kilogram"/>
+  <unidad codigo="D88" descripcion="millicoulomb per cubic metre"/>
+  <unidad codigo="D89" descripcion="millicoulomb per square metre"/>
+  <unidad codigo="D9" descripcion="dyne per square centimeter"/>
+  <unidad codigo="D90" descripcion="cubic metre (net)"/>
+  <unidad codigo="D91" descripcion="rem"/>
+  <unidad codigo="D92" descripcion="band"/>
+  <unidad codigo="D93" descripcion="second per cubic metre"/>
+  <unidad codigo="D94" descripcion="second per radian cubic metre"/>
+  <unidad codigo="D95" descripcion="joule per gram"/>
+  <unidad codigo="D96" descripcion="pound gross"/>
+  <unidad codigo="D97" descripcion="pallet/unit load"/>
+  <unidad codigo="D98" descripcion="mass pound"/>
+  <unidad codigo="D99" descripcion="sleeve"/>
+  <unidad codigo="DAA" descripcion="decare"/>
+  <unidad codigo="DAD" descripcion="ten day"/>
+  <unidad codigo="DAY" descripcion="day"/>
+  <unidad codigo="DB" descripcion="dry pound"/>
+  <unidad codigo="DC" descripcion="disk (disc)"/>
+  <unidad codigo="DD" descripcion="degree"/>
+  <unidad codigo="DE" descripcion="deal"/>
+  <unidad codigo="DEC" descripcion="decade"/>
+  <unidad codigo="DG" descripcion="decigram"/>
+  <unidad codigo="DI" descripcion="dispenser"/>
+  <unidad codigo="DJ" descripcion="decagram"/>
+  <unidad codigo="DLT" descripcion="decilitre"/>
+  <unidad codigo="DMK" descripcion="square decimetre"/>
+  <unidad codigo="DMQ" descripcion="cubic decimetre"/>
+  <unidad codigo="DMT" descripcion="decimetre"/>
+  <unidad codigo="DN" descripcion="decinewton metre"/>
+  <unidad codigo="DPC" descripcion="dozen piece"/>
+  <unidad codigo="DPR" descripcion="dozen pair"/>
+  <unidad codigo="DPT" descripcion="displacement tonnage"/>
+  <unidad codigo="DQ" descripcion="data record"/>
+  <unidad codigo="DR" descripcion="Drum"/>
+  <unidad codigo="DRA" descripcion="dram (US)"/>
+  <unidad codigo="DRI" descripcion="dram (UK)"/>
+  <unidad codigo="DRL" descripcion="dozen roll"/>
+  <unidad codigo="DRM" descripcion="drachm (UK)"/>
+  <unidad codigo="DS" descripcion="display"/>
+  <unidad codigo="DT" descripcion="dry ton"/>
+  <unidad codigo="DTN" descripcion="decitonne"/>
+  <unidad codigo="DU" descripcion="Dyne"/>
+  <unidad codigo="DWT" descripcion="pennyweight"/>
+  <unidad codigo="DX" descripcion="dyne per centimetre"/>
+  <unidad codigo="DY" descripcion="directory book"/>
+  <unidad codigo="DZN" descripcion="Dozen"/>
+  <unidad codigo="DZP" descripcion="dozen pack"/>
+  <unidad codigo="E2" descripcion="Belt"/>
+  <unidad codigo="E3" descripcion="trailer"/>
+  <unidad codigo="E4" descripcion="gross kilogram"/>
+  <unidad codigo="E5" descripcion="metric long ton"/>
+  <unidad codigo="EA" descripcion="Each"/>
+  <unidad codigo="EB" descripcion="electronic mail box"/>
+  <unidad codigo="EC" descripcion="each per month"/>
+  <unidad codigo="EP" descripcion="eleven pack"/>
+  <unidad codigo="EQ" descripcion="equivalent gallon"/>
+  <unidad codigo="EV" descripcion="envelope"/>
+  <unidad codigo="F1" descripcion="thousand cubic feet per day"/>
+  <unidad codigo="F9" descripcion="fibre per cubic centimetre of air"/>
+  <unidad codigo="FAH" descripcion="degree Fahrenheit"/>
+  <unidad codigo="FAR" descripcion="Farad"/>
+  <unidad codigo="FB" descripcion="Field"/>
+  <unidad codigo="FC" descripcion="thousand cubic feet"/>
+  <unidad codigo="FD" descripcion="million particle per cubic foot"/>
+  <unidad codigo="FE" descripcion="track foot"/>
+  <unidad codigo="FF" descripcion="hundred cubic metre"/>
+  <unidad codigo="FG" descripcion="transdermal patch"/>
+  <unidad codigo="FH" descripcion="micromole"/>
+  <unidad codigo="FL" descripcion="flake ton"/>
+  <unidad codigo="FM" descripcion="million cubic feet"/>
+  <unidad codigo="FOT" descripcion="foot"/>
+  <unidad codigo="FP" descripcion="pound per square foot"/>
+  <unidad codigo="FR" descripcion="foot per minute"/>
+  <unidad codigo="FS" descripcion="foot per second"/>
+  <unidad codigo="FTK" descripcion="square foot"/>
+  <unidad codigo="FTQ" descripcion="cubic foot"/>
+  <unidad codigo="G2" descripcion="US gallon per minute"/>
+  <unidad codigo="G3" descripcion="Imperial gallon per minute"/>
+  <unidad codigo="G7" descripcion="microfiche sheet"/>
+  <unidad codigo="GB" descripcion="gallon (US) per day"/>
+  <unidad codigo="GBQ" descripcion="gigabecquerel"/>
+  <unidad codigo="GC" descripcion="gram per 100 gram"/>
+  <unidad codigo="GD" descripcion="gross barrel"/>
+  <unidad codigo="GE" descripcion="pound per gallon (US)"/>
+  <unidad codigo="GF" descripcion="gram per metre (gram per 100 centimetres)"/>
+  <unidad codigo="GFI" descripcion="gram of fissile isotope"/>
+  <unidad codigo="GGR" descripcion="great gross"/>
+  <unidad codigo="GH" descripcion="half gallon (US)"/>
+  <unidad codigo="GIA" descripcion="gill (US)"/>
+  <unidad codigo="GII" descripcion="gill (UK)"/>
+  <unidad codigo="GJ" descripcion="gram per millilitre"/>
+  <unidad codigo="GK" descripcion="gram per kilogram"/>
+  <unidad codigo="GL" descripcion="gram per litre"/>
+  <unidad codigo="GLD" descripcion="dry gallon (US)"/>
+  <unidad codigo="GLI" descripcion="gallon (UK)"/>
+  <unidad codigo="GLL" descripcion="gallon (US)"/>
+  <unidad codigo="GM" descripcion="gram per square metre"/>
+  <unidad codigo="GN" descripcion="gross gallon"/>
+  <unidad codigo="GO" descripcion="milligrams per square metre"/>
+  <unidad codigo="GP" descripcion="milligram per cubic metre"/>
+  <unidad codigo="GQ" descripcion="microgram per cubic meter"/>
+  <unidad codigo="GRM" descripcion="gram"/>
+  <unidad codigo="GRN" descripcion="grain"/>
+  <unidad codigo="GRO" descripcion="gross"/>
+  <unidad codigo="GRT" descripcion="gross register ton"/>
+  <unidad codigo="GT" descripcion="gross ton"/>
+  <unidad codigo="GV" descripcion="gigajoule"/>
+  <unidad codigo="GW" descripcion="gallon per thousand cubic feet"/>
+  <unidad codigo="GWH" descripcion="gigawatt hour"/>
+  <unidad codigo="GY" descripcion="gross yard"/>
+  <unidad codigo="GZ" descripcion="gage system"/>
+  <unidad codigo="H1" descripcion="half page - electronic"/>
+  <unidad codigo="H2" descripcion="half litre"/>
+  <unidad codigo="HA" descripcion="Hank"/>
+  <unidad codigo="HAR" descripcion="hectare"/>
+  <unidad codigo="HBA" descripcion="hectobar"/>
+  <unidad codigo="HBX" descripcion="hundred boxe"/>
+  <unidad codigo="HC" descripcion="hundred count"/>
+  <unidad codigo="HD" descripcion="half dozen"/>
+  <unidad codigo="HE" descripcion="hundredth of a carat"/>
+  <unidad codigo="HF" descripcion="hundred feet"/>
+  <unidad codigo="HGM" descripcion="hectogram"/>
+  <unidad codigo="HH" descripcion="hundred cubic feet"/>
+  <unidad codigo="HI" descripcion="hundred sheet"/>
+  <unidad codigo="HIU" descripcion="hundred international unit"/>
+  <unidad codigo="HJ" descripcion="metric horse power"/>
+  <unidad codigo="HK" descripcion="hundred kilogram"/>
+  <unidad codigo="HL" descripcion="hundred feet (linear)"/>
+  <unidad codigo="HLT" descripcion="hectolitre"/>
+  <unidad codigo="HM" descripcion="mile per hour"/>
+  <unidad codigo="HMQ" descripcion="million cubic metre"/>
+  <unidad codigo="HMT" descripcion="hectometre"/>
+  <unidad codigo="HN" descripcion="conventional millimetre of mercury"/>
+  <unidad codigo="HO" descripcion="hundred troy ounce"/>
+  <unidad codigo="HP" descripcion="conventional millimetre of water"/>
+  <unidad codigo="HPA" descripcion="hectolitre of pure alcohol"/>
+  <unidad codigo="HS" descripcion="hundred square feet"/>
+  <unidad codigo="HT" descripcion="half hour"/>
+  <unidad codigo="HTZ" descripcion="Hertz"/>
+  <unidad codigo="HUR" descripcion="Hour"/>
+  <unidad codigo="HY" descripcion="hundred yard"/>
+  <unidad codigo="IA" descripcion="inch pound (pound inch)"/>
+  <unidad codigo="IC" descripcion="count per inch"/>
+  <unidad codigo="IE" descripcion="person"/>
+  <unidad codigo="IF" descripcion="inches of water"/>
+  <unidad codigo="II" descripcion="column inch"/>
+  <unidad codigo="IL" descripcion="inch per minute"/>
+  <unidad codigo="IM" descripcion="impression"/>
+  <unidad codigo="INH" descripcion="Inch"/>
+  <unidad codigo="INK" descripcion="square inch"/>
+  <unidad codigo="INQ" descripcion="inch cubed"/>
+  <unidad codigo="IP" descripcion="insurance policy"/>
+  <unidad codigo="IT" descripcion="count per centimetre"/>
+  <unidad codigo="IU" descripcion="inch per second (linear speed)"/>
+  <unidad codigo="IV" descripcion="inch per second squared (acceleration)"/>
+  <unidad codigo="J2" descripcion="joule per kilogram"/>
+  <unidad codigo="JB" descripcion="jumbo"/>
+  <unidad codigo="JE" descripcion="joule per kelvin"/>
+  <unidad codigo="JG" descripcion="jug"/>
+  <unidad codigo="JK" descripcion="megajoule per kilogram"/>
+  <unidad codigo="JM" descripcion="megajoule per cubic metre"/>
+  <unidad codigo="JO" descripcion="joint"/>
+  <unidad codigo="JOU" descripcion="joule"/>
+  <unidad codigo="JR" descripcion="jar"/>
+  <unidad codigo="K1" descripcion="kilowatt demand"/>
+  <unidad codigo="K2" descripcion="kilovolt ampere reactive demand"/>
+  <unidad codigo="K3" descripcion="kilovolt ampere reactive hour"/>
+  <unidad codigo="K5" descripcion="kilovolt ampere (reactive)"/>
+  <unidad codigo="K6" descripcion="kilolitre"/>
+  <unidad codigo="KA" descripcion="cake"/>
+  <unidad codigo="KB" descripcion="kilocharacter"/>
+  <unidad codigo="KBA" descripcion="kilobar"/>
+  <unidad codigo="KD" descripcion="kilogram decimal"/>
+  <unidad codigo="KEL" descripcion="kelvin"/>
+  <unidad codigo="KF" descripcion="kilopacket"/>
+  <unidad codigo="KG" descripcion="keg"/>
+  <unidad codigo="KGM" descripcion="kilogram"/>
+  <unidad codigo="KGS" descripcion="kilogram per second"/>
+  <unidad codigo="KHZ" descripcion="kilohertz"/>
+  <unidad codigo="KI" descripcion="kilogram per millimetre width"/>
+  <unidad codigo="KJ" descripcion="kilosegment"/>
+  <unidad codigo="KJO" descripcion="kilojoule"/>
+  <unidad codigo="KL" descripcion="kilogram per metre"/>
+  <unidad codigo="KMH" descripcion="kilometre per hour"/>
+  <unidad codigo="KMK" descripcion="square kilometre"/>
+  <unidad codigo="KMQ" descripcion="kilogram per cubic metre"/>
+  <unidad codigo="KNI" descripcion="kilogram of nitrogen"/>
+  <unidad codigo="KNS" descripcion="kilogram named substance"/>
+  <unidad codigo="KNT" descripcion="knot"/>
+  <unidad codigo="KO" descripcion="milliequivalence caustic potash per gram of product"/>
+  <unidad codigo="KPA" descripcion="kilopascal"/>
+  <unidad codigo="KPH" descripcion="kilogram of potassium hydroxide (caustic potash)"/>
+  <unidad codigo="KPO" descripcion="kilogram of potassium oxide"/>
+  <unidad codigo="KPP" descripcion="kilogram of phosphorus pentoxide (phosphoric anhydride)"/>
+  <unidad codigo="KR" descripcion="kilorôntgen"/>
+  <unidad codigo="KS" descripcion="thousand pound per square inch"/>
+  <unidad codigo="KSD" descripcion="kilogram of substance 90 % dry"/>
+  <unidad codigo="KSH" descripcion="kilogram of sodium hydroxide (caustic soda)"/>
+  <unidad codigo="KT" descripcion="Kit"/>
+  <unidad codigo="KTM" descripcion="kilometre"/>
+  <unidad codigo="KTN" descripcion="kilotonne"/>
+  <unidad codigo="KUR" descripcion="kilogram of uranium"/>
+  <unidad codigo="KVA" descripcion="kilovolt - ampere"/>
+  <unidad codigo="KVR" descripcion="kilovar"/>
+  <unidad codigo="KVT" descripcion="kilovolt"/>
+  <unidad codigo="KW" descripcion="kilograms per millimeter"/>
+  <unidad codigo="KWH" descripcion="kilowatt hour"/>
+  <unidad codigo="KWT" descripcion="kilowatt"/>
+  <unidad codigo="KX" descripcion="millilitre per kilogram"/>
+  <unidad codigo="L2" descripcion="litre per minute"/>
+  <unidad codigo="LA" descripcion="pound per cubic inch"/>
+  <unidad codigo="LBR" descripcion="Pound"/>
+  <unidad codigo="LBT" descripcion="troy pound (US)"/>
+  <unidad codigo="LC" descripcion="linear centimetre"/>
+  <unidad codigo="LD" descripcion="litre per day"/>
+  <unidad codigo="LE" descripcion="Lite"/>
+  <unidad codigo="LEF" descripcion="Leaf"/>
+  <unidad codigo="LF" descripcion="linear foot"/>
+  <unidad codigo="LH" descripcion="labour hour"/>
+  <unidad codigo="LI" descripcion="linear inch"/>
+  <unidad codigo="LJ" descripcion="large spray"/>
+  <unidad codigo="LK" descripcion="Link"/>
+  <unidad codigo="LM" descripcion="linear metre"/>
+  <unidad codigo="LN" descripcion="length"/>
+  <unidad codigo="LO" descripcion="Lot"/>
+  <unidad codigo="LP" descripcion="liquid pound"/>
+  <unidad codigo="LPA" descripcion="litre of pure alcohol"/>
+  <unidad codigo="LR" descripcion="Layer"/>
+  <unidad codigo="LS" descripcion="lump sum"/>
+  <unidad codigo="LTN" descripcion="ton (UK) or longton (US)"/>
+  <unidad codigo="LTR" descripcion="Litre"/>
+  <unidad codigo="LUM" descripcion="lumen"/>
+  <unidad codigo="LUX" descripcion="lux"/>
+  <unidad codigo="LX" descripcion="linear yard per pound"/>
+  <unidad codigo="LY" descripcion="linear yard"/>
+  <unidad codigo="M0" descripcion="magnetic tape"/>
+  <unidad codigo="M1" descripcion="milligrams per litre"/>
+  <unidad codigo="M4" descripcion="monetary value"/>
+  <unidad codigo="M5" descripcion="microcurie"/>
+  <unidad codigo="M7" descripcion="micro-inch"/>
+  <unidad codigo="M9" descripcion="million Btu per 1000 cubic feet"/>
+  <unidad codigo="MA" descripcion="machine per unit"/>
+  <unidad codigo="MAL" descripcion="mega litre"/>
+  <unidad codigo="MAM" descripcion="megametre"/>
+  <unidad codigo="MAW" descripcion="megawatt"/>
+  <unidad codigo="MBE" descripcion="thousand standard brick equivalent"/>
+  <unidad codigo="MBF" descripcion="thousand board feet"/>
+  <unidad codigo="MBR" descripcion="millibar"/>
+  <unidad codigo="MC" descripcion="microgram"/>
+  <unidad codigo="MCU" descripcion="millicurie"/>
+  <unidad codigo="MD" descripcion="air dry metric ton"/>
+  <unidad codigo="MF" descripcion="milligram per square foot per side"/>
+  <unidad codigo="MGM" descripcion="milligram"/>
+  <unidad codigo="MHZ" descripcion="megahertz"/>
+  <unidad codigo="MIK" descripcion="square mile"/>
+  <unidad codigo="MIL" descripcion="thousand"/>
+  <unidad="" codigo="MIN" descripcion="minute"/>
+  <unidad codigo="MIO" descripcion="million"/>
+  <unidad codigo="MIU" descripcion="million international unit"/>
+  <unidad codigo="MK" descripcion="milligram per square inch"/>
+  <unidad codigo="MLD" descripcion="milliard"/>
+  <unidad codigo="MLT" descripcion="millilitre"/>
+  <unidad codigo="MMK" descripcion="square millimetre"/>
+  <unidad codigo="MMQ" descripcion="cubic millimetre"/>
+  <unidad codigo="MMT" descripcion="millimetre"/>
+  <unidad codigo="MON" descripcion="month"/>
+  <unidad codigo="MPA" descripcion="megapascal"/>
+  <unidad codigo="MQ" descripcion="thousand metre"/>
+  <unidad codigo="MQH" descripcion="cubic metre per hour"/>
+  <unidad codigo="MQS" descripcion="cubic metre per second"/>
+  <unidad codigo="MSK" descripcion="metre per second squared"/>
+  <unidad codigo="MT" descripcion="mat"/>
+  <unidad codigo="MTK" descripcion="square metre"/>
+  <unidad codigo="MTQ" descripcion="cubic metre"/>
+  <unidad codigo="MTR" descripcion="Metre"/>
+  <unidad codigo="MTS" descripcion="metre per second"/>
+  <unidad codigo="MV" descripcion="number of mults"/>
+  <unidad codigo="MVA" descripcion="megavolt - ampere"/>
+  <unidad codigo="MWH" descripcion="megawatt hour (1000 kW.h)"/>
+  <unidad codigo="N1" descripcion="pen calorie"/>
+  <unidad codigo="N2" descripcion="number of lines"/>
+  <unidad codigo="N3" descripcion="print point"/>
+  <unidad codigo="NA" descripcion="milligram per kilogram"/>
+  <unidad codigo="NAR" descripcion="number of  articles"/>
+  <unidad codigo="NB" descripcion="Barge"/>
+  <unidad codigo="NBB" descripcion="number of bobbins"/>
+  <unidad codigo="NC" descripcion="Car"/>
+  <unidad codigo="NCL" descripcion="number of cells"/>
+  <unidad codigo="ND" descripcion="net barrel"/>
+  <unidad codigo="NE" descripcion="net litre"/>
+  <unidad codigo="NEW" descripcion="newton"/>
+  <unidad codigo="NF" descripcion="message"/>
+  <unidad codigo="NG" descripcion="net gallon (us)"/>
+  <unidad codigo="NH" descripcion="message hour"/>
+  <unidad codigo="NI" descripcion="net imperial gallon"/>
+  <unidad codigo="NIU" descripcion="number of international units"/>
+  <unidad codigo="NJ" descripcion="number of screens"/>
+  <unidad codigo="NL" descripcion="Load"/>
+  <unidad codigo="NMI" descripcion="nautical mile"/>
+  <unidad codigo="NMP" descripcion="number of packs"/>
+  <unidad codigo="NN" descripcion="Train"/>
+  <unidad codigo="NPL" descripcion="number of parcels"/>
+  <unidad codigo="NPR" descripcion="number of pairs"/>
+  <unidad codigo="NPT" descripcion="number of parts"/>
+  <unidad codigo="NQ" descripcion="Mho"/>
+  <unidad codigo="NR" descripcion="micromho"/>
+  <unidad codigo="NRL" descripcion="number of rolls"/>
+  <unidad codigo="NT" descripcion="net ton"/>
+  <unidad codigo="NTT" descripcion="net register ton"/>
+  <unidad codigo="NU" descripcion="newton metre"/>
+  <unidad codigo="NV" descripcion="vehicle"/>
+  <unidad codigo="NX" descripcion="part per thousand"/>
+  <unidad codigo="NY" descripcion="pound per air dry metric ton"/>
+  <unidad codigo="OA" descripcion="Panel"/>
+  <unidad codigo="OHM" descripcion="Ohm"/>
+  <unidad codigo="ON" descripcion="ounce per square yard"/>
+  <unidad codigo="ONZ" descripcion="Ounce"/>
+  <unidad codigo="OP" descripcion="two pack"/>
+  <unidad codigo="OT" descripcion="overtime hour"/>
+  <unidad codigo="OZ" descripcion="ounce av"/>
+  <unidad codigo="OZA" descripcion="fluid ounce (US)"/>
+  <unidad codigo="OZI" descripcion="fluid ounce (UK)"/>
+  <unidad codigo="P0" descripcion="page - electronic"/>
+  <unidad codigo="P1" descripcion="percent"/>
+  <unidad codigo="P2" descripcion="pound per foot"/>
+  <unidad codigo="P3" descripcion="three pack"/>
+  <unidad codigo="P4" descripcion="four pack"/>
+  <unidad codigo="P5" descripcion="five pack"/>
+  <unidad codigo="P6" descripcion="six pack"/>
+  <unidad codigo="P7" descripcion="seven pack"/>
+  <unidad codigo="P8" descripcion="eight pack"/>
+  <unidad codigo="P9" descripcion="nine pack"/>
+  <unidad codigo="PA" descripcion="packet"/>
+  <unidad codigo="PAL" descripcion="pascal"/>
+  <unidad codigo="PB" descripcion="pair inch"/>
+  <unidad codigo="PD" descripcion="pad"/>
+  <unidad codigo="PE" descripcion="pound equivalent"/>
+  <unidad codigo="PF" descripcion="pallet (lift)"/>
+  <unidad codigo="PG" descripcion="plate"/>
+  <unidad codigo="PGL" descripcion="proof gallon"/>
+  <unidad codigo="PI" descripcion="pitch"/>
+  <unidad codigo="PK" descripcion="package"/>
+  <unidad codigo="PL" descripcion="pail"/>
+  <unidad codigo="PM" descripcion="pound percentage"/>
+  <unidad codigo="PN" descripcion="pound net"/>
+  <unidad codigo="PO" descripcion="pound per inch of length"/>
+  <unidad codigo="PQ" descripcion="page per inch"/>
+  <unidad codigo="PR" descripcion="pair"/>
+  <unidad codigo="PS" descripcion="pound-force per square inch"/>
+  <unidad codigo="PT" descripcion="pint (US)"/>
+  <unidad codigo="PTD" descripcion="dry pint (US)"/>
+  <unidad codigo="PTI" descripcion="pint  (UK)"/>
+  <unidad codigo="PTL" descripcion="liquid pint (US)"/>
+  <unidad codigo="PU" descripcion="tray / tray pack"/>
+  <unidad codigo="PV" descripcion="half pint (US)"/>
+  <unidad codigo="PW" descripcion="pound per inch of width"/>
+  <unidad codigo="PY" descripcion="peck dry (US)"/>
+  <unidad codigo="PZ" descripcion="peck dry (UK)"/>
+  <unidad codigo="Q3" descripcion="meal"/>
+  <unidad codigo="QA" descripcion="page - facsimile"/>
+  <unidad codigo="QAN" descripcion="quarter (of a year)"/>
+  <unidad codigo="QB" descripcion="page - hardcopy"/>
+  <unidad codigo="QD" descripcion="quarter dozen"/>
+  <unidad codigo="QH" descripcion="quarter hour"/>
+  <unidad codigo="QK" descripcion="quarter kilogram"/>
+  <unidad codigo="QR" descripcion="Quire"/>
+  <unidad codigo="QT" descripcion="quart (US)"/>
+  <unidad codigo="QTD" descripcion="dry quart (US)"/>
+  <unidad codigo="QTI" descripcion="quart (UK)"/>
+  <unidad codigo="QTL" descripcion="liquid quart (US)"/>
+  <unidad codigo="QTR" descripcion="quarter (UK)"/>
+  <unidad codigo="R1" descripcion="Pica"/>
+  <unidad codigo="R4" descripcion="calorie"/>
+  <unidad codigo="R9" descripcion="thousand cubic metre"/>
+  <unidad codigo="RA" descripcion="Rack"/>
+  <unidad codigo="RD" descripcion="Rod"/>
+  <unidad codigo="RG" descripcion="Ring"/>
+  <unidad codigo="RH" descripcion="running or operating hour"/>
+  <unidad codigo="RK" descripcion="roll metric measure"/>
+  <unidad codigo="RL" descripcion="Reel"/>
+  <unidad codigo="RM" descripcion="Ream"/>
+  <unidad codigo="RN" descripcion="ream metric measure"/>
+  <unidad codigo="RO" descripcion="Roll"/>
+  <unidad codigo="RP" descripcion="pound per ream"/>
+  <unidad codigo="RPM" descripcion="revolutions per minute"/>
+  <unidad codigo="RPS" descripcion="revolutions per second"/>
+  <unidad codigo="RS" descripcion="Reset"/>
+  <unidad codigo="RT" descripcion="revenue ton mile"/>
+  <unidad codigo="RU" descripcion="Run"/>
+  <unidad codigo="S3" descripcion="square foot per second"/>
+  <unidad codigo="S4" descripcion="square metre per second"/>
+  <unidad codigo="S5" descripcion="sixty fourths of an inch"/>
+  <unidad codigo="S6" descripcion="session"/>
+  <unidad codigo="S7" descripcion="storage unit"/>
+  <unidad codigo="S8" descripcion="standard advertising unit"/>
+  <unidad codigo="SA" descripcion="Sack"/>
+  <unidad codigo="SAN" descripcion="half year (6 months)"/>
+  <unidad codigo="SCO" descripcion="Score"/>
+  <unidad codigo="SCR" descripcion="scruple"/>
+  <unidad codigo="SD" descripcion="solid pound"/>
+  <unidad codigo="SE" descripcion="section"/>
+  <unidad codigo="SEC" descripcion="second"/>
+  <unidad codigo="SET" descripcion="Set"/>
+  <unidad codigo="SG" descripcion="segment"/>
+  <unidad codigo="SHT" descripcion="shipping ton"/>
+  <unidad codigo="SIE" descripcion="siemens"/>
+  <unidad codigo="SK" descripcion="split tanktruck"/>
+  <unidad codigo="SL" descripcion="slipsheet"/>
+  <unidad codigo="SMI" descripcion="mile (statute mile)"/>
+  <unidad codigo="SN" descripcion="square rod"/>
+  <unidad codigo="SO" descripcion="spool"/>
+  <unidad codigo="SP" descripcion="shelf package"/>
+  <unidad codigo="SQ" descripcion="square"/>
+  <unidad codigo="SR" descripcion="strip"/>
+  <unidad codigo="SS" descripcion="sheet  metric measure"/>
+  <unidad codigo="SST" descripcion="short standard (7200 matches)"/>
+  <unidad codigo="ST" descripcion="sheet"/>
+  <unidad codigo="STI" descripcion="stone (UK)"/>
+  <unidad codigo="STN" descripcion="ton (US) or short ton (UK/US)"/>
+  <unidad codigo="SV" descripcion="skid"/>
+  <unidad codigo="SW" descripcion="skein"/>
+  <unidad codigo="SX" descripcion="shipment"/>
+  <unidad codigo="T0" descripcion="telecommunication line in service"/>
+  <unidad codigo="T1" descripcion="thousand pound gross"/>
+  <unidad codigo="T3" descripcion="thousand piece"/>
+  <unidad codigo="T4" descripcion="thousand bag"/>
+  <unidad codigo="T5" descripcion="thousand casing"/>
+  <unidad codigo="T6" descripcion="thousand gallon (US)"/>
+  <unidad codigo="T7" descripcion="thousand impression"/>
+  <unidad codigo="T8" descripcion="thousand linear inch"/>
+  <unidad codigo="TA" descripcion="tenth cubic foot"/>
+  <unidad codigo="TAH" descripcion="kiloampere hour (thousand ampere hour)"/>
+  <unidad codigo="TC" descripcion="truckload"/>
+  <unidad codigo="TD" descripcion="therm"/>
+  <unidad codigo="TE" descripcion="tote"/>
+  <unidad codigo="TF" descripcion="ten square yard"/>
+  <unidad codigo="TI" descripcion="thousand square inch"/>
+  <unidad codigo="TJ" descripcion="thousand square centimetre"/>
+  <unidad codigo="TK" descripcion="tank, rectangular"/>
+  <unidad codigo="TL" descripcion="thousand feet (linear)"/>
+  <unidad codigo="TN" descripcion="tin"/>
+  <unidad codigo="TNE" descripcion="tonne (metric ton)"/>
+  <unidad codigo="TP" descripcion="ten pack"/>
+  <unidad codigo="TPR" descripcion="ten pair"/>
+  <unidad codigo="TQ" descripcion="thousand feet"/>
+  <unidad codigo="TQD" descripcion="thousand cubic metre per day"/>
+  <unidad codigo="TR" descripcion="ten square feet"/>
+  <unidad codigo="TRL" descripcion="trillion (EUR)"/>
+  <unidad codigo="TS" descripcion="thousand square feet"/>
+  <unidad codigo="TSD" descripcion="tonne of substance 90 % dry"/>
+  <unidad codigo="TSH" descripcion="ton of steam per hour"/>
+  <unidad codigo="TT" descripcion="thousand linear metre"/>
+  <unidad codigo="TU" descripcion="Tube"/>
+  <unidad codigo="TV" descripcion="thousand kilogram"/>
+  <unidad codigo="TW" descripcion="thousand sheet"/>
+  <unidad codigo="TY" descripcion="tank, cylindrical"/>
+  <unidad codigo="U1" descripcion="treatment"/>
+  <unidad codigo="U2" descripcion="Tablet"/>
+  <unidad codigo="UA" descripcion="Torr"/>
+  <unidad codigo="UB" descripcion="telecommunication  line in service average"/>
+  <unidad codigo="UC" descripcion="telecommunication port"/>
+  <unidad codigo="UD" descripcion="tenth minute"/>
+  <unidad codigo="UE" descripcion="tenth hour"/>
+  <unidad codigo="UF" descripcion="usage per telecommunication line average"/>
+  <unidad codigo="UH" descripcion="ten thousand yard"/>
+  <unidad codigo="UM" descripcion="million unit"/>
+  <unidad codigo="VA" descripcion="volt ampere per kilogram"/>
+  <unidad codigo="VI" descripcion="Vial"/>
+  <unidad codigo="VLT" descripcion="Volt"/>
+  <unidad codigo="VQ" descripcion="Bulk"/>
+  <unidad codigo="VS" descripcion="Visit"/>
+  <unidad codigo="W2" descripcion="wet kilo"/>
+  <unidad codigo="W4" descripcion="two week"/>
+  <unidad codigo="WA" descripcion="watt per kilogram"/>
+  <unidad codigo="WB" descripcion="wet pound"/>
+  <unidad codigo="WCD" descripcion="Cord"/>
+  <unidad codigo="WE" descripcion="wet ton"/>
+  <unidad codigo="WEB" descripcion="weber"/>
+  <unidad codigo="WEE" descripcion="Week"/>
+  <unidad codigo="WG" descripcion="wine gallon"/>
+  <unidad codigo="WH" descripcion="wheel"/>
+  <unidad codigo="WHR" descripcion="watt hour"/>
+  <unidad codigo="WI" descripcion="weight per square inch"/>
+  <unidad codigo="WM" descripcion="working month"/>
+  <unidad codigo="WR" descripcion="Wrap"/>
+  <unidad codigo="WSD" descripcion="standard"/>
+  <unidad codigo="WTT" descripcion="Watt"/>
+  <unidad codigo="WW" descripcion="millilitre of water"/>
+  <unidad codigo="X1" descripcion="chain"/>
+  <unidad codigo="YDK" descripcion="square yard"/>
+  <unidad codigo="YDQ" descripcion="cubic yard"/>
+  <unidad codigo="YL" descripcion="hundred linear yard"/>
+  <unidad codigo="YRD" descripcion="yard"/>
+  <unidad codigo="YT" descripcion="ten yard"/>
+  <unidad codigo="Z1" descripcion="lift van"/>
+  <unidad codigo="Z2" descripcion="Chest"/>
+  <unidad codigo="Z3" descripcion="Cask"/>
+  <unidad codigo="Z4" descripcion="hogshead"/>
+  <unidad codigo="Z5" descripcion="Lug"/>
+  <unidad codigo="Z6" descripcion="conference point"/>
+  <unidad codigo="Z8" descripcion="newspage agate line"/>
+  <unidad codigo="ZP" descripcion="Page"/>
+</UNECE_T_Unidad_Medida>

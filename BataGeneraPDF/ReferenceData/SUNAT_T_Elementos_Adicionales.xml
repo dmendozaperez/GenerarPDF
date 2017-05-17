@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SUNAT_T_Elementos_Adicionales>
+  <elemento codigo="1000" descripcion="Monto en Letras"/>
+  <elemento codigo="1002" descripcion="Leyenda &quot;TRANSFERENCIA GRATUITA DE UN BIEN Y/O SERVICIO PRESTADO GRATUITAMENTE&quot;"/>
+  <elemento codigo="1003" descripcion="Leyenda &quot;VENTA NACIONAL A NO DOMICILIADOS&quot;"/>
+  <elemento codigo="2000" descripcion="Leyenda “COMPROBANTE DE PERCEPCIÓN”"/>
+  <elemento codigo="2001" descripcion="Leyenda “BIENES TRANSFERIDOS EN LA AMAZONÍA REGIÓN SELVAPARA SER CONSUMIDOS EN LA MISMA&quot;"/>
+  <elemento codigo="2002" descripcion="Leyenda “SERVICIOS PRESTADOS EN LA AMAZONÍA  REGIÓN SELVA PARA SER CONSUMIDOS EN LA MISMA”"/>
+  <elemento codigo="2003" descripcion="Leyenda “CONTRATOS DE CONSTRUCCIÓN EJECUTADOS  EN LA AMAZONÍA REGIÓN SELVA”"/>
+  <elemento codigo="2004" descripcion="Leyenda “Agencia de Viaje - Paquete turístico”"/>
+  <elemento codigo="3000" descripcion="Detracciones: CODIGO DE BB Y SS SUJETOS A DETRACCION"/>
+  <elemento codigo="3001" descripcion="Detracciones: NUMERO DE CTA EN EL BN"/>
+  <elemento codigo="3002" descripcion="Detracciones: Recursos Hidrobiológicos-Nombre y matrícula de la embarcación"/>
+  <elemento codigo="3003" descripcion="Detracciones: Recursos Hidrobiológicos-Tipo y cantidad de especie vendida"/>
+  <elemento codigo="3004" descripcion="Detracciones: Recursos Hidrobiológicos -Lugar de descarga"/>
+  <elemento codigo="3005" descripcion="Detracciones: Recursos Hidrobiológicos -Fecha de descarga"/>
+  <elemento codigo="3006" descripcion="Detracciones: Transporte Bienes vía terrestre – Numero Registro MTC"/>
+  <elemento codigo="3007" descripcion="Detracciones: Transporte Bienes vía terrestre – configuración vehicular"/>
+  <elemento codigo="3008" descripcion="Detracciones: Transporte Bienes vía terrestre – punto de origen"/>
+  <elemento codigo="3009" descripcion="Detracciones: Transporte Bienes vía terrestre – punto destino"/>
+  <elemento codigo="3010" descripcion="Detracciones: Transporte Bienes vía terrestre – valor referencial preliminar"/>
+  <elemento codigo="4000" descripcion="Beneficio hospedajes: Código País de emisión del pasaporte"/>
+  <elemento codigo="4001" descripcion="Beneficio hospedajes: Código País de residencia del sujeto no domiciliado"/>
+  <elemento codigo="4002" descripcion="Beneficio Hospedajes: Fecha de ingreso al país "/>
+  <elemento codigo="4003" descripcion="Beneficio Hospedajes: Fecha de ingreso al establecimiento"/>
+  <elemento codigo="4004" descripcion="Beneficio Hospedajes: Fecha de salida del establecimiento"/>
+  <elemento codigo="4005" descripcion="Beneficio Hospedajes: Número de días de permanencia"/>
+  <elemento codigo="4006" descripcion="Beneficio Hospedajes: Fecha de consumo "/>
+  <elemento codigo="4007" descripcion="Beneficio Hospedajes: Paquete turístico - Nombres y Apellidos del Huésped "/>
+  <elemento codigo="4008" descripcion="Beneficio Hospedajes: Paquete turístico – Tipo documento identidad del huésped "/>
+  <elemento codigo="4009" descripcion="Beneficio Hospedajes: Paquete turístico – Numero de documento identidad de huésped "/>
+</SUNAT_T_Elementos_Adicionales>

@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<INEI_Provincias>
+  <provincia codigo="0101" descripcion="CHACHAPOYAS"/>
+  <provincia codigo="0102" descripcion="BAGUA"/>
+  <provincia codigo="0103" descripcion="BONGARA"/>
+  <provincia codigo="0104" descripcion="CONDORCANQUI"/>
+  <provincia codigo="0105" descripcion="LUYA"/>
+  <provincia codigo="0106" descripcion="RODRIGUEZ DE MENDOZA"/>
+  <provincia codigo="0107" descripcion="UTCUBAMBA"/>
+  <provincia codigo="0201" descripcion="HUARAZ"/>
+  <provincia codigo="0202" descripcion="AIJA"/>
+  <provincia codigo="0203" descripcion="ANTONIO RAYMONDI"/>
+  <provincia codigo="0204" descripcion="ASUNCION"/>
+  <provincia codigo="0205" descripcion="BOLOGNESI"/>
+  <provincia codigo="0206" descripcion="CARHUAZ"/>
+  <provincia codigo="0207" descripcion="CARLOS FERMIN FITZCARRALD"/>
+  <provincia codigo="0208" descripcion="CASMA"/>
+  <provincia codigo="0209" descripcion="CORONGO"/>
+  <provincia codigo="0210" descripcion="HUARI"/>
+  <provincia codigo="0211" descripcion="HUARMEY"/>
+  <provincia codigo="0212" descripcion="HUAYLAS"/>
+  <provincia codigo="0213" descripcion="MARISCAL LUZURIAGA"/>
+  <provincia codigo="0214" descripcion="OCROS"/>
+  <provincia codigo="0215" descripcion="PALLASCA"/>
+  <provincia codigo="0216" descripcion="POMABAMBA"/>
+  <provincia codigo="0217" descripcion="RECUAY"/>
+  <provincia codigo="0218" descripcion="SANTA"/>
+  <provincia codigo="0219" descripcion="SIHUAS"/>
+  <provincia codigo="0220" descripcion="YUNGAY"/>
+  <provincia codigo="0301" descripcion="ABANCAY"/>
+  <provincia codigo="0302" descripcion="ANDAHUAYLAS"/>
+  <provincia codigo="0303" descripcion="APURIMAC"/>
+  <provincia codigo="0304" descripcion="AYMARAES"/>
+  <provincia codigo="0305" descripcion="COTABAMBAS"/>
+  <provincia codigo="0306" descripcion="CHINCHEROS"/>
+  <provincia codigo="0307" descripcion="GRAU"/>
+  <provincia codigo="0401" descripcion="AREQUIPA"/>
+  <provincia codigo="0402" descripcion="CAMANA"/>
+  <provincia codigo="0403" descripcion="CARAVELI"/>
+  <provincia codigo="0404" descripcion="CASTILLA"/>
+  <provincia codigo="0405" descripcion="CAYLLOMA"/>
+  <provincia codigo="0406" descripcion="CONDESUYOS"/>
+  <provincia codigo="0407" descripcion="ISLAY"/>
+  <provincia codigo="0408" descripcion="LA UNION"/>
+  <provincia codigo="0501" descripcion="HUAMANGA"/>
+  <provincia codigo="0502" descripcion="CANGALLO"/>
+  <provincia codigo="0503" descripcion="HUANCA SANCOS"/>
+  <provincia codigo="0504" descripcion="HUANTA"/>
+  <provincia codigo="0505" descripcion="LA MAR"/>
+  <provincia codigo="0506" descripcion="LUCANAS"/>
+  <provincia codigo="0507" descripcion="PARINACOCHAS"/>
+  <provincia codigo="0508" descripcion="PAUCAR DEL SARA SARA"/>
+  <provincia codigo="0509" descripcion="SUCRE"/>
+  <provincia codigo="0510" descripcion="VICTOR FAJARDO"/>
+  <provincia codigo="0511" descripcion="VILCAS HUAMAN"/>
+  <provincia codigo="0601" descripcion="CAJAMARCA"/>
+  <provincia codigo="0602" descripcion="CAJABAMBA"/>
+  <provincia codigo="0603" descripcion="CELENDIN"/>
+  <provincia codigo="0604" descripcion="CHOTA"/>
+  <provincia codigo="0605" descripcion="CONTUMAZA"/>
+  <provincia codigo="0606" descripcion="CUTERVO"/>
+  <provincia codigo="0607" descripcion="HUALGAYOC"/>
+  <provincia codigo="0608" descripcion="JAEN"/>
+  <provincia codigo="0609" descripcion="SAN IGNACIO"/>
+  <provincia codigo="0610" descripcion="SAN MARCOS"/>
+  <provincia codigo="0611" descripcion="SAN MIGUEL"/>
+  <provincia codigo="0612" descripcion="SAN PABLO"/>
+  <provincia codigo="0613" descripcion="SANTA CRUZ"/>
+  <provincia codigo="0701" descripcion="CALLAO"/>
+  <provincia codigo="0801" descripcion="CUSCO"/>
+  <provincia codigo="0802" descripcion="ACOMAYO"/>
+  <provincia codigo="0803" descripcion="ANTA"/>
+  <provincia codigo="0804" descripcion="CALCA"/>
+  <provincia codigo="0805" descripcion="CANAS"/>
+  <provincia codigo="0806" descripcion="CANCHIS"/>
+  <provincia codigo="0807" descripcion="CHUMBIVILCAS"/>
+  <provincia codigo="0808" descripcion="ESPINAR"/>
+  <provincia codigo="0809" descripcion="LA CONVENCION"/>
+  <provincia codigo="0810" descripcion="PARURO"/>
+  <provincia codigo="0811" descripcion="PAUCARTAMBO"/>
+  <provincia codigo="0812" descripcion="QUISPICANCHI"/>
+  <provincia codigo="0813" descripcion="URUBAMBA"/>
+  <provincia codigo="0901" descripcion="HUANCAVELICA"/>
+  <provincia codigo="0902" descripcion="ACOBAMBA"/>
+  <provincia codigo="0903" descripcion="ANGARAES"/>
+  <provincia codigo="0904" descripcion="CASTROVIRREYNA"/>
+  <provincia codigo="0905" descripcion="CHURCAMPA"/>
+  <provincia codigo="0906" descripcion="HUAYTARA"/>
+  <provincia codigo="0907" descripcion="TAYACAJA"/>
+  <provincia codigo="1001" descripcion="HUANUCO"/>
+  <provincia codigo="1002" descripcion="AMBO"/>
+  <provincia codigo="1003" descripcion="DOS DE MAYO"/>
+  <provincia codigo="1004" descripcion="HUACAYBAMBA"/>
+  <provincia codigo="1005" descripcion="HUAMALIES"/>
+  <provincia codigo="1006" descripcion="LEONCIO PRADO"/>
+  <provincia codigo="1007" descripcion="MARAÑON"/>
+  <provincia codigo="1008" descripcion="PACHITEA"/>
+  <provincia codigo="1009" descripcion="PUERTO INCA"/>
+  <provincia codigo="1010" descripcion="LAURICOCHA"/>
+  <provincia codigo="1011" descripcion="YAROWILCA"/>
+  <provincia codigo="1101" descripcion="ICA"/>
+  <provincia codigo="1102" descripcion="CHINCHA"/>
+  <provincia codigo="1103" descripcion="NAZCA"/>
+  <provincia codigo="1104" descripcion="PALPA"/>
+  <provincia codigo="1105" descripcion="PISCO"/>
+  <provincia codigo="1201" descripcion="HUANCAYO"/>
+  <provincia codigo="1202" descripcion="CONCEPCION"/>
+  <provincia codigo="1203" descripcion="CHANCHAMAYO"/>
+  <provincia codigo="1204" descripcion="JAUJA"/>
+  <provincia codigo="1205" descripcion="JUNIN"/>
+  <provincia codigo="1206" descripcion="SATIPO"/>
+  <provincia codigo="1207" descripcion="TARMA"/>
+  <provincia codigo="1208" descripcion="YAULI"/>
+  <provincia codigo="1209" descripcion="CHUPACA"/>
+  <provincia codigo="1301" descripcion="TRUJILLO"/>
+  <provincia codigo="1302" descripcion="ASCOPE"/>
+  <provincia codigo="1303" descripcion="BOLIVAR"/>
+  <provincia codigo="1304" descripcion="CHEPEN"/>
+  <provincia codigo="1305" descripcion="JULCAN"/>
+  <provincia codigo="1306" descripcion="OTUZCO"/>
+  <provincia codigo="1307" descripcion="PACASMAYO"/>
+  <provincia codigo="1308" descripcion="PATAZ"/>
+  <provincia codigo="1309" descripcion="SANCHEZ CARRION"/>
+  <provincia codigo="1310" descripcion="SANTIAGO DE CHUCO"/>
+  <provincia codigo="1311" descripcion="GRAN CHIMU"/>
+  <provincia codigo="1312" descripcion="VIRU"/>
+  <provincia codigo="1401" descripcion="CHICLAYO"/>
+  <provincia codigo="1402" descripcion="FERREÑAFE"/>
+  <provincia codigo="1403" descripcion="LAMBAYEQUE"/>
+  <provincia codigo="1501" descripcion="LIMA"/>
+  <provincia codigo="1502" descripcion="BARRANCA"/>
+  <provincia codigo="1503" descripcion="CAJATAMBO"/>
+  <provincia codigo="1504" descripcion="CANTA"/>
+  <provincia codigo="1505" descripcion="CAÑETE"/>
+  <provincia codigo="1506" descripcion="HUARAL"/>
+  <provincia codigo="1507" descripcion="HUAROCHIRI"/>
+  <provincia codigo="1508" descripcion="HUAURA"/>
+  <provincia codigo="1509" descripcion="OYON"/>
+  <provincia codigo="1510" descripcion="YAUYOS"/>
+  <provincia codigo="1601" descripcion="MAYNAS"/>
+  <provincia codigo="1602" descripcion="ALTO AMAZONAS"/>
+  <provincia codigo="1603" descripcion="LORETO"/>
+  <provincia codigo="1604" descripcion="MARISCAL RAMON CASTILLA"/>
+  <provincia codigo="1605" descripcion="REQUENA"/>
+  <provincia codigo="1606" descripcion="UCAYALI"/>
+  <provincia codigo="1607" descripcion="DATEM DEL MARAÑON"/>
+  <provincia codigo="1701" descripcion="TAMBOPATA"/>
+  <provincia codigo="1702" descripcion="MANU"/>
+  <provincia codigo="1703" descripcion="TAHUAMANU"/>
+  <provincia codigo="1801" descripcion="MARISCAL NIETO"/>
+  <provincia codigo="1802" descripcion="GENERAL SANCHEZ CERRO"/>
+  <provincia codigo="1803" descripcion="ILO"/>
+  <provincia codigo="1901" descripcion="PASCO"/>
+  <provincia codigo="1902" descripcion="DANIEL ALCIDES CARRION"/>
+  <provincia codigo="1903" descripcion="OXAPAMPA"/>
+  <provincia codigo="2001" descripcion="PIURA"/>
+  <provincia codigo="2002" descripcion="AYABACA"/>
+  <provincia codigo="2003" descripcion="HUANCABAMBA"/>
+  <provincia codigo="2004" descripcion="MORROPON"/>
+  <provincia codigo="2005" descripcion="PAITA"/>
+  <provincia codigo="2006" descripcion="SULLANA"/>
+  <provincia codigo="2007" descripcion="TALARA"/>
+  <provincia codigo="2008" descripcion="SECHURA"/>
+  <provincia codigo="2101" descripcion="PUNO"/>
+  <provincia codigo="2102" descripcion="AZANGARO"/>
+  <provincia codigo="2103" descripcion="CARABAYA"/>
+  <provincia codigo="2104" descripcion="CHUCUITO"/>
+  <provincia codigo="2105" descripcion="EL COLLAO"/>
+  <provincia codigo="2106" descripcion="HUANCANE"/>
+  <provincia codigo="2107" descripcion="LAMPA"/>
+  <provincia codigo="2108" descripcion="MELGAR"/>
+  <provincia codigo="2109" descripcion="MOHO"/>
+  <provincia codigo="2110" descripcion="SAN ANTONIO DE PUTINA"/>
+  <provincia codigo="2111" descripcion="SAN ROMAN"/>
+  <provincia codigo="2112" descripcion="SANDIA"/>
+  <provincia codigo="2113" descripcion="YUNGUYO"/>
+  <provincia codigo="2201" descripcion="MOYOBAMBA"/>
+  <provincia codigo="2202" descripcion="BELLAVISTA"/>
+  <provincia codigo="2203" descripcion="EL DORADO"/>
+  <provincia codigo="2204" descripcion="HUALLAGA"/>
+  <provincia codigo="2205" descripcion="LAMAS"/>
+  <provincia codigo="2206" descripcion="MARISCAL CACERES"/>
+  <provincia codigo="2207" descripcion="PICOTA"/>
+  <provincia codigo="2208" descripcion="RIOJA"/>
+  <provincia codigo="2209" descripcion="SAN MARTIN"/>
+  <provincia codigo="2210" descripcion="TOCACHE"/>
+  <provincia codigo="2301" descripcion="TACNA"/>
+  <provincia codigo="2302" descripcion="CANDARAVE"/>
+  <provincia codigo="2303" descripcion="JORGE BASADRE"/>
+  <provincia codigo="2304" descripcion="TARATA"/>
+  <provincia codigo="2401" descripcion="TUMBES"/>
+  <provincia codigo="2402" descripcion="CONTRALMIRANTE VILLAR"/>
+  <provincia codigo="2403" descripcion="ZARUMILLA"/>
+  <provincia codigo="2501" descripcion="CORONEL PORTILLO"/>
+  <provincia codigo="2502" descripcion="ATALAYA"/>
+  <provincia codigo="2503" descripcion="PADRE ABAD"/>
+  <provincia codigo="2504" descripcion="PURUS"/>
+</INEI_Provincias>

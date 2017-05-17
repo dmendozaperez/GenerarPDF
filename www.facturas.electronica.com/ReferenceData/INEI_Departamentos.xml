@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<INEI_Departamentos>
+  <departamento codigo="01" descripcion="AMAZONAS"/>
+  <departamento codigo="02" descripcion="ANCASH"/>
+  <departamento codigo="03" descripcion="APURIMAC"/>
+  <departamento codigo="04" descripcion="AREQUIPA"/>
+  <departamento codigo="05" descripcion="AYACUCHO"/>
+  <departamento codigo="06" descripcion="CAJAMARCA"/>
+  <departamento codigo="07" descripcion="CALLAO"/>
+  <departamento codigo="08" descripcion="CUSCO"/>
+  <departamento codigo="09" descripcion="HUANCAVELICA"/>
+  <departamento codigo="10" descripcion="HUANUCO"/>
+  <departamento codigo="11" descripcion="ICA"/>
+  <departamento codigo="12" descripcion="JUNIN"/>
+  <departamento codigo="13" descripcion="LA LIBERTAD"/>
+  <departamento codigo="14" descripcion="LAMBAYEQUE"/>
+  <departamento codigo="15" descripcion="LIMA"/>
+  <departamento codigo="16" descripcion="LORETO"/>
+  <departamento codigo="17" descripcion="MADRE DE DIOS"/>
+  <departamento codigo="18" descripcion="MOQUEGUA"/>
+  <departamento codigo="19" descripcion="PASCO"/>
+  <departamento codigo="20" descripcion="PIURA"/>
+  <departamento codigo="21" descripcion="PUNO"/>
+  <departamento codigo="22" descripcion="SAN MARTIN"/>
+  <departamento codigo="23" descripcion="TACNA"/>
+  <departamento codigo="24" descripcion="TUMBES"/>
+  <departamento codigo="25" descripcion="UCAYALI"/>
+</INEI_Departamentos>

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BataGeneraPDF", "BataGeneraPDF\BataGeneraPDF.csproj", "{845EA614-C8BC-4912-9893-A8E8FB772541}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bata.FEPE.TemplateEngine.PDF417Lib", "Bata.FEPE.TemplateEngine.PDF417Lib\Bata.FEPE.TemplateEngine.PDF417Lib.csproj", "{972D46AE-5543-4235-87B6-0D071B8D79EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bata.FEPE.TemplateEngine.ABCpdf", "Bata.FEPE.TemplateEngine.ABCpdf\Bata.FEPE.TemplateEngine.ABCpdf.csproj", "{4800AF34-7430-4839-A4A2-5325DCCCCC74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bata.FEPE.TemplateEngine", "Bata.FEPE.TemplateEngine\Bata.FEPE.TemplateEngine.csproj", "{B644C8B4-B159-441B-B860-D5CB54651BEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "www.facturas.electronica.com", "www.facturas.electronica.com\www.facturas.electronica.com.csproj", "{ECFB0883-4E30-4DFB-8E56-8DC76F582990}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{845EA614-C8BC-4912-9893-A8E8FB772541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{845EA614-C8BC-4912-9893-A8E8FB772541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{845EA614-C8BC-4912-9893-A8E8FB772541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{845EA614-C8BC-4912-9893-A8E8FB772541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{972D46AE-5543-4235-87B6-0D071B8D79EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{972D46AE-5543-4235-87B6-0D071B8D79EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{972D46AE-5543-4235-87B6-0D071B8D79EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{972D46AE-5543-4235-87B6-0D071B8D79EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4800AF34-7430-4839-A4A2-5325DCCCCC74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4800AF34-7430-4839-A4A2-5325DCCCCC74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4800AF34-7430-4839-A4A2-5325DCCCCC74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4800AF34-7430-4839-A4A2-5325DCCCCC74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B644C8B4-B159-441B-B860-D5CB54651BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B644C8B4-B159-441B-B860-D5CB54651BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B644C8B4-B159-441B-B860-D5CB54651BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B644C8B4-B159-441B-B860-D5CB54651BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECFB0883-4E30-4DFB-8E56-8DC76F582990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECFB0883-4E30-4DFB-8E56-8DC76F582990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECFB0883-4E30-4DFB-8E56-8DC76F582990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECFB0883-4E30-4DFB-8E56-8DC76F582990}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

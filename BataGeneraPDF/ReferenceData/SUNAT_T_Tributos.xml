@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SUNAT_T_Tributos>
+  <tributo codigo="1000" descripcion="IGV IMPUESTO GENERAL A LAS VENTAS   " descripcionCorta="IGV   " UBL="VAT"/>
+  <tributo codigo="2000" descripcion="ISC IMPUESTO SELECTIVO AL CONSUMO" descripcionCorta="ISC   " UBL="EXC"/>
+  <tributo codigo="9999" descripcion="OTROS CONCEPTOS DE PAGO" descripcionCorta="OTROS " UBL="OTH"/>
+</SUNAT_T_Tributos>

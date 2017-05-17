@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SUNAT_T_Documentos_Relacionados>
+  <documento codigo="01" descripcion="Factura – emitida para corregir error en el RUC"/>
+  <documento codigo="04" descripcion="Ticket de Salida - ENAPU "/>
+  <documento codigo="05" descripcion="Código SCOP"/>
+  <documento codigo="99" descripcion="Otros"/>
+</SUNAT_T_Documentos_Relacionados>

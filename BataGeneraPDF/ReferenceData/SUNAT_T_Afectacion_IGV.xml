@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SUNAT_T_Afectacion_IGV>
+  <afectacion codigo="10" descripcion="Gravado -  Operación Onerosa"/>
+  <afectacion codigo="11" descripcion="Gravado – Retiro por premio"/>
+  <afectacion codigo="12" descripcion="Gravado – Retiro por donación"/>
+  <afectacion codigo="13" descripcion="Gravado – Retiro "/>
+  <afectacion codigo="14" descripcion="Gravado – Retiro por publicidad"/>
+  <afectacion codigo="15" descripcion="Gravado – Bonificaciones"/>
+  <afectacion codigo="16" descripcion="Gravado – Retiro por entrega a trabajadores"/>
+  <afectacion codigo="20" descripcion="Exonerado - Operación Onerosa"/>
+  <afectacion codigo="30" descripcion="Inafecto - Operación Onerosa"/>
+  <afectacion codigo="31" descripcion="Inafecto – Retiro por Bonificación"/>
+  <afectacion codigo="32" descripcion="Inafecto – Retiro"/>
+  <afectacion codigo="33" descripcion="Inafecto – Retiro por Muestras Médicas"/>
+  <afectacion codigo="34" descripcion="Inafecto -  Retiro por Convenio Colectivo"/>
+  <afectacion codigo="35" descripcion="Inafecto – Retiro por premio"/>
+  <afectacion codigo="36" descripcion="Inafecto -  Retiro por publicidad"/>
+  <afectacion codigo="40" descripcion="Exportación"/>
+</SUNAT_T_Afectacion_IGV>

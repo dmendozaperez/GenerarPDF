@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ISO3166>
+  <pais codigo="AD" descripcion="ANDORRA"/>
+  <pais codigo="AE" descripcion="UNITED ARAB EMIRATES"/>
+  <pais codigo="AF" descripcion="AFGHANISTAN"/>
+  <pais codigo="AG" descripcion="ANTIGUA AND BARBUDA"/>
+  <pais codigo="AI" descripcion="ANGUILLA"/>
+  <pais codigo="AL" descripcion="ALBANIA"/>
+  <pais codigo="AM" descripcion="ARMENIA"/>
+  <pais codigo="AN" descripcion="NETHERLANDS ANTILLES"/>
+  <pais codigo="AO" descripcion="ANGOLA"/>
+  <pais codigo="AQ" descripcion="ANTARCTICA"/>
+  <pais codigo="AR" descripcion="ARGENTINA"/>
+  <pais codigo="AS" descripcion="AMERICAN SAMOA"/>
+  <pais codigo="AT" descripcion="AUSTRIA"/>
+  <pais codigo="AU" descripcion="AUSTRALIA"/>
+  <pais codigo="AW" descripcion="ARUBA"/>
+  <pais codigo="AX" descripcion="ÅLAND ISLANDS"/>
+  <pais codigo="AZ" descripcion="AZERBAIJAN"/>
+  <pais codigo="BA" descripcion="BOSNIA AND HERZEGOVINA"/>
+  <pais codigo="BB" descripcion="BARBADOS"/>
+  <pais codigo="BD" descripcion="BANGLADESH"/>
+  <pais codigo="BE" descripcion="BELGIUM"/>
+  <pais codigo="BF" descripcion="BURKINA FASO"/>
+  <pais codigo="BG" descripcion="BULGARIA"/>
+  <pais codigo="BH" descripcion="BAHRAIN"/>
+  <pais codigo="BI" descripcion="BURUNDI"/>
+  <pais codigo="BJ" descripcion="BENIN"/>
+  <pais codigo="BL" descripcion="SAINT BARTHÉLEMY"/>
+  <pais codigo="BM" descripcion="BERMUDA"/>
+  <pais codigo="BN" descripcion="BRUNEI DARUSSALAM"/>
+  <pais codigo="BO" descripcion="BOLIVIA"/>
+  <pais codigo="BR" descripcion="BRAZIL"/>
+  <pais codigo="BS" descripcion="BAHAMAS"/>
+  <pais codigo="BT" descripcion="BHUTAN"/>
+  <pais codigo="BV" descripcion="BOUVET ISLAND"/>
+  <pais codigo="BW" descripcion="BOTSWANA"/>
+  <pais codigo="BY" descripcion="BELARUS"/>
+  <pais codigo="BZ" descripcion="BELIZE"/>
+  <pais codigo="CA" descripcion="CANADA"/>
+  <pais codigo="CC" descripcion="COCOS (KEELING) ISLANDS"/>
+  <pais codigo="CD" descripcion="CONGO, THE DEMOCRATIC REPUBLIC OF THE"/>
+  <pais codigo="CF" descripcion="CENTRAL AFRICAN REPUBLIC"/>
+  <pais codigo="CG" descripcion="CONGO"/>
+  <pais codigo="CH" descripcion="SWITZERLAND"/>
+  <pais codigo="CI" descripcion="CÔTE D'IVOIRE"/>
+  <pais codigo="CK" descripcion="COOK ISLANDS"/>
+  <pais codigo="CL" descripcion="CHILE"/>
+  <pais codigo="CM" descripcion="CAMEROON"/>
+  <pais codigo="CN" descripcion="CHINA"/>
+  <pais codigo="CO" descripcion="COLOMBIA"/>
+  <pais codigo="CR" descripcion="COSTA RICA"/>
+  <pais codigo="CU" descripcion="CUBA"/>
+  <pais codigo="CV" descripcion="CAPE VERDE"/>
+  <pais codigo="CX" descripcion="CHRISTMAS ISLAND"/>
+  <pais codigo="CY" descripcion="CYPRUS"/>
+  <pais codigo="CZ" descripcion="CZECH REPUBLIC"/>
+  <pais codigo="DE" descripcion="GERMANY"/>
+  <pais codigo="DJ" descripcion="DJIBOUTI"/>
+  <pais codigo="DK" descripcion="DENMARK"/>
+  <pais codigo="DM" descripcion="DOMINICA"/>
+  <pais codigo="DO" descripcion="DOMINICAN REPUBLIC"/>
+  <pais codigo="DZ" descripcion="ALGERIA"/>
+  <pais codigo="EC" descripcion="ECUADOR"/>
+  <pais codigo="EE" descripcion="ESTONIA"/>
+  <pais codigo="EG" descripcion="EGYPT"/>
+  <pais codigo="EH" descripcion="WESTERN SAHARA"/>
+  <pais codigo="ER" descripcion="ERITREA"/>
+  <pais codigo="ES" descripcion="SPAIN"/>
+  <pais codigo="ET" descripcion="ETHIOPIA"/>
+  <pais codigo="FI" descripcion="FINLAND"/>
+  <pais codigo="FJ" descripcion="FIJI"/>
+  <pais codigo="FK" descripcion="FALKLAND ISLANDS (MALVINAS)"/>
+  <pais codigo="FM" descripcion="MICRONESIA, FEDERATED STATES OF"/>
+  <pais codigo="FO" descripcion="FAROE ISLANDS"/>
+  <pais codigo="FR" descripcion="FRANCE"/>
+  <pais codigo="GA" descripcion="GABON"/>
+  <pais codigo="GB" descripcion="UNITED KINGDOM"/>
+  <pais codigo="GD" descripcion="GRENADA"/>
+  <pais codigo="GE" descripcion="GEORGIA"/>
+  <pais codigo="GF" descripcion="FRENCH GUIANA"/>
+  <pais codigo="GG" descripcion="GUERNSEY"/>
+  <pais codigo="GH" descripcion="GHANA"/>
+  <pais codigo="GI" descripcion="GIBRALTAR"/>
+  <pais codigo="GL" descripcion="GREENLAND"/>
+  <pais codigo="GM" descripcion="GAMBIA"/>
+  <pais codigo="GN" descripcion="GUINEA"/>
+  <pais codigo="GP" descripcion="GUADELOUPE"/>
+  <pais codigo="GQ" descripcion="EQUATORIAL GUINEA"/>
+  <pais codigo="GR" descripcion="GREECE"/>
+  <pais codigo="GS" descripcion="SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS"/>
+  <pais codigo="GT" descripcion="GUATEMALA"/>
+  <pais codigo="GU" descripcion="GUAM"/>
+  <pais codigo="GW" descripcion="GUINEA-BISSAU"/>
+  <pais codigo="GY" descripcion="GUYANA"/>
+  <pais codigo="HK" descripcion="HONG KONG"/>
+  <pais codigo="HM" descripcion="HEARD ISLAND AND MCDONALD ISLANDS"/>
+  <pais codigo="HN" descripcion="HONDURAS"/>
+  <pais codigo="HR" descripcion="CROATIA"/>
+  <pais codigo="HT" descripcion="HAITI"/>
+  <pais codigo="HU" descripcion="HUNGARY"/>
+  <pais codigo="ID" descripcion="INDONESIA"/>
+  <pais codigo="IE" descripcion="IRELAND"/>
+  <pais codigo="IL" descripcion="ISRAEL"/>
+  <pais codigo="IM" descripcion="ISLE OF MAN"/>
+  <pais codigo="IN" descripcion="INDIA"/>
+  <pais codigo="IO" descripcion="BRITISH INDIAN OCEAN TERRITORY"/>
+  <pais codigo="IQ" descripcion="IRAQ"/>
+  <pais codigo="IR" descripcion="IRAN, ISLAMIC REPUBLIC OF"/>
+  <pais codigo="IS" descripcion="ICELAND"/>
+  <pais codigo="IT" descripcion="ITALY"/>
+  <pais codigo="JE" descripcion="JERSEY"/>
+  <pais codigo="JM" descripcion="JAMAICA"/>
+  <pais codigo="JO" descripcion="JORDAN"/>
+  <pais codigo="JP" descripcion="JAPAN"/>
+  <pais codigo="KE" descripcion="KENYA"/>
+  <pais codigo="KG" descripcion="KYRGYZSTAN"/>
+  <pais codigo="KH" descripcion="CAMBODIA"/>
+  <pais codigo="KI" descripcion="KIRIBATI"/>
+  <pais codigo="KM" descripcion="COMOROS"/>
+  <pais codigo="KN" descripcion="SAINT KITTS AND NEVIS"/>
+  <pais codigo="KP" descripcion="KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF"/>
+  <pais codigo="KR" descripcion="KOREA, REPUBLIC OF"/>
+  <pais codigo="KW" descripcion="KUWAIT"/>
+  <pais codigo="KY" descripcion="CAYMAN ISLANDS"/>
+  <pais codigo="KZ" descripcion="KAZAKHSTAN"/>
+  <pais codigo="LA" descripcion="LAO PEOPLE'S DEMOCRATIC REPUBLIC"/>
+  <pais codigo="LB" descripcion="LEBANON"/>
+  <pais codigo="LC" descripcion="SAINT LUCIA"/>
+  <pais codigo="LI" descripcion="LIECHTENSTEIN"/>
+  <pais codigo="LK" descripcion="SRI LANKA"/>
+  <pais codigo="LR" descripcion="LIBERIA"/>
+  <pais codigo="LS" descripcion="LESOTHO"/>
+  <pais codigo="LT" descripcion="LITHUANIA"/>
+  <pais codigo="LU" descripcion="LUXEMBOURG"/>
+  <pais codigo="LV" descripcion="LATVIA"/>
+  <pais codigo="LY" descripcion="LIBYAN ARAB JAMAHIRIYA"/>
+  <pais codigo="MA" descripcion="MOROCCO"/>
+  <pais codigo="MC" descripcion="MONACO"/>
+  <pais codigo="MD" descripcion="MOLDOVA"/>
+  <pais codigo="ME" descripcion="MONTENEGRO"/>
+  <pais codigo="MF" descripcion="SAINT MARTIN"/>
+  <pais codigo="MG" descripcion="MADAGASCAR"/>
+  <pais codigo="MH" descripcion="MARSHALL ISLANDS"/>
+  <pais codigo="MK" descripcion="MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF"/>
+  <pais codigo="ML" descripcion="MALI"/>
+  <pais codigo="MM" descripcion="MYANMAR"/>
+  <pais codigo="MN" descripcion="MONGOLIA"/>
+  <pais codigo="MO" descripcion="MACAO"/>
+  <pais codigo="MP" descripcion="NORTHERN MARIANA ISLANDS"/>
+  <pais codigo="MQ" descripcion="MARTINIQUE"/>
+  <pais codigo="MR" descripcion="MAURITANIA"/>
+  <pais codigo="MS" descripcion="MONTSERRAT"/>
+  <pais codigo="MT" descripcion="MALTA"/>
+  <pais codigo="MU" descripcion="MAURITIUS"/>
+  <pais codigo="MV" descripcion="MALDIVES"/>
+  <pais codigo="MW" descripcion="MALAWI"/>
+  <pais codigo="MX" descripcion="MEXICO"/>
+  <pais codigo="MY" descripcion="MALAYSIA"/>
+  <pais codigo="MZ" descripcion="MOZAMBIQUE"/>
+  <pais codigo="NA" descripcion="NAMIBIA"/>
+  <pais codigo="NC" descripcion="NEW CALEDONIA"/>
+  <pais codigo="NE" descripcion="NIGER"/>
+  <pais codigo="NF" descripcion="NORFOLK ISLAND"/>
+  <pais codigo="NG" descripcion="NIGERIA"/>
+  <pais codigo="NI" descripcion="NICARAGUA"/>
+  <pais codigo="NL" descripcion="NETHERLANDS"/>
+  <pais codigo="NO" descripcion="NORWAY"/>
+  <pais codigo="NP" descripcion="NEPAL"/>
+  <pais codigo="NR" descripcion="NAURU"/>
+  <pais codigo="NU" descripcion="NIUE"/>
+  <pais codigo="NZ" descripcion="NEW ZEALAND"/>
+  <pais codigo="OM" descripcion="OMAN"/>
+  <pais codigo="PA" descripcion="PANAMA"/>
+  <pais codigo="PE" descripcion="PERU"/>
+  <pais codigo="PF" descripcion="FRENCH POLYNESIA"/>
+  <pais codigo="PG" descripcion="PAPUA NEW GUINEA"/>
+  <pais codigo="PH" descripcion="PHILIPPINES"/>
+  <pais codigo="PK" descripcion="PAKISTAN"/>
+  <pais codigo="PL" descripcion="POLAND"/>
+  <pais codigo="PM" descripcion="SAINT PIERRE AND MIQUELON"/>
+  <pais codigo="PN" descripcion="PITCAIRN"/>
+  <pais codigo="PR" descripcion="PUERTO RICO"/>
+  <pais codigo="PS" descripcion="PALESTINIAN TERRITORY, OCCUPIED"/>
+  <pais codigo="PT" descripcion="PORTUGAL"/>
+  <pais codigo="PW" descripcion="PALAU"/>
+  <pais codigo="PY" descripcion="PARAGUAY"/>
+  <pais codigo="QA" descripcion="QATAR"/>
+  <pais codigo="RE" descripcion="RÉUNION"/>
+  <pais codigo="RO" descripcion="ROMANIA"/>
+  <pais codigo="RS" descripcion="SERBIA"/>
+  <pais codigo="RU" descripcion="RUSSIAN FEDERATION"/>
+  <pais codigo="RW" descripcion="RWANDA"/>
+  <pais codigo="SA" descripcion="SAUDI ARABIA"/>
+  <pais codigo="SB" descripcion="SOLOMON ISLANDS"/>
+  <pais codigo="SC" descripcion="SEYCHELLES"/>
+  <pais codigo="SD" descripcion="SUDAN"/>
+  <pais codigo="SE" descripcion="SWEDEN"/>
+  <pais codigo="SG" descripcion="SINGAPORE"/>
+  <pais codigo="SH" descripcion="SAINT HELENA"/>
+  <pais codigo="SI" descripcion="SLOVENIA"/>
+  <pais codigo="SJ" descripcion="SVALBARD AND JAN MAYEN"/>
+  <pais codigo="SK" descripcion="SLOVAKIA"/>
+  <pais codigo="SL" descripcion="SIERRA LEONE"/>
+  <pais codigo="SM" descripcion="SAN MARINO"/>
+  <pais codigo="SN" descripcion="SENEGAL"/>
+  <pais codigo="SO" descripcion="SOMALIA"/>
+  <pais codigo="SR" descripcion="SURINAME"/>
+  <pais codigo="ST" descripcion="SAO TOME AND PRINCIPE"/>
+  <pais codigo="SV" descripcion="EL SALVADOR"/>
+  <pais codigo="SY" descripcion="SYRIAN ARAB REPUBLIC"/>
+  <pais codigo="SZ" descripcion="SWAZILAND"/>
+  <pais codigo="TC" descripcion="TURKS AND CAICOS ISLANDS"/>
+  <pais codigo="TD" descripcion="CHAD"/>
+  <pais codigo="TF" descripcion="FRENCH SOUTHERN TERRITORIES"/>
+  <pais codigo="TG" descripcion="TOGO"/>
+  <pais codigo="TH" descripcion="THAILAND"/>
+  <pais codigo="TJ" descripcion="TAJIKISTAN"/>
+  <pais codigo="TK" descripcion="TOKELAU"/>
+  <pais codigo="TL" descripcion="TIMOR-LESTE"/>
+  <pais codigo="TM" descripcion="TURKMENISTAN"/>
+  <pais codigo="TN" descripcion="TUNISIA"/>
+  <pais codigo="TO" descripcion="TONGA"/>
+  <pais codigo="TR" descripcion="TURKEY"/>
+  <pais codigo="TT" descripcion="TRINIDAD AND TOBAGO"/>
+  <pais codigo="TV" descripcion="TUVALU"/>
+  <pais codigo="TW" descripcion="TAIWAN, PROVINCE OF CHINA"/>
+  <pais codigo="TZ" descripcion="TANZANIA, UNITED REPUBLIC OF"/>
+  <pais codigo="UA" descripcion="UKRAINE"/>
+  <pais codigo="UG" descripcion="UGANDA"/>
+  <pais codigo="UM" descripcion="UNITED STATES MINOR OUTLYING ISLANDS"/>
+  <pais codigo="US" descripcion="UNITED STATES"/>
+  <pais codigo="UY" descripcion="URUGUAY"/>
+  <pais codigo="UZ" descripcion="UZBEKISTAN"/>
+  <pais codigo="VA" descripcion="HOLY SEE (VATICAN CITY STATE)"/>
+  <pais codigo="VC" descripcion="SAINT VINCENT AND THE GRENADINES"/>
+  <pais codigo="VE" descripcion="VENEZUELA"/>
+  <pais codigo="VG" descripcion="VIRGIN ISLANDS, BRITISH"/>
+  <pais codigo="VI" descripcion="VIRGIN ISLANDS, U.S."/>
+  <pais codigo="VN" descripcion="VIET NAM"/>
+  <pais codigo="VU" descripcion="VANUATU"/>
+  <pais codigo="WF" descripcion="WALLIS AND FUTUNA"/>
+  <pais codigo="WS" descripcion="SAMOA"/>
+  <pais codigo="YE" descripcion="YEMEN"/>
+  <pais codigo="YT" descripcion="MAYOTTE"/>
+  <pais codigo="ZA" descripcion="SOUTH AFRICA"/>
+  <pais codigo="ZM" descripcion="ZAMBIA"/>
+  <pais codigo="ZW" descripcion="ZIMBABWE"/>
+</ISO3166>

@@ -1,0 +1,60 @@
+﻿<Window x:Class="BataGeneraPDF.Principal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BataGeneraPDF"
+        mc:Ignorable="d"
+        Title="Generador de [PDF,XML,CDR]" Height="250" Width="483.871" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" Icon="pdfcreador.ico" >
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                
+            </Grid.ColumnDefinitions>
+            <Button Name="btngenerapdf" Background="Transparent"  Grid.Row="0" Grid.Column="0" Height="86" Width="200" HorizontalAlignment="Center" VerticalAlignment="Center" Cursor="Hand" Click="btngenerapdf_Click" >
+                <!--<Button.ToolTip>
+                    <ToolTip>
+                        <StackPanel>
+                            <TextBlock FontWeight="Bold" TextAlignment="Left" >Clientes</TextBlock>
+                            <TextBlock>Consulta de clientes por dni o ruc.</TextBlock>
+                            <TextBlock>No lo presione hasta estar seguro de abrir la ventana.</TextBlock>
+                        </StackPanel>
+                    </ToolTip>
+                </Button.ToolTip>-->
+                <Grid Width="210" Margin="0,0,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="7*" />
+                        <ColumnDefinition Width="59*" />
+                    </Grid.ColumnDefinitions>
+                    <Image Margin="0,0,0,0" Source="imagespdf.jpg" Width="32" HorizontalAlignment="Left" Grid.ColumnSpan="2"></Image>
+                    <TextBlock Text="GENERADOR PDF" VerticalAlignment="Center" FontWeight="Bold" FontSize="14"
+                                          HorizontalAlignment="Right" Margin="0,5,10,0" Grid.Column="1" Width="168"/>
+
+                </Grid>
+            </Button>
+            <Button Name="btngeneraxml" Background="Transparent"  Grid.Row="0" Grid.Column="1" Height="86" Width="200" HorizontalAlignment="Center" VerticalAlignment="Center" Cursor="Hand" Click="btngeneraxml_Click" >
+                <!--<Button.ToolTip>
+                    <ToolTip>
+                        <StackPanel>
+                            <TextBlock FontWeight="Bold" TextAlignment="Left" >Clientes</TextBlock>
+                            <TextBlock>Consulta de clientes por dni o ruc.</TextBlock>
+                            <TextBlock>No lo presione hasta estar seguro de abrir la ventana.</TextBlock>
+                        </StackPanel>
+                    </ToolTip>
+                </Button.ToolTip>-->
+                <Grid Width="210" Margin="0,0,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="7*" />
+                        <ColumnDefinition Width="59*" />
+                    </Grid.ColumnDefinitions>
+                    <Image Margin="0,0,0,0"  Width="32" HorizontalAlignment="Left" Grid.ColumnSpan="2" Source="xmlimg.png"></Image>
+                    <TextBlock Text="GENERADOR XML" VerticalAlignment="Center" FontWeight="Bold" FontSize="14"
+                                          HorizontalAlignment="Right" Margin="0,5,10,0" Grid.Column="1" Width="168"/>
+
+                </Grid>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>

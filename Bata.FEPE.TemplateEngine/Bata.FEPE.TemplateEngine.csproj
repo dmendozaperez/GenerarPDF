@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B644C8B4-B159-441B-B860-D5CB54651BEB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bata.FEPE.TemplateEngine</RootNamespace>
+    <AssemblyName>Bata.FEPE.TemplateEngine</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common">
+      <HintPath>C:\Users\DM\Desktop\PDFGenerator\Carvajal.FEPE\ABCPDF\Carvajal.FEPE.TemplateEngine\lib\Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\CompiledTemplate.cs" />
+    <Compile Include="Services\CompiledTemplateFactory.cs" />
+    <Compile Include="Services\TemplateCacheManager.cs" />
+    <Compile Include="Support\IO\DirectoryNames.cs" />
+    <Compile Include="Support\IO\FileNamesPatterns.cs" />
+    <Compile Include="Support\IO\FileUtilities.cs" />
+    <Compile Include="Support\Preprocessor\DescriptionTextPreprocessor.cs" />
+    <Compile Include="Support\Preprocessor\DescriptionWordsPreprocessor.cs" />
+    <Compile Include="Support\Preprocessor\IPaymentReceiptPreprocessor.cs" />
+    <Compile Include="Support\Preprocessor\NoPreprocessing.cs" />
+    <Compile Include="Support\Preprocessor\PaymentReceiptAdjustmentTypes.cs" />
+    <Compile Include="Support\Preprocessor\PaymentReceiptAdjustmentXPaths.cs" />
+    <Compile Include="Support\Preprocessor\PaymentReceiptPreprocessorFactory.cs" />
+    <Compile Include="Support\Sunat\PaymentReceiptTypeCodes.cs" />
+    <Compile Include="Support\Sunat\SunatBarcode.cs" />
+    <Compile Include="Support\Sunat\SunatBarcodeFactory.cs" />
+    <Compile Include="Support\Sunat\SunatBarcodeFieldsXPaths.cs" />
+    <Compile Include="Support\TemplatePageSizes.cs" />
+    <Compile Include="Support\TemplateParametersNames.cs" />
+    <Compile Include="Support\TemplateSettings.cs" />
+    <Compile Include="Support\TemplateSettingsReader.cs" />
+    <Compile Include="Support\TemplateSettingsXPaths.cs" />
+    <Compile Include="Support\TemplateXmlUrlResolver.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bata.FEPE.TemplateEngine.ABCpdf\Bata.FEPE.TemplateEngine.ABCpdf.csproj">
+      <Project>{4800af34-7430-4839-a4a2-5325dccccc74}</Project>
+      <Name>Bata.FEPE.TemplateEngine.ABCpdf</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bata.FEPE.TemplateEngine.PDF417Lib\Bata.FEPE.TemplateEngine.PDF417Lib.csproj">
+      <Project>{972d46ae-5543-4235-87b6-0d071b8d79ea}</Project>
+      <Name>Bata.FEPE.TemplateEngine.PDF417Lib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

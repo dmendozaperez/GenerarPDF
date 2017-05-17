@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UBL_T_Descuentos_Cargos>
+  <descuento-cargo codigo="59" descripcion="Diferencia o ajustes a cargos realizados a ítems"/>
+  <descuento-cargo codigo="68" descripcion="Descuento por pronto pago"/>
+  <descuento-cargo codigo="73" descripcion="Diferencia o Ajuste en Tributos"/>
+  <descuento-cargo codigo="75" descripcion="Descuento por Promoción"/>
+  <descuento-cargo codigo="77" descripcion="Descuento por importe"/>
+  <descuento-cargo codigo="78" descripcion="Descuento por Volumen"/>
+</UBL_T_Descuentos_Cargos>

@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ECFB0883-4E30-4DFB-8E56-8DC76F582990}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>www.facturas.electronica.com</RootNamespace>
+    <AssemblyName>www.facturas.electronica.com</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <ApplicationInsightsResourceId />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bata.FEPE.TemplateEngine">
+      <HintPath>..\BataGeneraPDF\bin\Debug\Bata.FEPE.TemplateEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Bata.FEPE.TemplateEngine.ABCpdf">
+      <HintPath>..\BataGeneraPDF\bin\Debug\Bata.FEPE.TemplateEngine.ABCpdf.dll</HintPath>
+    </Reference>
+    <Reference Include="Bata.FEPE.TemplateEngine.PDF417Lib">
+      <HintPath>..\BataGeneraPDF\bin\Debug\Bata.FEPE.TemplateEngine.PDF417Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="Common">
+      <HintPath>..\BataGeneraPDF\bin\Debug\Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="NReco.PdfGenerator">
+      <HintPath>..\BataGeneraPDF\bin\Debug\NReco.PdfGenerator.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Download_PDF.aspx" />
+    <Content Include="ReferenceData\INEI.xslt" />
+    <Content Include="ReferenceData\INEI_Departamentos.xml" />
+    <Content Include="ReferenceData\INEI_Distritos.xml" />
+    <Content Include="ReferenceData\INEI_Provincias.xml" />
+    <Content Include="ReferenceData\ISO.xslt" />
+    <Content Include="ReferenceData\ISO3166.xml" />
+    <Content Include="ReferenceData\ISO4217.xml" />
+    <Content Include="ReferenceData\SUNAT_DOCUMENTOS.xslt" />
+    <Content Include="ReferenceData\SUNAT_TRIBUTOS.xslt" />
+    <Content Include="ReferenceData\SUNAT_T_Afectacion_IGV.xml" />
+    <Content Include="ReferenceData\SUNAT_T_Documentos.xml" />
+    <Content Include="ReferenceData\SUNAT_T_Documentos_Identidad.xml" />
+    <Content Include="ReferenceData\SUNAT_T_Documentos_Relacionados.xml" />
+    <Content Include="ReferenceData\SUNAT_T_Elementos_Adicionales.xml" />
+    <Content Include="ReferenceData\SUNAT_T_Notas.xml" />
+    <Content Include="ReferenceData\SUNAT_T_Otros_Conceptos_Tributarios.xml" />
+    <Content Include="ReferenceData\SUNAT_T_Precio_Venta.xml" />
+    <Content Include="ReferenceData\SUNAT_T_Sis_Calculo_ISC.xml" />
+    <Content Include="ReferenceData\SUNAT_T_Tributos.xml" />
+    <Content Include="ReferenceData\SUNAT_T_Valor_Venta.xml" />
+    <Content Include="ReferenceData\UBL.xslt" />
+    <Content Include="ReferenceData\UBL_T_Categorias_Tributos.xml" />
+    <Content Include="ReferenceData\UBL_T_Descuentos_Cargos.xml" />
+    <Content Include="ReferenceData\UNECE.xslt" />
+    <Content Include="ReferenceData\UNECE_T_Unidad_Medida.xml" />
+    <Content Include="Web.config" />
+    <Content Include="XSLT\BO.xslt" />
+    <Content Include="XSLT\BO_BO.xslt" />
+    <Content Include="XSLT\FA.xslt" />
+    <Content Include="XSLT\FA_FA.xslt" />
+    <Content Include="XSLT\NC.xslt" />
+    <Content Include="XSLT\NC_NC.xslt" />
+    <Content Include="XSLT\ND.xslt" />
+    <Content Include="XSLT\ND_ND.xslt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bll\Basico.cs" />
+    <Compile Include="Download_PDF.aspx.cs">
+      <DependentUpon>Download_PDF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Download_PDF.aspx.designer.cs">
+      <DependentUpon>Download_PDF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\GeneraPDF_Web.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Descargar\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>21396</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:21396/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,1837 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<INEI_Distritos>
+  <distrito codigo="010101" descripcion="CHACHAPOYAS"/>
+  <distrito codigo="010102" descripcion="ASUNCION"/>
+  <distrito codigo="010103" descripcion="BALSAS"/>
+  <distrito codigo="010104" descripcion="CHETO"/>
+  <distrito codigo="010105" descripcion="CHILIQUIN"/>
+  <distrito codigo="010106" descripcion="CHUQUIBAMBA"/>
+  <distrito codigo="010107" descripcion="GRANADA"/>
+  <distrito codigo="010108" descripcion="HUANCAS"/>
+  <distrito codigo="010109" descripcion="LA JALCA"/>
+  <distrito codigo="010110" descripcion="LEIMEBAMBA"/>
+  <distrito codigo="010111" descripcion="LEVANTO"/>
+  <distrito codigo="010112" descripcion="MAGDALENA"/>
+  <distrito codigo="010113" descripcion="MARISCAL CASTILLA"/>
+  <distrito codigo="010114" descripcion="MOLINOPAMPA"/>
+  <distrito codigo="010115" descripcion="MONTEVIDEO"/>
+  <distrito codigo="010116" descripcion="OLLEROS"/>
+  <distrito codigo="010117" descripcion="QUINJALCA"/>
+  <distrito codigo="010118" descripcion="SAN FRANCISCO DE DAGUAS"/>
+  <distrito codigo="010119" descripcion="SAN ISIDRO DE MAINO"/>
+  <distrito codigo="010120" descripcion="SOLOCO"/>
+  <distrito codigo="010121" descripcion="SONCHE"/>
+  <distrito codigo="010201" descripcion="BAGUA"/>
+  <distrito codigo="010202" descripcion="ARAMANGO"/>
+  <distrito codigo="010203" descripcion="COPALLIN"/>
+  <distrito codigo="010204" descripcion="EL PARCO"/>
+  <distrito codigo="010205" descripcion="IMAZA"/>
+  <distrito codigo="010206" descripcion="LA PECA"/>
+  <distrito codigo="010301" descripcion="JUMBILLA"/>
+  <distrito codigo="010302" descripcion="CHISQUILLA"/>
+  <distrito codigo="010303" descripcion="CHURUJA"/>
+  <distrito codigo="010304" descripcion="COROSHA"/>
+  <distrito codigo="010305" descripcion="CUISPES"/>
+  <distrito codigo="010306" descripcion="FLORIDA"/>
+  <distrito codigo="010307" descripcion="JAZAN"/>
+  <distrito codigo="010308" descripcion="RECTA"/>
+  <distrito codigo="010309" descripcion="SAN CARLOS"/>
+  <distrito codigo="010310" descripcion="SHIPASBAMBA"/>
+  <distrito codigo="010311" descripcion="VALERA"/>
+  <distrito codigo="010312" descripcion="YAMBRASBAMBA"/>
+  <distrito codigo="010401" descripcion="NIEVA"/>
+  <distrito codigo="010402" descripcion="EL CENEPA"/>
+  <distrito codigo="010403" descripcion="RIO SANTIAGO"/>
+  <distrito codigo="010501" descripcion="LAMUD"/>
+  <distrito codigo="010502" descripcion="CAMPORREDONDO"/>
+  <distrito codigo="010503" descripcion="COCABAMBA"/>
+  <distrito codigo="010504" descripcion="COLCAMAR"/>
+  <distrito codigo="010505" descripcion="CONILA"/>
+  <distrito codigo="010506" descripcion="INGUILPATA"/>
+  <distrito codigo="010507" descripcion="LONGUITA"/>
+  <distrito codigo="010508" descripcion="LONYA CHICO"/>
+  <distrito codigo="010509" descripcion="LUYA"/>
+  <distrito codigo="010510" descripcion="LUYA VIEJO"/>
+  <distrito codigo="010511" descripcion="MARIA"/>
+  <distrito codigo="010512" descripcion="OCALLI"/>
+  <distrito codigo="010513" descripcion="OCUMAL"/>
+  <distrito codigo="010514" descripcion="PISUQUIA"/>
+  <distrito codigo="010515" descripcion="PROVIDENCIA"/>
+  <distrito codigo="010516" descripcion="SAN CRISTOBAL"/>
+  <distrito codigo="010517" descripcion="SAN FRANCISCO DEL YESO"/>
+  <distrito codigo="010518" descripcion="SAN JERONIMO"/>
+  <distrito codigo="010519" descripcion="SAN JUAN DE LOPECANCHA"/>
+  <distrito codigo="010520" descripcion="SANTA CATALINA"/>
+  <distrito codigo="010521" descripcion="SANTO TOMAS"/>
+  <distrito codigo="010522" descripcion="TINGO"/>
+  <distrito codigo="010523" descripcion="TRITA"/>
+  <distrito codigo="010601" descripcion="SAN NICOLAS"/>
+  <distrito codigo="010602" descripcion="CHIRIMOTO"/>
+  <distrito codigo="010603" descripcion="COCHAMAL"/>
+  <distrito codigo="010604" descripcion="HUAMBO"/>
+  <distrito codigo="010605" descripcion="LIMABAMBA"/>
+  <distrito codigo="010606" descripcion="LONGAR"/>
+  <distrito codigo="010607" descripcion="MARISCAL BENAVIDES"/>
+  <distrito codigo="010608" descripcion="MILPUC"/>
+  <distrito codigo="010609" descripcion="OMIA"/>
+  <distrito codigo="010610" descripcion="SANTA ROSA"/>
+  <distrito codigo="010611" descripcion="TOTORA"/>
+  <distrito codigo="010612" descripcion="VISTA ALEGRE"/>
+  <distrito codigo="010701" descripcion="BAGUA GRANDE"/>
+  <distrito codigo="010702" descripcion="CAJARURO"/>
+  <distrito codigo="010703" descripcion="CUMBA"/>
+  <distrito codigo="010704" descripcion="EL MILAGRO"/>
+  <distrito codigo="010705" descripcion="JAMALCA"/>
+  <distrito codigo="010706" descripcion="LONYA GRANDE"/>
+  <distrito codigo="010707" descripcion="YAMON"/>
+  <distrito codigo="020101" descripcion="HUARAZ"/>
+  <distrito codigo="020102" descripcion="COCHABAMBA"/>
+  <distrito codigo="020103" descripcion="COLCABAMBA"/>
+  <distrito codigo="020104" descripcion="HUANCHAY"/>
+  <distrito codigo="020105" descripcion="INDEPENDENCIA"/>
+  <distrito codigo="020106" descripcion="JANGAS"/>
+  <distrito codigo="020107" descripcion="LA LIBERTAD"/>
+  <distrito codigo="020108" descripcion="OLLEROS"/>
+  <distrito codigo="020109" descripcion="PAMPAS"/>
+  <distrito codigo="020110" descripcion="PARIACOTO"/>
+  <distrito codigo="020111" descripcion="PIRA"/>
+  <distrito codigo="020112" descripcion="TARICA"/>
+  <distrito codigo="020201" descripcion="AIJA"/>
+  <distrito codigo="020202" descripcion="CORIS"/>
+  <distrito codigo="020203" descripcion="HUACLLAN"/>
+  <distrito codigo="020204" descripcion="LA MERCED"/>
+  <distrito codigo="020205" descripcion="SUCCHA"/>
+  <distrito codigo="020301" descripcion="LLAMELLIN"/>
+  <distrito codigo="020302" descripcion="ACZO"/>
+  <distrito codigo="020303" descripcion="CHACCHO"/>
+  <distrito codigo="020304" descripcion="CHINGAS"/>
+  <distrito codigo="020305" descripcion="MIRGAS"/>
+  <distrito codigo="020306" descripcion="SAN JUAN DE RONTOY"/>
+  <distrito codigo="020401" descripcion="CHACAS"/>
+  <distrito codigo="020402" descripcion="ACOCHACA"/>
+  <distrito codigo="020501" descripcion="CHIQUIAN"/>
+  <distrito codigo="020502" descripcion="ABELARDO PARDO LEZAMETA"/>
+  <distrito codigo="020503" descripcion="ANTONIO RAYMONDI"/>
+  <distrito codigo="020504" descripcion="AQUIA"/>
+  <distrito codigo="020505" descripcion="CAJACAY"/>
+  <distrito codigo="020506" descripcion="CANIS"/>
+  <distrito codigo="020507" descripcion="COLQUIOC"/>
+  <distrito codigo="020508" descripcion="HUALLANCA"/>
+  <distrito codigo="020509" descripcion="HUASTA"/>
+  <distrito codigo="020510" descripcion="HUAYLLACAYAN"/>
+  <distrito codigo="020511" descripcion="LA PRIMAVERA"/>
+  <distrito codigo="020512" descripcion="MANGAS"/>
+  <distrito codigo="020513" descripcion="PACLLON"/>
+  <distrito codigo="020514" descripcion="SAN MIGUEL DE CORPANQUI"/>
+  <distrito codigo="020515" descripcion="TICLLOS"/>
+  <distrito codigo="020601" descripcion="CARHUAZ"/>
+  <distrito codigo="020602" descripcion="ACOPAMPA"/>
+  <distrito codigo="020603" descripcion="AMASHCA"/>
+  <distrito codigo="020604" descripcion="ANTA"/>
+  <distrito codigo="020605" descripcion="ATAQUERO"/>
+  <distrito codigo="020606" descripcion="MARCARA"/>
+  <distrito codigo="020607" descripcion="PARIAHUANCA"/>
+  <distrito codigo="020608" descripcion="SAN MIGUEL DE ACO"/>
+  <distrito codigo="020609" descripcion="SHILLA"/>
+  <distrito codigo="020610" descripcion="TINCO"/>
+  <distrito codigo="020611" descripcion="YUNGAR"/>
+  <distrito codigo="020701" descripcion="SAN LUIS"/>
+  <distrito codigo="020702" descripcion="SAN NICOLAS"/>
+  <distrito codigo="020703" descripcion="YAUYA"/>
+  <distrito codigo="020801" descripcion="CASMA"/>
+  <distrito codigo="020802" descripcion="BUENA VISTA ALTA"/>
+  <distrito codigo="020803" descripcion="COMANDANTE NOEL"/>
+  <distrito codigo="020804" descripcion="YAUTAN"/>
+  <distrito codigo="020901" descripcion="CORONGO"/>
+  <distrito codigo="020902" descripcion="ACO"/>
+  <distrito codigo="020903" descripcion="BAMBAS"/>
+  <distrito codigo="020904" descripcion="CUSCA"/>
+  <distrito codigo="020905" descripcion="LA PAMPA"/>
+  <distrito codigo="020906" descripcion="YANAC"/>
+  <distrito codigo="020907" descripcion="YUPAN"/>
+  <distrito codigo="021001" descripcion="HUARI"/>
+  <distrito codigo="021002" descripcion="ANRA"/>
+  <distrito codigo="021003" descripcion="CAJAY"/>
+  <distrito codigo="021004" descripcion="CHAVIN DE HUANTAR"/>
+  <distrito codigo="021005" descripcion="HUACACHI"/>
+  <distrito codigo="021006" descripcion="HUACCHIS"/>
+  <distrito codigo="021007" descripcion="HUACHIS"/>
+  <distrito codigo="021008" descripcion="HUANTAR"/>
+  <distrito codigo="021009" descripcion="MASIN"/>
+  <distrito codigo="021010" descripcion="PAUCAS"/>
+  <distrito codigo="021011" descripcion="PONTO"/>
+  <distrito codigo="021012" descripcion="RAHUAPAMPA"/>
+  <distrito codigo="021013" descripcion="RAPAYAN"/>
+  <distrito codigo="021014" descripcion="SAN MARCOS"/>
+  <distrito codigo="021015" descripcion="SAN PEDRO DE CHANA"/>
+  <distrito codigo="021016" descripcion="UCO"/>
+  <distrito codigo="021101" descripcion="HUARMEY"/>
+  <distrito codigo="021102" descripcion="COCHAPETI"/>
+  <distrito codigo="021103" descripcion="CULEBRAS"/>
+  <distrito codigo="021104" descripcion="HUAYAN"/>
+  <distrito codigo="021105" descripcion="MALVAS"/>
+  <distrito codigo="021201" descripcion="CARAZ"/>
+  <distrito codigo="021202" descripcion="HUALLANCA"/>
+  <distrito codigo="021203" descripcion="HUATA"/>
+  <distrito codigo="021204" descripcion="HUAYLAS"/>
+  <distrito codigo="021205" descripcion="MATO"/>
+  <distrito codigo="021206" descripcion="PAMPAROMAS"/>
+  <distrito codigo="021207" descripcion="PUEBLO LIBRE"/>
+  <distrito codigo="021208" descripcion="SANTA CRUZ"/>
+  <distrito codigo="021209" descripcion="SANTO TORIBIO"/>
+  <distrito codigo="021210" descripcion="YURACMARCA"/>
+  <distrito codigo="021301" descripcion="PISCOBAMBA"/>
+  <distrito codigo="021302" descripcion="CASCA"/>
+  <distrito codigo="021303" descripcion="ELEAZAR GUZMAN BARRON"/>
+  <distrito codigo="021304" descripcion="FIDEL OLIVAS ESCUDERO"/>
+  <distrito codigo="021305" descripcion="LLAMA"/>
+  <distrito codigo="021306" descripcion="LLUMPA"/>
+  <distrito codigo="021307" descripcion="LUCMA"/>
+  <distrito codigo="021308" descripcion="MUSGA"/>
+  <distrito codigo="021401" descripcion="OCROS"/>
+  <distrito codigo="021402" descripcion="ACAS"/>
+  <distrito codigo="021403" descripcion="CAJAMARQUILLA"/>
+  <distrito codigo="021404" descripcion="CARHUAPAMPA"/>
+  <distrito codigo="021405" descripcion="COCHAS"/>
+  <distrito codigo="021406" descripcion="CONGAS"/>
+  <distrito codigo="021407" descripcion="LLIPA"/>
+  <distrito codigo="021408" descripcion="SAN CRISTOBAL DE RAJAN"/>
+  <distrito codigo="021409" descripcion="SAN PEDRO"/>
+  <distrito codigo="021410" descripcion="SANTIAGO DE CHILCAS"/>
+  <distrito codigo="021501" descripcion="CABANA"/>
+  <distrito codigo="021502" descripcion="BOLOGNESI"/>
+  <distrito codigo="021503" descripcion="CONCHUCOS"/>
+  <distrito codigo="021504" descripcion="HUACASCHUQUE"/>
+  <distrito codigo="021505" descripcion="HUANDOVAL"/>
+  <distrito codigo="021506" descripcion="LACABAMBA"/>
+  <distrito codigo="021507" descripcion="LLAPO"/>
+  <distrito codigo="021508" descripcion="PALLASCA"/>
+  <distrito codigo="021509" descripcion="PAMPAS"/>
+  <distrito codigo="021510" descripcion="SANTA ROSA"/>
+  <distrito codigo="021511" descripcion="TAUCA"/>
+  <distrito codigo="021601" descripcion="POMABAMBA"/>
+  <distrito codigo="021602" descripcion="HUAYLLAN"/>
+  <distrito codigo="021603" descripcion="PAROBAMBA"/>
+  <distrito codigo="021604" descripcion="QUINUABAMBA"/>
+  <distrito codigo="021701" descripcion="RECUAY"/>
+  <distrito codigo="021702" descripcion="CATAC"/>
+  <distrito codigo="021703" descripcion="COTAPARACO"/>
+  <distrito codigo="021704" descripcion="HUAYLLAPAMPA"/>
+  <distrito codigo="021705" descripcion="LLACLLIN"/>
+  <distrito codigo="021706" descripcion="MARCA"/>
+  <distrito codigo="021707" descripcion="PAMPAS CHICO"/>
+  <distrito codigo="021708" descripcion="PARARIN"/>
+  <distrito codigo="021709" descripcion="TAPACOCHA"/>
+  <distrito codigo="021710" descripcion="TICAPAMPA"/>
+  <distrito codigo="021801" descripcion="CHIMBOTE"/>
+  <distrito codigo="021802" descripcion="CACERES DEL PERU"/>
+  <distrito codigo="021803" descripcion="COISHCO"/>
+  <distrito codigo="021804" descripcion="MACATE"/>
+  <distrito codigo="021805" descripcion="MORO"/>
+  <distrito codigo="021806" descripcion="NEPEÑA"/>
+  <distrito codigo="021807" descripcion="SAMANCO"/>
+  <distrito codigo="021808" descripcion="SANTA"/>
+  <distrito codigo="021809" descripcion="NUEVO CHIMBOTE"/>
+  <distrito codigo="021901" descripcion="SIHUAS"/>
+  <distrito codigo="021902" descripcion="ACOBAMBA"/>
+  <distrito codigo="021903" descripcion="ALFONSO UGARTE"/>
+  <distrito codigo="021904" descripcion="CASHAPAMPA"/>
+  <distrito codigo="021905" descripcion="CHINGALPO"/>
+  <distrito codigo="021906" descripcion="HUAYLLABAMBA"/>
+  <distrito codigo="021907" descripcion="QUICHES"/>
+  <distrito codigo="021908" descripcion="RAGASH"/>
+  <distrito codigo="021909" descripcion="SAN JUAN"/>
+  <distrito codigo="021910" descripcion="SICSIBAMBA"/>
+  <distrito codigo="022001" descripcion="YUNGAY"/>
+  <distrito codigo="022002" descripcion="CASCAPARA"/>
+  <distrito codigo="022003" descripcion="MANCOS"/>
+  <distrito codigo="022004" descripcion="MATACOTO"/>
+  <distrito codigo="022005" descripcion="QUILLO"/>
+  <distrito codigo="022006" descripcion="RANRAHIRCA"/>
+  <distrito codigo="022007" descripcion="SHUPLUY"/>
+  <distrito codigo="022008" descripcion="YANAMA"/>
+  <distrito codigo="030101" descripcion="ABANCAY"/>
+  <distrito codigo="030102" descripcion="CHACOCHE"/>
+  <distrito codigo="030103" descripcion="CIRCA"/>
+  <distrito codigo="030104" descripcion="CURAHUASI"/>
+  <distrito codigo="030105" descripcion="HUANIPACA"/>
+  <distrito codigo="030106" descripcion="LAMBRAMA"/>
+  <distrito codigo="030107" descripcion="PICHIRHUA"/>
+  <distrito codigo="030108" descripcion="SAN PEDRO DE CACHORA"/>
+  <distrito codigo="030109" descripcion="TAMBURCO"/>
+  <distrito codigo="030201" descripcion="ANDAHUAYLAS"/>
+  <distrito codigo="030202" descripcion="ANDARAPA"/>
+  <distrito codigo="030203" descripcion="CHIARA"/>
+  <distrito codigo="030204" descripcion="HUANCARAMA"/>
+  <distrito codigo="030205" descripcion="HUANCARAY"/>
+  <distrito codigo="030206" descripcion="HUAYANA"/>
+  <distrito codigo="030207" descripcion="KISHUARA"/>
+  <distrito codigo="030208" descripcion="PACOBAMBA"/>
+  <distrito codigo="030209" descripcion="PACUCHA"/>
+  <distrito codigo="030210" descripcion="PAMPACHIRI"/>
+  <distrito codigo="030211" descripcion="POMACOCHA"/>
+  <distrito codigo="030212" descripcion="SAN ANTONIO DE CACHI"/>
+  <distrito codigo="030213" descripcion="SAN JERONIMO"/>
+  <distrito codigo="030214" descripcion="SAN MIGUEL DE CHACCRAMPA"/>
+  <distrito codigo="030215" descripcion="SANTA MARIA DE CHICMO"/>
+  <distrito codigo="030216" descripcion="TALAVERA"/>
+  <distrito codigo="030217" descripcion="TUMAY HUARACA"/>
+  <distrito codigo="030218" descripcion="TURPO"/>
+  <distrito codigo="030219" descripcion="KAQUIABAMBA"/>
+  <distrito codigo="030301" descripcion="ANTABAMBA"/>
+  <distrito codigo="030302" descripcion="EL ORO"/>
+  <distrito codigo="030303" descripcion="HUAQUIRCA"/>
+  <distrito codigo="030304" descripcion="JUAN ESPINOZA MEDRANO"/>
+  <distrito codigo="030305" descripcion="OROPESA"/>
+  <distrito codigo="030306" descripcion="PACHACONAS"/>
+  <distrito codigo="030307" descripcion="SABAINO"/>
+  <distrito codigo="030401" descripcion="CHALHUANCA"/>
+  <distrito codigo="030402" descripcion="CAPAYA"/>
+  <distrito codigo="030403" descripcion="CARAYBAMBA"/>
+  <distrito codigo="030404" descripcion="CHAPIMARCA"/>
+  <distrito codigo="030405" descripcion="COLCABAMBA"/>
+  <distrito codigo="030406" descripcion="COTARUSE"/>
+  <distrito codigo="030407" descripcion="HUAYLLO"/>
+  <distrito codigo="030408" descripcion="JUSTO APU SAHUARAURA"/>
+  <distrito codigo="030409" descripcion="LUCRE"/>
+  <distrito codigo="030410" descripcion="POCOHUANCA"/>
+  <distrito codigo="030411" descripcion="SAN JUAN DE CHACÑA"/>
+  <distrito codigo="030412" descripcion="SAÑAYCA"/>
+  <distrito codigo="030413" descripcion="SORAYA"/>
+  <distrito codigo="030414" descripcion="TAPAIRIHUA"/>
+  <distrito codigo="030415" descripcion="TINTAY"/>
+  <distrito codigo="030416" descripcion="TORAYA"/>
+  <distrito codigo="030417" descripcion="YANACA"/>
+  <distrito codigo="030501" descripcion="TAMBOBAMBA"/>
+  <distrito codigo="030502" descripcion="COTABAMBAS"/>
+  <distrito codigo="030503" descripcion="COYLLURQUI"/>
+  <distrito codigo="030504" descripcion="HAQUIRA"/>
+  <distrito codigo="030505" descripcion="MARA"/>
+  <distrito codigo="030506" descripcion="CHALLHUAHUACHO"/>
+  <distrito codigo="030601" descripcion="CHINCHEROS"/>
+  <distrito codigo="030602" descripcion="ANCO_HUALLO"/>
+  <distrito codigo="030603" descripcion="COCHARCAS"/>
+  <distrito codigo="030604" descripcion="HUACCANA"/>
+  <distrito codigo="030605" descripcion="OCOBAMBA"/>
+  <distrito codigo="030606" descripcion="ONGOY"/>
+  <distrito codigo="030607" descripcion="URANMARCA"/>
+  <distrito codigo="030608" descripcion="RANRACANCHA"/>
+  <distrito codigo="030701" descripcion="CHUQUIBAMBILLA"/>
+  <distrito codigo="030702" descripcion="CURPAHUASI"/>
+  <distrito codigo="030703" descripcion="GAMARRA"/>
+  <distrito codigo="030704" descripcion="HUAYLLATI"/>
+  <distrito codigo="030705" descripcion="MAMARA"/>
+  <distrito codigo="030706" descripcion="MICAELA BASTIDAS"/>
+  <distrito codigo="030707" descripcion="PATAYPAMPA"/>
+  <distrito codigo="030708" descripcion="PROGRESO"/>
+  <distrito codigo="030709" descripcion="SAN ANTONIO"/>
+  <distrito codigo="030710" descripcion="SANTA ROSA"/>
+  <distrito codigo="030711" descripcion="TURPAY"/>
+  <distrito codigo="030712" descripcion="VILCABAMBA"/>
+  <distrito codigo="030713" descripcion="VIRUNDO"/>
+  <distrito codigo="030714" descripcion="CURASCO"/>
+  <distrito codigo="040101" descripcion="AREQUIPA"/>
+  <distrito codigo="040102" descripcion="ALTO SELVA ALEGRE"/>
+  <distrito codigo="040103" descripcion="CAYMA"/>
+  <distrito codigo="040104" descripcion="CERRO COLORADO"/>
+  <distrito codigo="040105" descripcion="CHARACATO"/>
+  <distrito codigo="040106" descripcion="CHIGUATA"/>
+  <distrito codigo="040107" descripcion="JACOBO HUNTER"/>
+  <distrito codigo="040108" descripcion="LA JOYA"/>
+  <distrito codigo="040109" descripcion="MARIANO MELGAR"/>
+  <distrito codigo="040110" descripcion="MIRAFLORES"/>
+  <distrito codigo="040111" descripcion="MOLLEBAYA"/>
+  <distrito codigo="040112" descripcion="PAUCARPATA"/>
+  <distrito codigo="040113" descripcion="POCSI"/>
+  <distrito codigo="040114" descripcion="POLOBAYA"/>
+  <distrito codigo="040115" descripcion="QUEQUEÑA"/>
+  <distrito codigo="040116" descripcion="SABANDIA"/>
+  <distrito codigo="040117" descripcion="SACHACA"/>
+  <distrito codigo="040118" descripcion="SAN JUAN DE SIGUAS"/>
+  <distrito codigo="040119" descripcion="SAN JUAN DE TARUCANI"/>
+  <distrito codigo="040120" descripcion="SANTA ISABEL DE SIGUAS"/>
+  <distrito codigo="040121" descripcion="SANTA RITA DE SIGUAS"/>
+  <distrito codigo="040122" descripcion="SOCABAYA"/>
+  <distrito codigo="040123" descripcion="TIABAYA"/>
+  <distrito codigo="040124" descripcion="UCHUMAYO"/>
+  <distrito codigo="040125" descripcion="VITOR"/>
+  <distrito codigo="040126" descripcion="YANAHUARA"/>
+  <distrito codigo="040127" descripcion="YARABAMBA"/>
+  <distrito codigo="040128" descripcion="YURA"/>
+  <distrito codigo="040129" descripcion="JOSE LUIS BUSTAMANTE Y RIVERO"/>
+  <distrito codigo="040201" descripcion="CAMANA"/>
+  <distrito codigo="040202" descripcion="JOSE MARIA QUIMPER"/>
+  <distrito codigo="040203" descripcion="MARIANO NICOLAS VALCARCEL"/>
+  <distrito codigo="040204" descripcion="MARISCAL CACERES"/>
+  <distrito codigo="040205" descripcion="NICOLAS DE PIEROLA"/>
+  <distrito codigo="040206" descripcion="OCOÑA"/>
+  <distrito codigo="040207" descripcion="QUILCA"/>
+  <distrito codigo="040208" descripcion="SAMUEL PASTOR"/>
+  <distrito codigo="040301" descripcion="CARAVELI"/>
+  <distrito codigo="040302" descripcion="ACARI"/>
+  <distrito codigo="040303" descripcion="ATICO"/>
+  <distrito codigo="040304" descripcion="ATIQUIPA"/>
+  <distrito codigo="040305" descripcion="BELLA UNION"/>
+  <distrito codigo="040306" descripcion="CAHUACHO"/>
+  <distrito codigo="040307" descripcion="CHALA"/>
+  <distrito codigo="040308" descripcion="CHAPARRA"/>
+  <distrito codigo="040309" descripcion="HUANUHUANU"/>
+  <distrito codigo="040310" descripcion="JAQUI"/>
+  <distrito codigo="040311" descripcion="LOMAS"/>
+  <distrito codigo="040312" descripcion="QUICACHA"/>
+  <distrito codigo="040313" descripcion="YAUCA"/>
+  <distrito codigo="040401" descripcion="APLAO"/>
+  <distrito codigo="040402" descripcion="ANDAGUA"/>
+  <distrito codigo="040403" descripcion="AYO"/>
+  <distrito codigo="040404" descripcion="CHACHAS"/>
+  <distrito codigo="040405" descripcion="CHILCAYMARCA"/>
+  <distrito codigo="040406" descripcion="CHOCO"/>
+  <distrito codigo="040407" descripcion="HUANCARQUI"/>
+  <distrito codigo="040408" descripcion="MACHAGUAY"/>
+  <distrito codigo="040409" descripcion="ORCOPAMPA"/>
+  <distrito codigo="040410" descripcion="PAMPACOLCA"/>
+  <distrito codigo="040411" descripcion="TIPAN"/>
+  <distrito codigo="040412" descripcion="UÑON"/>
+  <distrito codigo="040413" descripcion="URACA"/>
+  <distrito codigo="040414" descripcion="VIRACO"/>
+  <distrito codigo="040501" descripcion="CHIVAY"/>
+  <distrito codigo="040502" descripcion="ACHOMA"/>
+  <distrito codigo="040503" descripcion="CABANACONDE"/>
+  <distrito codigo="040504" descripcion="CALLALLI"/>
+  <distrito codigo="040505" descripcion="CAYLLOMA"/>
+  <distrito codigo="040506" descripcion="COPORAQUE"/>
+  <distrito codigo="040507" descripcion="HUAMBO"/>
+  <distrito codigo="040508" descripcion="HUANCA"/>
+  <distrito codigo="040509" descripcion="ICHUPAMPA"/>
+  <distrito codigo="040510" descripcion="LARI"/>
+  <distrito codigo="040511" descripcion="LLUTA"/>
+  <distrito codigo="040512" descripcion="MACA"/>
+  <distrito codigo="040513" descripcion="MADRIGAL"/>
+  <distrito codigo="040514" descripcion="SAN ANTONIO DE CHUCA"/>
+  <distrito codigo="040515" descripcion="SIBAYO"/>
+  <distrito codigo="040516" descripcion="TAPAY"/>
+  <distrito codigo="040517" descripcion="TISCO"/>
+  <distrito codigo="040518" descripcion="TUTI"/>
+  <distrito codigo="040519" descripcion="YANQUE"/>
+  <distrito codigo="040520" descripcion="MAJES"/>
+  <distrito codigo="040601" descripcion="CHUQUIBAMBA"/>
+  <distrito codigo="040602" descripcion="ANDARAY"/>
+  <distrito codigo="040603" descripcion="CAYARANI"/>
+  <distrito codigo="040604" descripcion="CHICHAS"/>
+  <distrito codigo="040605" descripcion="IRAY"/>
+  <distrito codigo="040606" descripcion="RIO GRANDE"/>
+  <distrito codigo="040607" descripcion="SALAMANCA"/>
+  <distrito codigo="040608" descripcion="YANAQUIHUA"/>
+  <distrito codigo="040701" descripcion="MOLLENDO"/>
+  <distrito codigo="040702" descripcion="COCACHACRA"/>
+  <distrito codigo="040703" descripcion="DEAN VALDIVIA"/>
+  <distrito codigo="040704" descripcion="ISLAY"/>
+  <distrito codigo="040705" descripcion="MEJIA"/>
+  <distrito codigo="040706" descripcion="PUNTA DE BOMBON"/>
+  <distrito codigo="040801" descripcion="COTAHUASI"/>
+  <distrito codigo="040802" descripcion="ALCA"/>
+  <distrito codigo="040803" descripcion="CHARCANA"/>
+  <distrito codigo="040804" descripcion="HUAYNACOTAS"/>
+  <distrito codigo="040805" descripcion="PAMPAMARCA"/>
+  <distrito codigo="040806" descripcion="PUYCA"/>
+  <distrito codigo="040807" descripcion="QUECHUALLA"/>
+  <distrito codigo="040808" descripcion="SAYLA"/>
+  <distrito codigo="040809" descripcion="TAURIA"/>
+  <distrito codigo="040810" descripcion="TOMEPAMPA"/>
+  <distrito codigo="040811" descripcion="TORO"/>
+  <distrito codigo="050101" descripcion="AYACUCHO"/>
+  <distrito codigo="050102" descripcion="ACOCRO"/>
+  <distrito codigo="050103" descripcion="ACOS VINCHOS"/>
+  <distrito codigo="050104" descripcion="CARMEN ALTO"/>
+  <distrito codigo="050105" descripcion="CHIARA"/>
+  <distrito codigo="050106" descripcion="OCROS"/>
+  <distrito codigo="050107" descripcion="PACAYCASA"/>
+  <distrito codigo="050108" descripcion="QUINUA"/>
+  <distrito codigo="050109" descripcion="SAN JOSE DE TICLLAS"/>
+  <distrito codigo="050110" descripcion="SAN JUAN BAUTISTA"/>
+  <distrito codigo="050111" descripcion="SANTIAGO DE PISCHA"/>
+  <distrito codigo="050112" descripcion="SOCOS"/>
+  <distrito codigo="050113" descripcion="TAMBILLO"/>
+  <distrito codigo="050114" descripcion="VINCHOS"/>
+  <distrito codigo="050115" descripcion="JESUS NAZARENO"/>
+  <distrito codigo="050201" descripcion="CANGALLO"/>
+  <distrito codigo="050202" descripcion="CHUSCHI"/>
+  <distrito codigo="050203" descripcion="LOS MOROCHUCOS"/>
+  <distrito codigo="050204" descripcion="MARIA PARADO DE BELLIDO"/>
+  <distrito codigo="050205" descripcion="PARAS"/>
+  <distrito codigo="050206" descripcion="TOTOS"/>
+  <distrito codigo="050301" descripcion="SANCOS"/>
+  <distrito codigo="050302" descripcion="CARAPO"/>
+  <distrito codigo="050303" descripcion="SACSAMARCA"/>
+  <distrito codigo="050304" descripcion="SANTIAGO DE LUCANAMARCA"/>
+  <distrito codigo="050401" descripcion="HUANTA"/>
+  <distrito codigo="050402" descripcion="AYAHUANCO"/>
+  <distrito codigo="050403" descripcion="HUAMANGUILLA"/>
+  <distrito codigo="050404" descripcion="IGUAIN"/>
+  <distrito codigo="050405" descripcion="LURICOCHA"/>
+  <distrito codigo="050406" descripcion="SANTILLANA"/>
+  <distrito codigo="050407" descripcion="SIVIA"/>
+  <distrito codigo="050408" descripcion="LLOCHEGUA"/>
+  <distrito codigo="050501" descripcion="SAN MIGUEL"/>
+  <distrito codigo="050502" descripcion="ANCO"/>
+  <distrito codigo="050503" descripcion="AYNA"/>
+  <distrito codigo="050504" descripcion="CHILCAS"/>
+  <distrito codigo="050505" descripcion="CHUNGUI"/>
+  <distrito codigo="050506" descripcion="LUIS CARRANZA"/>
+  <distrito codigo="050507" descripcion="SANTA ROSA"/>
+  <distrito codigo="050508" descripcion="TAMBO"/>
+  <distrito codigo="050601" descripcion="PUQUIO"/>
+  <distrito codigo="050602" descripcion="AUCARA"/>
+  <distrito codigo="050603" descripcion="CABANA"/>
+  <distrito codigo="050604" descripcion="CARMEN SALCEDO"/>
+  <distrito codigo="050605" descripcion="CHAVIÑA"/>
+  <distrito codigo="050606" descripcion="CHIPAO"/>
+  <distrito codigo="050607" descripcion="HUAC-HUAS"/>
+  <distrito codigo="050608" descripcion="LARAMATE"/>
+  <distrito codigo="050609" descripcion="LEONCIO PRADO"/>
+  <distrito codigo="050610" descripcion="LLAUTA"/>
+  <distrito codigo="050611" descripcion="LUCANAS"/>
+  <distrito codigo="050612" descripcion="OCAÑA"/>
+  <distrito codigo="050613" descripcion="OTOCA"/>
+  <distrito codigo="050614" descripcion="SAISA"/>
+  <distrito codigo="050615" descripcion="SAN CRISTOBAL"/>
+  <distrito codigo="050616" descripcion="SAN JUAN"/>
+  <distrito codigo="050617" descripcion="SAN PEDRO"/>
+  <distrito codigo="050618" descripcion="SAN PEDRO DE PALCO"/>
+  <distrito codigo="050619" descripcion="SANCOS"/>
+  <distrito codigo="050620" descripcion="SANTA ANA DE HUAYCAHUACHO"/>
+  <distrito codigo="050621" descripcion="SANTA LUCIA"/>
+  <distrito codigo="050701" descripcion="CORACORA"/>
+  <distrito codigo="050702" descripcion="CHUMPI"/>
+  <distrito codigo="050703" descripcion="CORONEL CASTAÑEDA"/>
+  <distrito codigo="050704" descripcion="PACAPAUSA"/>
+  <distrito codigo="050705" descripcion="PULLO"/>
+  <distrito codigo="050706" descripcion="PUYUSCA"/>
+  <distrito codigo="050707" descripcion="SAN FRANCISCO DE RAVACAYCO"/>
+  <distrito codigo="050708" descripcion="UPAHUACHO"/>
+  <distrito codigo="050801" descripcion="PAUSA"/>
+  <distrito codigo="050802" descripcion="COLTA"/>
+  <distrito codigo="050803" descripcion="CORCULLA"/>
+  <distrito codigo="050804" descripcion="LAMPA"/>
+  <distrito codigo="050805" descripcion="MARCABAMBA"/>
+  <distrito codigo="050806" descripcion="OYOLO"/>
+  <distrito codigo="050807" descripcion="PARARCA"/>
+  <distrito codigo="050808" descripcion="SAN JAVIER DE ALPABAMBA"/>
+  <distrito codigo="050809" descripcion="SAN JOSE DE USHUA"/>
+  <distrito codigo="050810" descripcion="SARA SARA"/>
+  <distrito codigo="050901" descripcion="QUEROBAMBA"/>
+  <distrito codigo="050902" descripcion="BELEN"/>
+  <distrito codigo="050903" descripcion="CHALCOS"/>
+  <distrito codigo="050904" descripcion="CHILCAYOC"/>
+  <distrito codigo="050905" descripcion="HUACAÑA"/>
+  <distrito codigo="050906" descripcion="MORCOLLA"/>
+  <distrito codigo="050907" descripcion="PAICO"/>
+  <distrito codigo="050908" descripcion="SAN PEDRO DE LARCAY"/>
+  <distrito codigo="050909" descripcion="SAN SALVADOR DE QUIJE"/>
+  <distrito codigo="050910" descripcion="SANTIAGO DE PAUCARAY"/>
+  <distrito codigo="050911" descripcion="SORAS"/>
+  <distrito codigo="051001" descripcion="HUANCAPI"/>
+  <distrito codigo="051002" descripcion="ALCAMENCA"/>
+  <distrito codigo="051003" descripcion="APONGO"/>
+  <distrito codigo="051004" descripcion="ASQUIPATA"/>
+  <distrito codigo="051005" descripcion="CANARIA"/>
+  <distrito codigo="051006" descripcion="CAYARA"/>
+  <distrito codigo="051007" descripcion="COLCA"/>
+  <distrito codigo="051008" descripcion="HUAMANQUIQUIA"/>
+  <distrito codigo="051009" descripcion="HUANCARAYLLA"/>
+  <distrito codigo="051010" descripcion="HUAYA"/>
+  <distrito codigo="051011" descripcion="SARHUA"/>
+  <distrito codigo="051012" descripcion="VILCANCHOS"/>
+  <distrito codigo="051101" descripcion="VILCAS HUAMAN"/>
+  <distrito codigo="051102" descripcion="ACCOMARCA"/>
+  <distrito codigo="051103" descripcion="CARHUANCA"/>
+  <distrito codigo="051104" descripcion="CONCEPCION"/>
+  <distrito codigo="051105" descripcion="HUAMBALPA"/>
+  <distrito codigo="051106" descripcion="INDEPENDENCIA"/>
+  <distrito codigo="051107" descripcion="SAURAMA"/>
+  <distrito codigo="051108" descripcion="VISCHONGO"/>
+  <distrito codigo="060101" descripcion="CAJAMARCA"/>
+  <distrito codigo="060102" descripcion="ASUNCION"/>
+  <distrito codigo="060103" descripcion="CHETILLA"/>
+  <distrito codigo="060104" descripcion="COSPAN"/>
+  <distrito codigo="060105" descripcion="ENCAÑADA"/>
+  <distrito codigo="060106" descripcion="JESUS"/>
+  <distrito codigo="060107" descripcion="LLACANORA"/>
+  <distrito codigo="060108" descripcion="LOS BAÑOS DEL INCA"/>
+  <distrito codigo="060109" descripcion="MAGDALENA"/>
+  <distrito codigo="060110" descripcion="MATARA"/>
+  <distrito codigo="060111" descripcion="NAMORA"/>
+  <distrito codigo="060112" descripcion="SAN JUAN"/>
+  <distrito codigo="060201" descripcion="CAJABAMBA"/>
+  <distrito codigo="060202" descripcion="CACHACHI"/>
+  <distrito codigo="060203" descripcion="CONDEBAMBA"/>
+  <distrito codigo="060204" descripcion="SITACOCHA"/>
+  <distrito codigo="060301" descripcion="CELENDIN"/>
+  <distrito codigo="060302" descripcion="CHUMUCH"/>
+  <distrito codigo="060303" descripcion="CORTEGANA"/>
+  <distrito codigo="060304" descripcion="HUASMIN"/>
+  <distrito codigo="060305" descripcion="JORGE CHAVEZ"/>
+  <distrito codigo="060306" descripcion="JOSE GALVEZ"/>
+  <distrito codigo="060307" descripcion="MIGUEL IGLESIAS"/>
+  <distrito codigo="060308" descripcion="OXAMARCA"/>
+  <distrito codigo="060309" descripcion="SOROCHUCO"/>
+  <distrito codigo="060310" descripcion="SUCRE"/>
+  <distrito codigo="060311" descripcion="UTCO"/>
+  <distrito codigo="060312" descripcion="LA LIBERTAD DE PALLAN"/>
+  <distrito codigo="060401" descripcion="CHOTA"/>
+  <distrito codigo="060402" descripcion="ANGUIA"/>
+  <distrito codigo="060403" descripcion="CHADIN"/>
+  <distrito codigo="060404" descripcion="CHIGUIRIP"/>
+  <distrito codigo="060405" descripcion="CHIMBAN"/>
+  <distrito codigo="060406" descripcion="CHOROPAMPA"/>
+  <distrito codigo="060407" descripcion="COCHABAMBA"/>
+  <distrito codigo="060408" descripcion="CONCHAN"/>
+  <distrito codigo="060409" descripcion="HUAMBOS"/>
+  <distrito codigo="060410" descripcion="LAJAS"/>
+  <distrito codigo="060411" descripcion="LLAMA"/>
+  <distrito codigo="060412" descripcion="MIRACOSTA"/>
+  <distrito codigo="060413" descripcion="PACCHA"/>
+  <distrito codigo="060414" descripcion="PION"/>
+  <distrito codigo="060415" descripcion="QUEROCOTO"/>
+  <distrito codigo="060416" descripcion="SAN JUAN DE LICUPIS"/>
+  <distrito codigo="060417" descripcion="TACABAMBA"/>
+  <distrito codigo="060418" descripcion="TOCMOCHE"/>
+  <distrito codigo="060419" descripcion="CHALAMARCA"/>
+  <distrito codigo="060501" descripcion="CONTUMAZA"/>
+  <distrito codigo="060502" descripcion="CHILETE"/>
+  <distrito codigo="060503" descripcion="CUPISNIQUE"/>
+  <distrito codigo="060504" descripcion="GUZMANGO"/>
+  <distrito codigo="060505" descripcion="SAN BENITO"/>
+  <distrito codigo="060506" descripcion="SANTA CRUZ DE TOLED"/>
+  <distrito codigo="060507" descripcion="TANTARICA"/>
+  <distrito codigo="060508" descripcion="YONAN"/>
+  <distrito codigo="060601" descripcion="CUTERVO"/>
+  <distrito codigo="060602" descripcion="CALLAYUC"/>
+  <distrito codigo="060603" descripcion="CHOROS"/>
+  <distrito codigo="060604" descripcion="CUJILLO"/>
+  <distrito codigo="060605" descripcion="LA RAMADA"/>
+  <distrito codigo="060606" descripcion="PIMPINGOS"/>
+  <distrito codigo="060607" descripcion="QUEROCOTILLO"/>
+  <distrito codigo="060608" descripcion="SAN ANDRES DE CUTERVO"/>
+  <distrito codigo="060609" descripcion="SAN JUAN DE CUTERVO"/>
+  <distrito codigo="060610" descripcion="SAN LUIS DE LUCMA"/>
+  <distrito codigo="060611" descripcion="SANTA CRUZ"/>
+  <distrito codigo="060612" descripcion="SANTO DOMINGO DE LA CAPILLA"/>
+  <distrito codigo="060613" descripcion="SANTO TOMAS"/>
+  <distrito codigo="060614" descripcion="SOCOTA"/>
+  <distrito codigo="060615" descripcion="TORIBIO CASANOVA"/>
+  <distrito codigo="060701" descripcion="BAMBAMARCA"/>
+  <distrito codigo="060702" descripcion="CHUGUR"/>
+  <distrito codigo="060703" descripcion="HUALGAYOC"/>
+  <distrito codigo="060801" descripcion="JAEN"/>
+  <distrito codigo="060802" descripcion="BELLAVISTA"/>
+  <distrito codigo="060803" descripcion="CHONTALI"/>
+  <distrito codigo="060804" descripcion="COLASAY"/>
+  <distrito codigo="060805" descripcion="HUABAL"/>
+  <distrito codigo="060806" descripcion="LAS PIRIAS"/>
+  <distrito codigo="060807" descripcion="POMAHUACA"/>
+  <distrito codigo="060808" descripcion="PUCARA"/>
+  <distrito codigo="060809" descripcion="SALLIQUE"/>
+  <distrito codigo="060810" descripcion="SAN FELIPE"/>
+  <distrito codigo="060811" descripcion="SAN JOSE DEL ALTO"/>
+  <distrito codigo="060812" descripcion="SANTA ROSA"/>
+  <distrito codigo="060901" descripcion="SAN IGNACIO"/>
+  <distrito codigo="060902" descripcion="CHIRINOS"/>
+  <distrito codigo="060903" descripcion="HUARANGO"/>
+  <distrito codigo="060904" descripcion="LA COIPA"/>
+  <distrito codigo="060905" descripcion="NAMBALLE"/>
+  <distrito codigo="060906" descripcion="SAN JOSE DE LOURDES"/>
+  <distrito codigo="060907" descripcion="TABACONAS"/>
+  <distrito codigo="061001" descripcion="PEDRO GALVEZ"/>
+  <distrito codigo="061002" descripcion="CHANCAY"/>
+  <distrito codigo="061003" descripcion="EDUARDO VILLANUEVA"/>
+  <distrito codigo="061004" descripcion="GREGORIO PITA"/>
+  <distrito codigo="061005" descripcion="ICHOCAN"/>
+  <distrito codigo="061006" descripcion="JOSE MANUEL QUIROZ"/>
+  <distrito codigo="061007" descripcion="JOSE SABOGAL"/>
+  <distrito codigo="061101" descripcion="SAN MIGUEL"/>
+  <distrito codigo="061102" descripcion="BOLIVAR"/>
+  <distrito codigo="061103" descripcion="CALQUIS"/>
+  <distrito codigo="061104" descripcion="CATILLUC"/>
+  <distrito codigo="061105" descripcion="EL PRADO"/>
+  <distrito codigo="061106" descripcion="LA FLORIDA"/>
+  <distrito codigo="061107" descripcion="LLAPA"/>
+  <distrito codigo="061108" descripcion="NANCHOC"/>
+  <distrito codigo="061109" descripcion="NIEPOS"/>
+  <distrito codigo="061110" descripcion="SAN GREGORIO"/>
+  <distrito codigo="061111" descripcion="SAN SILVESTRE DE COCHAN"/>
+  <distrito codigo="061112" descripcion="TONGOD"/>
+  <distrito codigo="061113" descripcion="UNION AGUA BLANCA"/>
+  <distrito codigo="061201" descripcion="SAN PABLO"/>
+  <distrito codigo="061202" descripcion="SAN BERNARDINO"/>
+  <distrito codigo="061203" descripcion="SAN LUIS"/>
+  <distrito codigo="061204" descripcion="TUMBADEN"/>
+  <distrito codigo="061301" descripcion="SANTA CRUZ"/>
+  <distrito codigo="061302" descripcion="ANDABAMBA"/>
+  <distrito codigo="061303" descripcion="CATACHE"/>
+  <distrito codigo="061304" descripcion="CHANCAYBAÑOS"/>
+  <distrito codigo="061305" descripcion="LA ESPERANZA"/>
+  <distrito codigo="061306" descripcion="NINABAMBA"/>
+  <distrito codigo="061307" descripcion="PULAN"/>
+  <distrito codigo="061308" descripcion="SAUCEPAMPA"/>
+  <distrito codigo="061309" descripcion="SEXI"/>
+  <distrito codigo="061310" descripcion="UTICYACU"/>
+  <distrito codigo="061311" descripcion="YAUYUCAN"/>
+  <distrito codigo="070101" descripcion="CALLAO"/>
+  <distrito codigo="070102" descripcion="BELLAVISTA"/>
+  <distrito codigo="070103" descripcion="CARMEN DE LA LEGUA REYNOSO"/>
+  <distrito codigo="070104" descripcion="LA PERLA"/>
+  <distrito codigo="070105" descripcion="LA PUNTA"/>
+  <distrito codigo="070106" descripcion="VENTANILLA"/>
+  <distrito codigo="080101" descripcion="CUSCO"/>
+  <distrito codigo="080102" descripcion="CCORCA"/>
+  <distrito codigo="080103" descripcion="POROY"/>
+  <distrito codigo="080104" descripcion="SAN JERONIMO"/>
+  <distrito codigo="080105" descripcion="SAN SEBASTIAN"/>
+  <distrito codigo="080106" descripcion="SANTIAGO"/>
+  <distrito codigo="080107" descripcion="SAYLLA"/>
+  <distrito codigo="080108" descripcion="WANCHAQ"/>
+  <distrito codigo="080201" descripcion="ACOMAYO"/>
+  <distrito codigo="080202" descripcion="ACOPIA"/>
+  <distrito codigo="080203" descripcion="ACOS"/>
+  <distrito codigo="080204" descripcion="MOSOC LLACTA"/>
+  <distrito codigo="080205" descripcion="POMACANCHI"/>
+  <distrito codigo="080206" descripcion="RONDOCAN"/>
+  <distrito codigo="080207" descripcion="SANGARARA"/>
+  <distrito codigo="080301" descripcion="ANTA"/>
+  <distrito codigo="080302" descripcion="ANCAHUASI"/>
+  <distrito codigo="080303" descripcion="CACHIMAYO"/>
+  <distrito codigo="080304" descripcion="CHINCHAYPUJIO"/>
+  <distrito codigo="080305" descripcion="HUAROCONDO"/>
+  <distrito codigo="080306" descripcion="LIMATAMBO"/>
+  <distrito codigo="080307" descripcion="MOLLEPATA"/>
+  <distrito codigo="080308" descripcion="PUCYURA"/>
+  <distrito codigo="080309" descripcion="ZURITE"/>
+  <distrito codigo="080401" descripcion="CALCA"/>
+  <distrito codigo="080402" descripcion="COYA"/>
+  <distrito codigo="080403" descripcion="LAMAY"/>
+  <distrito codigo="080404" descripcion="LARES"/>
+  <distrito codigo="080405" descripcion="PISAC"/>
+  <distrito codigo="080406" descripcion="SAN SALVADOR"/>
+  <distrito codigo="080407" descripcion="TARAY"/>
+  <distrito codigo="080408" descripcion="YANATILE"/>
+  <distrito codigo="080501" descripcion="YANAOCA"/>
+  <distrito codigo="080502" descripcion="CHECCA"/>
+  <distrito codigo="080503" descripcion="KUNTURKANKI"/>
+  <distrito codigo="080504" descripcion="LANGUI"/>
+  <distrito codigo="080505" descripcion="LAYO"/>
+  <distrito codigo="080506" descripcion="PAMPAMARCA"/>
+  <distrito codigo="080507" descripcion="QUEHUE"/>
+  <distrito codigo="080508" descripcion="TUPAC AMARU"/>
+  <distrito codigo="080601" descripcion="SICUANI"/>
+  <distrito codigo="080602" descripcion="CHECACUPE"/>
+  <distrito codigo="080603" descripcion="COMBAPATA"/>
+  <distrito codigo="080604" descripcion="MARANGANI"/>
+  <distrito codigo="080605" descripcion="PITUMARCA"/>
+  <distrito codigo="080606" descripcion="SAN PABLO"/>
+  <distrito codigo="080607" descripcion="SAN PEDRO"/>
+  <distrito codigo="080608" descripcion="TINTA"/>
+  <distrito codigo="080701" descripcion="SANTO TOMAS"/>
+  <distrito codigo="080702" descripcion="CAPACMARCA"/>
+  <distrito codigo="080703" descripcion="CHAMACA"/>
+  <distrito codigo="080704" descripcion="COLQUEMARCA"/>
+  <distrito codigo="080705" descripcion="LIVITACA"/>
+  <distrito codigo="080706" descripcion="LLUSCO"/>
+  <distrito codigo="080707" descripcion="QUIÑOTA"/>
+  <distrito codigo="080708" descripcion="VELILLE"/>
+  <distrito codigo="080801" descripcion="ESPINAR"/>
+  <distrito codigo="080802" descripcion="CONDOROMA"/>
+  <distrito codigo="080803" descripcion="COPORAQUE"/>
+  <distrito codigo="080804" descripcion="OCORURO"/>
+  <distrito codigo="080805" descripcion="PALLPATA"/>
+  <distrito codigo="080806" descripcion="PICHIGUA"/>
+  <distrito codigo="080807" descripcion="SUYCKUTAMBO"/>
+  <distrito codigo="080808" descripcion="ALTO PICHIGUA"/>
+  <distrito codigo="080901" descripcion="SANTA ANA"/>
+  <distrito codigo="080902" descripcion="ECHARATE"/>
+  <distrito codigo="080903" descripcion="HUAYOPATA"/>
+  <distrito codigo="080904" descripcion="MARANURA"/>
+  <distrito codigo="080905" descripcion="OCOBAMBA"/>
+  <distrito codigo="080906" descripcion="QUELLOUNO"/>
+  <distrito codigo="080907" descripcion="KIMBIRI"/>
+  <distrito codigo="080908" descripcion="SANTA TERESA"/>
+  <distrito codigo="080909" descripcion="VILCABAMBA"/>
+  <distrito codigo="080910" descripcion="PICHARI"/>
+  <distrito codigo="081001" descripcion="PARURO"/>
+  <distrito codigo="081002" descripcion="ACCHA"/>
+  <distrito codigo="081003" descripcion="CCAPI"/>
+  <distrito codigo="081004" descripcion="COLCHA"/>
+  <distrito codigo="081005" descripcion="HUANOQUITE"/>
+  <distrito codigo="081006" descripcion="OMACHA"/>
+  <distrito codigo="081007" descripcion="PACCARITAMBO"/>
+  <distrito codigo="081008" descripcion="PILLPINTO"/>
+  <distrito codigo="081009" descripcion="YAURISQUE"/>
+  <distrito codigo="081101" descripcion="PAUCARTAMBO"/>
+  <distrito codigo="081102" descripcion="CAICAY"/>
+  <distrito codigo="081103" descripcion="CHALLABAMBA"/>
+  <distrito codigo="081104" descripcion="COLQUEPATA"/>
+  <distrito codigo="081105" descripcion="HUANCARANI"/>
+  <distrito codigo="081106" descripcion="KOSÑIPATA"/>
+  <distrito codigo="081201" descripcion="URCOS"/>
+  <distrito codigo="081202" descripcion="ANDAHUAYLILLAS"/>
+  <distrito codigo="081203" descripcion="CAMANTI"/>
+  <distrito codigo="081204" descripcion="CCARHUAYO"/>
+  <distrito codigo="081205" descripcion="CCATCA"/>
+  <distrito codigo="081206" descripcion="CUSIPATA"/>
+  <distrito codigo="081207" descripcion="HUARO"/>
+  <distrito codigo="081208" descripcion="LUCRE"/>
+  <distrito codigo="081209" descripcion="MARCAPATA"/>
+  <distrito codigo="081210" descripcion="OCONGATE"/>
+  <distrito codigo="081211" descripcion="OROPESA"/>
+  <distrito codigo="081212" descripcion="QUIQUIJANA"/>
+  <distrito codigo="081301" descripcion="URUBAMBA"/>
+  <distrito codigo="081302" descripcion="CHINCHERO"/>
+  <distrito codigo="081303" descripcion="HUAYLLABAMBA"/>
+  <distrito codigo="081304" descripcion="MACHUPICCHU"/>
+  <distrito codigo="081305" descripcion="MARAS"/>
+  <distrito codigo="081306" descripcion="OLLANTAYTAMBO"/>
+  <distrito codigo="081307" descripcion="YUCAY"/>
+  <distrito codigo="090101" descripcion="HUANCAVELICA"/>
+  <distrito codigo="090102" descripcion="ACOBAMBILLA"/>
+  <distrito codigo="090103" descripcion="ACORIA"/>
+  <distrito codigo="090104" descripcion="CONAYCA"/>
+  <distrito codigo="090105" descripcion="CUENCA"/>
+  <distrito codigo="090106" descripcion="HUACHOCOLPA"/>
+  <distrito codigo="090107" descripcion="HUAYLLAHUARA"/>
+  <distrito codigo="090108" descripcion="IZCUCHACA"/>
+  <distrito codigo="090109" descripcion="LARIA"/>
+  <distrito codigo="090110" descripcion="MANTA"/>
+  <distrito codigo="090111" descripcion="MARISCAL CACERES"/>
+  <distrito codigo="090112" descripcion="MOYA"/>
+  <distrito codigo="090113" descripcion="NUEVO OCCORO"/>
+  <distrito codigo="090114" descripcion="PALCA"/>
+  <distrito codigo="090115" descripcion="PILCHACA"/>
+  <distrito codigo="090116" descripcion="VILCA"/>
+  <distrito codigo="090117" descripcion="YAULI"/>
+  <distrito codigo="090118" descripcion="ASCENSION"/>
+  <distrito codigo="090119" descripcion="HUANDO"/>
+  <distrito codigo="090201" descripcion="ACOBAMBA"/>
+  <distrito codigo="090202" descripcion="ANDABAMBA"/>
+  <distrito codigo="090203" descripcion="ANTA"/>
+  <distrito codigo="090204" descripcion="CAJA"/>
+  <distrito codigo="090205" descripcion="MARCAS"/>
+  <distrito codigo="090206" descripcion="PAUCARA"/>
+  <distrito codigo="090207" descripcion="POMACOCHA"/>
+  <distrito codigo="090208" descripcion="ROSARIO"/>
+  <distrito codigo="090301" descripcion="LIRCAY"/>
+  <distrito codigo="090302" descripcion="ANCHONGA"/>
+  <distrito codigo="090303" descripcion="CALLANMARCA"/>
+  <distrito codigo="090304" descripcion="CCOCHACCASA"/>
+  <distrito codigo="090305" descripcion="CHINCHO"/>
+  <distrito codigo="090306" descripcion="CONGALLA"/>
+  <distrito codigo="090307" descripcion="HUANCA-HUANCA"/>
+  <distrito codigo="090308" descripcion="HUAYLLAY GRANDE"/>
+  <distrito codigo="090309" descripcion="JULCAMARCA"/>
+  <distrito codigo="090310" descripcion="SAN ANTONIO DE ANTAPARCO"/>
+  <distrito codigo="090311" descripcion="SANTO TOMAS DE PATA"/>
+  <distrito codigo="090312" descripcion="SECCLLA"/>
+  <distrito codigo="090401" descripcion="CASTROVIRREYNA"/>
+  <distrito codigo="090402" descripcion="ARMA"/>
+  <distrito codigo="090403" descripcion="AURAHUA"/>
+  <distrito codigo="090404" descripcion="CAPILLAS"/>
+  <distrito codigo="090405" descripcion="CHUPAMARCA"/>
+  <distrito codigo="090406" descripcion="COCAS"/>
+  <distrito codigo="090407" descripcion="HUACHOS"/>
+  <distrito codigo="090408" descripcion="HUAMATAMBO"/>
+  <distrito codigo="090409" descripcion="MOLLEPAMPA"/>
+  <distrito codigo="090410" descripcion="SAN JUAN"/>
+  <distrito codigo="090411" descripcion="SANTA ANA"/>
+  <distrito codigo="090412" descripcion="TANTARA"/>
+  <distrito codigo="090413" descripcion="TICRAPO"/>
+  <distrito codigo="090501" descripcion="CHURCAMPA"/>
+  <distrito codigo="090502" descripcion="ANCO"/>
+  <distrito codigo="090503" descripcion="CHINCHIHUASI"/>
+  <distrito codigo="090504" descripcion="EL CARMEN"/>
+  <distrito codigo="090505" descripcion="LA MERCED"/>
+  <distrito codigo="090506" descripcion="LOCROJA"/>
+  <distrito codigo="090507" descripcion="PAUCARBAMBA"/>
+  <distrito codigo="090508" descripcion="SAN MIGUEL DE MAYOCC"/>
+  <distrito codigo="090509" descripcion="SAN PEDRO DE CORIS"/>
+  <distrito codigo="090510" descripcion="PACHAMARCA"/>
+  <distrito codigo="090601" descripcion="HUAYTARA"/>
+  <distrito codigo="090602" descripcion="AYAVI"/>
+  <distrito codigo="090603" descripcion="CORDOVA"/>
+  <distrito codigo="090604" descripcion="HUAYACUNDO ARMA"/>
+  <distrito codigo="090605" descripcion="LARAMARCA"/>
+  <distrito codigo="090606" descripcion="OCOYO"/>
+  <distrito codigo="090607" descripcion="PILPICHACA"/>
+  <distrito codigo="090608" descripcion="QUERCO"/>
+  <distrito codigo="090609" descripcion="QUITO-ARMA"/>
+  <distrito codigo="090610" descripcion="SAN ANTONIO DE CUSICANCHA"/>
+  <distrito codigo="090611" descripcion="SAN FRANCISCO DE SANGAYAICO"/>
+  <distrito codigo="090612" descripcion="SAN ISIDRO"/>
+  <distrito codigo="090613" descripcion="SANTIAGO DE CHOCORVOS"/>
+  <distrito codigo="090614" descripcion="SANTIAGO DE QUIRAHUARA"/>
+  <distrito codigo="090615" descripcion="SANTO DOMINGO DE CAPILLAS"/>
+  <distrito codigo="090616" descripcion="TAMBO"/>
+  <distrito codigo="090701" descripcion="PAMPAS"/>
+  <distrito codigo="090702" descripcion="ACOSTAMBO"/>
+  <distrito codigo="090703" descripcion="ACRAQUIA"/>
+  <distrito codigo="090704" descripcion="AHUAYCHA"/>
+  <distrito codigo="090705" descripcion="COLCABAMBA"/>
+  <distrito codigo="090706" descripcion="DANIEL HERNANDEZ"/>
+  <distrito codigo="090707" descripcion="HUACHOCOLPA"/>
+  <distrito codigo="090709" descripcion="HUARIBAMBA"/>
+  <distrito codigo="090710" descripcion="ÑAHUIMPUQUIO"/>
+  <distrito codigo="090711" descripcion="PAZOS"/>
+  <distrito codigo="090713" descripcion="QUISHUAR"/>
+  <distrito codigo="090714" descripcion="SALCABAMBA"/>
+  <distrito codigo="090715" descripcion="SALCAHUASI"/>
+  <distrito codigo="090716" descripcion="SAN MARCOS DE ROCCHAC"/>
+  <distrito codigo="090717" descripcion="SURCUBAMBA"/>
+  <distrito codigo="090718" descripcion="TINTAY PUNCU"/>
+  <distrito codigo="100101" descripcion="HUANUCO"/>
+  <distrito codigo="100102" descripcion="AMARILIS"/>
+  <distrito codigo="100103" descripcion="CHINCHAO"/>
+  <distrito codigo="100104" descripcion="CHURUBAMBA"/>
+  <distrito codigo="100105" descripcion="MARGOS"/>
+  <distrito codigo="100106" descripcion="QUISQUI"/>
+  <distrito codigo="100107" descripcion="SAN FRANCISCO DE CAYRAN"/>
+  <distrito codigo="100108" descripcion="SAN PEDRO DE CHAULAN"/>
+  <distrito codigo="100109" descripcion="SANTA MARIA DEL VALLE"/>
+  <distrito codigo="100110" descripcion="YARUMAYO"/>
+  <distrito codigo="100111" descripcion="PILLCO MARCA"/>
+  <distrito codigo="100201" descripcion="AMBO"/>
+  <distrito codigo="100202" descripcion="CAYNA"/>
+  <distrito codigo="100203" descripcion="COLPAS"/>
+  <distrito codigo="100204" descripcion="CONCHAMARCA"/>
+  <distrito codigo="100205" descripcion="HUACAR"/>
+  <distrito codigo="100206" descripcion="SAN FRANCISCO"/>
+  <distrito codigo="100207" descripcion="SAN RAFAEL"/>
+  <distrito codigo="100208" descripcion="TOMAY KICHWA"/>
+  <distrito codigo="100301" descripcion="LA UNION"/>
+  <distrito codigo="100307" descripcion="CHUQUIS"/>
+  <distrito codigo="100311" descripcion="MARIAS"/>
+  <distrito codigo="100313" descripcion="PACHAS"/>
+  <distrito codigo="100316" descripcion="QUIVILLA"/>
+  <distrito codigo="100317" descripcion="RIPAN"/>
+  <distrito codigo="100321" descripcion="SHUNQUI"/>
+  <distrito codigo="100322" descripcion="SILLAPATA"/>
+  <distrito codigo="100323" descripcion="YANAS"/>
+  <distrito codigo="100401" descripcion="HUACAYBAMBA"/>
+  <distrito codigo="100402" descripcion="CANCHABAMBA"/>
+  <distrito codigo="100403" descripcion="COCHABAMBA"/>
+  <distrito codigo="100404" descripcion="PINRA"/>
+  <distrito codigo="100501" descripcion="LLATA"/>
+  <distrito codigo="100502" descripcion="ARANCAY"/>
+  <distrito codigo="100503" descripcion="CHAVIN DE PARIARCA"/>
+  <distrito codigo="100504" descripcion="JACAS GRANDE"/>
+  <distrito codigo="100505" descripcion="JIRCAN"/>
+  <distrito codigo="100506" descripcion="MIRAFLORES"/>
+  <distrito codigo="100507" descripcion="MONZON"/>
+  <distrito codigo="100508" descripcion="PUNCHAO"/>
+  <distrito codigo="100509" descripcion="PUÑOS"/>
+  <distrito codigo="100510" descripcion="SINGA"/>
+  <distrito codigo="100511" descripcion="TANTAMAYO"/>
+  <distrito codigo="100601" descripcion="RUPA-RUPA"/>
+  <distrito codigo="100602" descripcion="DANIEL ALOMIAS ROBLES"/>
+  <distrito codigo="100603" descripcion="HERMILIO VALDIZAN"/>
+  <distrito codigo="100604" descripcion="JOSE CRESPO Y CASTILLO"/>
+  <distrito codigo="100605" descripcion="LUYANDO"/>
+  <distrito codigo="100606" descripcion="MARIANO DAMASO BERAUN"/>
+  <distrito codigo="100701" descripcion="HUACRACHUCO"/>
+  <distrito codigo="100702" descripcion="CHOLON"/>
+  <distrito codigo="100703" descripcion="SAN BUENAVENTURA"/>
+  <distrito codigo="100801" descripcion="PANAO"/>
+  <distrito codigo="100802" descripcion="CHAGLLA"/>
+  <distrito codigo="100803" descripcion="MOLINO"/>
+  <distrito codigo="100804" descripcion="UMARI"/>
+  <distrito codigo="100901" descripcion="PUERTO INCA"/>
+  <distrito codigo="100902" descripcion="CODO DEL POZUZO"/>
+  <distrito codigo="100903" descripcion="HONORIA"/>
+  <distrito codigo="100904" descripcion="TOURNAVISTA"/>
+  <distrito codigo="100905" descripcion="YUYAPICHIS"/>
+  <distrito codigo="101001" descripcion="JESUS"/>
+  <distrito codigo="101002" descripcion="BAÑOS"/>
+  <distrito codigo="101003" descripcion="JIVIA"/>
+  <distrito codigo="101004" descripcion="QUEROPALCA"/>
+  <distrito codigo="101005" descripcion="RONDOS"/>
+  <distrito codigo="101006" descripcion="SAN FRANCISCO DE ASIS"/>
+  <distrito codigo="101007" descripcion="SAN MIGUEL DE CAURI"/>
+  <distrito codigo="101101" descripcion="CHAVINILLO"/>
+  <distrito codigo="101102" descripcion="CAHUAC"/>
+  <distrito codigo="101103" descripcion="CHACABAMBA"/>
+  <distrito codigo="101104" descripcion="APARICIO POMARES"/>
+  <distrito codigo="101105" descripcion="JACAS CHICO"/>
+  <distrito codigo="101106" descripcion="OBAS"/>
+  <distrito codigo="101107" descripcion="PAMPAMARCA"/>
+  <distrito codigo="101108" descripcion="CHORAS"/>
+  <distrito codigo="110101" descripcion="ICA"/>
+  <distrito codigo="110102" descripcion="LA TINGUIÑA"/>
+  <distrito codigo="110103" descripcion="LOS AQUIJES"/>
+  <distrito codigo="110104" descripcion="OCUCAJE"/>
+  <distrito codigo="110105" descripcion="PACHACUTEC"/>
+  <distrito codigo="110106" descripcion="PARCONA"/>
+  <distrito codigo="110107" descripcion="PUEBLO NUEVO"/>
+  <distrito codigo="110108" descripcion="SALAS"/>
+  <distrito codigo="110109" descripcion="SAN JOSE DE LOS MOLINOS"/>
+  <distrito codigo="110110" descripcion="SAN JUAN BAUTISTA"/>
+  <distrito codigo="110111" descripcion="SANTIAGO"/>
+  <distrito codigo="110112" descripcion="SUBTANJALLA"/>
+  <distrito codigo="110113" descripcion="TATE"/>
+  <distrito codigo="110114" descripcion="YAUCA DEL ROSARIO"/>
+  <distrito codigo="110201" descripcion="CHINCHA ALTA"/>
+  <distrito codigo="110202" descripcion="ALTO LARAN"/>
+  <distrito codigo="110203" descripcion="CHAVIN"/>
+  <distrito codigo="110204" descripcion="CHINCHA BAJA"/>
+  <distrito codigo="110205" descripcion="EL CARMEN"/>
+  <distrito codigo="110206" descripcion="GROCIO PRADO"/>
+  <distrito codigo="110207" descripcion="PUEBLO NUEVO"/>
+  <distrito codigo="110208" descripcion="SAN JUAN DE YANAC"/>
+  <distrito codigo="110209" descripcion="SAN PEDRO DE HUACARPANA"/>
+  <distrito codigo="110210" descripcion="SUNAMPE"/>
+  <distrito codigo="110211" descripcion="TAMBO DE MORA"/>
+  <distrito codigo="110301" descripcion="NAZCA"/>
+  <distrito codigo="110302" descripcion="CHANGUILLO"/>
+  <distrito codigo="110303" descripcion="EL INGENIO"/>
+  <distrito codigo="110304" descripcion="MARCONA"/>
+  <distrito codigo="110305" descripcion="VISTA ALEGRE"/>
+  <distrito codigo="110401" descripcion="PALPA"/>
+  <distrito codigo="110402" descripcion="LLIPATA"/>
+  <distrito codigo="110403" descripcion="RIO GRANDE"/>
+  <distrito codigo="110404" descripcion="SANTA CRUZ"/>
+  <distrito codigo="110405" descripcion="TIBILLO"/>
+  <distrito codigo="110501" descripcion="PISCO"/>
+  <distrito codigo="110502" descripcion="HUANCANO"/>
+  <distrito codigo="110503" descripcion="HUMAY"/>
+  <distrito codigo="110504" descripcion="INDEPENDENCIA"/>
+  <distrito codigo="110505" descripcion="PARACAS"/>
+  <distrito codigo="110506" descripcion="SAN ANDRES"/>
+  <distrito codigo="110507" descripcion="SAN CLEMENTE"/>
+  <distrito codigo="110508" descripcion="TUPAC AMARU INCA"/>
+  <distrito codigo="120101" descripcion="HUANCAYO"/>
+  <distrito codigo="120104" descripcion="CARHUACALLANGA"/>
+  <distrito codigo="120105" descripcion="CHACAPAMPA"/>
+  <distrito codigo="120106" descripcion="CHICCHE"/>
+  <distrito codigo="120107" descripcion="CHILCA"/>
+  <distrito codigo="120108" descripcion="CHONGOS ALTO"/>
+  <distrito codigo="120111" descripcion="CHUPURO"/>
+  <distrito codigo="120112" descripcion="COLCA"/>
+  <distrito codigo="120113" descripcion="CULLHUAS"/>
+  <distrito codigo="120114" descripcion="EL TAMBO"/>
+  <distrito codigo="120116" descripcion="HUACRAPUQUIO"/>
+  <distrito codigo="120117" descripcion="HUALHUAS"/>
+  <distrito codigo="120119" descripcion="HUANCAN"/>
+  <distrito codigo="120120" descripcion="HUASICANCHA"/>
+  <distrito codigo="120121" descripcion="HUAYUCACHI"/>
+  <distrito codigo="120122" descripcion="INGENIO"/>
+  <distrito codigo="120124" descripcion="PARIAHUANCA"/>
+  <distrito codigo="120125" descripcion="PILCOMAYO"/>
+  <distrito codigo="120126" descripcion="PUCARA"/>
+  <distrito codigo="120127" descripcion="QUICHUAY"/>
+  <distrito codigo="120128" descripcion="QUILCAS"/>
+  <distrito codigo="120129" descripcion="SAN AGUSTIN"/>
+  <distrito codigo="120130" descripcion="SAN JERONIMO DE TUNAN"/>
+  <distrito codigo="120132" descripcion="SAÑO"/>
+  <distrito codigo="120133" descripcion="SAPALLANGA"/>
+  <distrito codigo="120134" descripcion="SICAYA"/>
+  <distrito codigo="120135" descripcion="SANTO DOMINGO DE ACOBAMBA"/>
+  <distrito codigo="120136" descripcion="VIQUES"/>
+  <distrito codigo="120201" descripcion="CONCEPCION"/>
+  <distrito codigo="120202" descripcion="ACO"/>
+  <distrito codigo="120203" descripcion="ANDAMARCA"/>
+  <distrito codigo="120204" descripcion="CHAMBARA"/>
+  <distrito codigo="120205" descripcion="COCHAS"/>
+  <distrito codigo="120206" descripcion="COMAS"/>
+  <distrito codigo="120207" descripcion="HEROINAS TOLEDO"/>
+  <distrito codigo="120208" descripcion="MANZANARES"/>
+  <distrito codigo="120209" descripcion="MARISCAL CASTILLA"/>
+  <distrito codigo="120210" descripcion="MATAHUASI"/>
+  <distrito codigo="120211" descripcion="MITO"/>
+  <distrito codigo="120212" descripcion="NUEVE DE JULIO"/>
+  <distrito codigo="120213" descripcion="ORCOTUNA"/>
+  <distrito codigo="120214" descripcion="SAN JOSE DE QUERO"/>
+  <distrito codigo="120215" descripcion="SANTA ROSA DE OCOPA"/>
+  <distrito codigo="120301" descripcion="CHANCHAMAYO"/>
+  <distrito codigo="120302" descripcion="PERENE"/>
+  <distrito codigo="120303" descripcion="PICHANAQUI"/>
+  <distrito codigo="120304" descripcion="SAN LUIS DE SHUARO"/>
+  <distrito codigo="120305" descripcion="SAN RAMON"/>
+  <distrito codigo="120306" descripcion="VITOC"/>
+  <distrito codigo="120401" descripcion="JAUJA"/>
+  <distrito codigo="120402" descripcion="ACOLLA"/>
+  <distrito codigo="120403" descripcion="APATA"/>
+  <distrito codigo="120404" descripcion="ATAURA"/>
+  <distrito codigo="120405" descripcion="CANCHAYLLO"/>
+  <distrito codigo="120406" descripcion="CURICACA"/>
+  <distrito codigo="120407" descripcion="EL MANTARO"/>
+  <distrito codigo="120408" descripcion="HUAMALI"/>
+  <distrito codigo="120409" descripcion="HUARIPAMPA"/>
+  <distrito codigo="120410" descripcion="HUERTAS"/>
+  <distrito codigo="120411" descripcion="JANJAILLO"/>
+  <distrito codigo="120412" descripcion="JULCAN"/>
+  <distrito codigo="120413" descripcion="LEONOR ORDOÑEZ"/>
+  <distrito codigo="120414" descripcion="LLOCLLAPAMPA"/>
+  <distrito codigo="120415" descripcion="MARCO"/>
+  <distrito codigo="120416" descripcion="MASMA"/>
+  <distrito codigo="120417" descripcion="MASMA CHICCHE"/>
+  <distrito codigo="120418" descripcion="MOLINOS"/>
+  <distrito codigo="120419" descripcion="MONOBAMBA"/>
+  <distrito codigo="120420" descripcion="MUQUI"/>
+  <distrito codigo="120421" descripcion="MUQUIYAUYO"/>
+  <distrito codigo="120422" descripcion="PACA"/>
+  <distrito codigo="120423" descripcion="PACCHA"/>
+  <distrito codigo="120424" descripcion="PANCAN"/>
+  <distrito codigo="120425" descripcion="PARCO"/>
+  <distrito codigo="120426" descripcion="POMACANCHA"/>
+  <distrito codigo="120427" descripcion="RICRAN"/>
+  <distrito codigo="120428" descripcion="SAN LORENZO"/>
+  <distrito codigo="120429" descripcion="SAN PEDRO DE CHUNAN"/>
+  <distrito codigo="120430" descripcion="SAUSA"/>
+  <distrito codigo="120431" descripcion="SINCOS"/>
+  <distrito codigo="120432" descripcion="TUNAN MARCA"/>
+  <distrito codigo="120433" descripcion="YAULI"/>
+  <distrito codigo="120434" descripcion="YAUYOS"/>
+  <distrito codigo="120501" descripcion="JUNIN"/>
+  <distrito codigo="120502" descripcion="CARHUAMAYO"/>
+  <distrito codigo="120503" descripcion="ONDORES"/>
+  <distrito codigo="120504" descripcion="ULCUMAYO"/>
+  <distrito codigo="120601" descripcion="SATIPO"/>
+  <distrito codigo="120602" descripcion="COVIRIALI"/>
+  <distrito codigo="120603" descripcion="LLAYLLA"/>
+  <distrito codigo="120604" descripcion="MAZAMARI"/>
+  <distrito codigo="120605" descripcion="PAMPA HERMOSA"/>
+  <distrito codigo="120606" descripcion="PANGOA"/>
+  <distrito codigo="120607" descripcion="RIO NEGRO"/>
+  <distrito codigo="120608" descripcion="RIO TAMBO"/>
+  <distrito codigo="120701" descripcion="TARMA"/>
+  <distrito codigo="120702" descripcion="ACOBAMBA"/>
+  <distrito codigo="120703" descripcion="HUARICOLCA"/>
+  <distrito codigo="120704" descripcion="HUASAHUASI"/>
+  <distrito codigo="120705" descripcion="LA UNION"/>
+  <distrito codigo="120706" descripcion="PALCA"/>
+  <distrito codigo="120707" descripcion="PALCAMAYO"/>
+  <distrito codigo="120708" descripcion="SAN PEDRO DE CAJAS"/>
+  <distrito codigo="120709" descripcion="TAPO"/>
+  <distrito codigo="120801" descripcion="LA OROYA"/>
+  <distrito codigo="120802" descripcion="CHACAPALPA"/>
+  <distrito codigo="120803" descripcion="HUAY-HUAY"/>
+  <distrito codigo="120804" descripcion="MARCAPOMACOCHA"/>
+  <distrito codigo="120805" descripcion="MOROCOCHA"/>
+  <distrito codigo="120806" descripcion="PACCHA"/>
+  <distrito codigo="120807" descripcion="SANTA BARBARA DE CARHUACAYAN"/>
+  <distrito codigo="120808" descripcion="SANTA ROSA DE SACCO"/>
+  <distrito codigo="120809" descripcion="SUITUCANCHA"/>
+  <distrito codigo="120810" descripcion="YAULI"/>
+  <distrito codigo="120901" descripcion="CHUPACA"/>
+  <distrito codigo="120902" descripcion="AHUAC"/>
+  <distrito codigo="120903" descripcion="CHONGOS BAJO"/>
+  <distrito codigo="120904" descripcion="HUACHAC"/>
+  <distrito codigo="120905" descripcion="HUAMANCACA CHICO"/>
+  <distrito codigo="120906" descripcion="SAN JUAN DE YSCOS"/>
+  <distrito codigo="120907" descripcion="SAN JUAN DE JARPA"/>
+  <distrito codigo="120908" descripcion="TRES DE DICIEMBRE"/>
+  <distrito codigo="120909" descripcion="YANACANCHA"/>
+  <distrito codigo="130101" descripcion="TRUJILLO"/>
+  <distrito codigo="130102" descripcion="EL PORVENIR"/>
+  <distrito codigo="130103" descripcion="FLORENCIA DE MORA"/>
+  <distrito codigo="130104" descripcion="HUANCHACO"/>
+  <distrito codigo="130105" descripcion="LA ESPERANZA"/>
+  <distrito codigo="130106" descripcion="LAREDO"/>
+  <distrito codigo="130107" descripcion="MOCHE"/>
+  <distrito codigo="130108" descripcion="POROTO"/>
+  <distrito codigo="130109" descripcion="SALAVERRY"/>
+  <distrito codigo="130110" descripcion="SIMBAL"/>
+  <distrito codigo="130111" descripcion="VICTOR LARCO HERRERA"/>
+  <distrito codigo="130201" descripcion="ASCOPE"/>
+  <distrito codigo="130202" descripcion="CHICAMA"/>
+  <distrito codigo="130203" descripcion="CHOCOPE"/>
+  <distrito codigo="130204" descripcion="MAGDALENA DE CAO"/>
+  <distrito codigo="130205" descripcion="PAIJAN"/>
+  <distrito codigo="130206" descripcion="RAZURI"/>
+  <distrito codigo="130207" descripcion="SANTIAGO DE CAO"/>
+  <distrito codigo="130208" descripcion="CASA GRANDE"/>
+  <distrito codigo="130301" descripcion="BOLIVAR"/>
+  <distrito codigo="130302" descripcion="BAMBAMARCA"/>
+  <distrito codigo="130303" descripcion="CONDORMARCA"/>
+  <distrito codigo="130304" descripcion="LONGOTEA"/>
+  <distrito codigo="130305" descripcion="UCHUMARCA"/>
+  <distrito codigo="130306" descripcion="UCUNCHA"/>
+  <distrito codigo="130401" descripcion="CHEPEN"/>
+  <distrito codigo="130402" descripcion="PACANGA"/>
+  <distrito codigo="130403" descripcion="PUEBLO NUEVO"/>
+  <distrito codigo="130501" descripcion="JULCAN"/>
+  <distrito codigo="130502" descripcion="CALAMARCA"/>
+  <distrito codigo="130503" descripcion="CARABAMBA"/>
+  <distrito codigo="130504" descripcion="HUASO"/>
+  <distrito codigo="130601" descripcion="OTUZCO"/>
+  <distrito codigo="130602" descripcion="AGALLPAMPA"/>
+  <distrito codigo="130604" descripcion="CHARAT"/>
+  <distrito codigo="130605" descripcion="HUARANCHAL"/>
+  <distrito codigo="130606" descripcion="LA CUESTA"/>
+  <distrito codigo="130608" descripcion="MACHE"/>
+  <distrito codigo="130610" descripcion="PARANDAY"/>
+  <distrito codigo="130611" descripcion="SALPO"/>
+  <distrito codigo="130613" descripcion="SINSICAP"/>
+  <distrito codigo="130614" descripcion="USQUIL"/>
+  <distrito codigo="130701" descripcion="SAN PEDRO DE LLOC"/>
+  <distrito codigo="130702" descripcion="GUADALUPE"/>
+  <distrito codigo="130703" descripcion="JEQUETEPEQUE"/>
+  <distrito codigo="130704" descripcion="PACASMAYO"/>
+  <distrito codigo="130705" descripcion="SAN JOSE"/>
+  <distrito codigo="130801" descripcion="TAYABAMBA"/>
+  <distrito codigo="130802" descripcion="BULDIBUYO"/>
+  <distrito codigo="130803" descripcion="CHILLIA"/>
+  <distrito codigo="130804" descripcion="HUANCASPATA"/>
+  <distrito codigo="130805" descripcion="HUAYLILLAS"/>
+  <distrito codigo="130806" descripcion="HUAYO"/>
+  <distrito codigo="130807" descripcion="ONGON"/>
+  <distrito codigo="130808" descripcion="PARCOY"/>
+  <distrito codigo="130809" descripcion="PATAZ"/>
+  <distrito codigo="130810" descripcion="PIAS"/>
+  <distrito codigo="130811" descripcion="SANTIAGO DE CHALLAS"/>
+  <distrito codigo="130812" descripcion="TAURIJA"/>
+  <distrito codigo="130813" descripcion="URPAY"/>
+  <distrito codigo="130901" descripcion="HUAMACHUCO"/>
+  <distrito codigo="130902" descripcion="CHUGAY"/>
+  <distrito codigo="130903" descripcion="COCHORCO"/>
+  <distrito codigo="130904" descripcion="CURGOS"/>
+  <distrito codigo="130905" descripcion="MARCABAL"/>
+  <distrito codigo="130906" descripcion="SANAGORAN"/>
+  <distrito codigo="130907" descripcion="SARIN"/>
+  <distrito codigo="130908" descripcion="SARTIMBAMBA"/>
+  <distrito codigo="131001" descripcion="SANTIAGO DE CHUCO"/>
+  <distrito codigo="131002" descripcion="ANGASMARCA"/>
+  <distrito codigo="131003" descripcion="CACHICADAN"/>
+  <distrito codigo="131004" descripcion="MOLLEBAMBA"/>
+  <distrito codigo="131005" descripcion="MOLLEPATA"/>
+  <distrito codigo="131006" descripcion="QUIRUVILCA"/>
+  <distrito codigo="131007" descripcion="SANTA CRUZ DE CHUCA"/>
+  <distrito codigo="131008" descripcion="SITABAMBA"/>
+  <distrito codigo="131101" descripcion="CASCAS"/>
+  <distrito codigo="131102" descripcion="LUCMA"/>
+  <distrito codigo="131103" descripcion="COMPIN"/>
+  <distrito codigo="131104" descripcion="SAYAPULLO"/>
+  <distrito codigo="131201" descripcion="VIRU"/>
+  <distrito codigo="131202" descripcion="CHAO"/>
+  <distrito codigo="131203" descripcion="GUADALUPITO"/>
+  <distrito codigo="140101" descripcion="CHICLAYO"/>
+  <distrito codigo="140102" descripcion="CHONGOYAPE"/>
+  <distrito codigo="140103" descripcion="ETEN"/>
+  <distrito codigo="140104" descripcion="ETEN PUERTO"/>
+  <distrito codigo="140105" descripcion="JOSE LEONARDO ORTIZ"/>
+  <distrito codigo="140106" descripcion="LA VICTORIA"/>
+  <distrito codigo="140107" descripcion="LAGUNAS"/>
+  <distrito codigo="140108" descripcion="MONSEFU"/>
+  <distrito codigo="140109" descripcion="NUEVA ARICA"/>
+  <distrito codigo="140110" descripcion="OYOTUN"/>
+  <distrito codigo="140111" descripcion="PICSI"/>
+  <distrito codigo="140112" descripcion="PIMENTEL"/>
+  <distrito codigo="140113" descripcion="REQUE"/>
+  <distrito codigo="140114" descripcion="SANTA ROSA"/>
+  <distrito codigo="140115" descripcion="SAÑA"/>
+  <distrito codigo="140116" descripcion="CAYALTI"/>
+  <distrito codigo="140117" descripcion="PATAPO"/>
+  <distrito codigo="140118" descripcion="POMALCA"/>
+  <distrito codigo="140119" descripcion="PUCALA"/>
+  <distrito codigo="140120" descripcion="TUMAN"/>
+  <distrito codigo="140201" descripcion="FERREÑAFE"/>
+  <distrito codigo="140202" descripcion="CAÑARIS"/>
+  <distrito codigo="140203" descripcion="INCAHUASI"/>
+  <distrito codigo="140204" descripcion="MANUEL ANTONIO MESONES MURO"/>
+  <distrito codigo="140205" descripcion="PITIPO"/>
+  <distrito codigo="140206" descripcion="PUEBLO NUEVO"/>
+  <distrito codigo="140301" descripcion="LAMBAYEQUE"/>
+  <distrito codigo="140302" descripcion="CHOCHOPE"/>
+  <distrito codigo="140303" descripcion="ILLIMO"/>
+  <distrito codigo="140304" descripcion="JAYANCA"/>
+  <distrito codigo="140305" descripcion="MOCHUMI"/>
+  <distrito codigo="140306" descripcion="MORROPE"/>
+  <distrito codigo="140307" descripcion="MOTUPE"/>
+  <distrito codigo="140308" descripcion="OLMOS"/>
+  <distrito codigo="140309" descripcion="PACORA"/>
+  <distrito codigo="140310" descripcion="SALAS"/>
+  <distrito codigo="140311" descripcion="SAN JOSE"/>
+  <distrito codigo="140312" descripcion="TUCUME"/>
+  <distrito codigo="150101" descripcion="LIMA"/>
+  <distrito codigo="150102" descripcion="ANCON"/>
+  <distrito codigo="150103" descripcion="ATE"/>
+  <distrito codigo="150104" descripcion="BARRANCO"/>
+  <distrito codigo="150105" descripcion="BREÑA"/>
+  <distrito codigo="150106" descripcion="CARABAYLLO"/>
+  <distrito codigo="150107" descripcion="CHACLACAYO"/>
+  <distrito codigo="150108" descripcion="CHORRILLOS"/>
+  <distrito codigo="150109" descripcion="CIENEGUILLA"/>
+  <distrito codigo="150110" descripcion="COMAS"/>
+  <distrito codigo="150111" descripcion="EL AGUSTINO"/>
+  <distrito codigo="150112" descripcion="INDEPENDENCIA"/>
+  <distrito codigo="150113" descripcion="JESUS MARIA"/>
+  <distrito codigo="150114" descripcion="LA MOLINA"/>
+  <distrito codigo="150115" descripcion="LA VICTORIA"/>
+  <distrito codigo="150116" descripcion="LINCE"/>
+  <distrito codigo="150117" descripcion="LOS OLIVOS"/>
+  <distrito codigo="150118" descripcion="LURIGANCHO"/>
+  <distrito codigo="150119" descripcion="LURIN"/>
+  <distrito codigo="150120" descripcion="MAGDALENA DEL MAR"/>
+  <distrito codigo="150121" descripcion="MAGDALENA VIEJA"/>
+  <distrito codigo="150122" descripcion="MIRAFLORES"/>
+  <distrito codigo="150123" descripcion="PACHACAMAC"/>
+  <distrito codigo="150124" descripcion="PUCUSANA"/>
+  <distrito codigo="150125" descripcion="PUENTE PIEDRA"/>
+  <distrito codigo="150126" descripcion="PUNTA HERMOSA"/>
+  <distrito codigo="150127" descripcion="PUNTA NEGRA"/>
+  <distrito codigo="150128" descripcion="RIMAC"/>
+  <distrito codigo="150129" descripcion="SAN BARTOLO"/>
+  <distrito codigo="150130" descripcion="SAN BORJA"/>
+  <distrito codigo="150131" descripcion="SAN ISIDRO"/>
+  <distrito codigo="150132" descripcion="SAN JUAN DE LURIGANCHO"/>
+  <distrito codigo="150133" descripcion="SAN JUAN DE MIRAFLORES"/>
+  <distrito codigo="150134" descripcion="SAN LUIS"/>
+  <distrito codigo="150135" descripcion="SAN MARTIN DE PORRES"/>
+  <distrito codigo="150136" descripcion="SAN MIGUEL"/>
+  <distrito codigo="150137" descripcion="SANTA ANITA"/>
+  <distrito codigo="150138" descripcion="SANTA MARIA DEL MAR"/>
+  <distrito codigo="150139" descripcion="SANTA ROSA"/>
+  <distrito codigo="150140" descripcion="SANTIAGO DE SURCO"/>
+  <distrito codigo="150141" descripcion="SURQUILLO"/>
+  <distrito codigo="150142" descripcion="VILLA EL SALVADOR"/>
+  <distrito codigo="150143" descripcion="VILLA MARIA DEL TRIUNFO"/>
+  <distrito codigo="150201" descripcion="BARRANCA"/>
+  <distrito codigo="150202" descripcion="PARAMONGA"/>
+  <distrito codigo="150203" descripcion="PATIVILCA"/>
+  <distrito codigo="150204" descripcion="SUPE"/>
+  <distrito codigo="150205" descripcion="SUPE PUERTO"/>
+  <distrito codigo="150301" descripcion="CAJATAMBO"/>
+  <distrito codigo="150302" descripcion="COPA"/>
+  <distrito codigo="150303" descripcion="GORGOR"/>
+  <distrito codigo="150304" descripcion="HUANCAPON"/>
+  <distrito codigo="150305" descripcion="MANAS"/>
+  <distrito codigo="150401" descripcion="CANTA"/>
+  <distrito codigo="150402" descripcion="ARAHUAY"/>
+  <distrito codigo="150403" descripcion="HUAMANTANGA"/>
+  <distrito codigo="150404" descripcion="HUAROS"/>
+  <distrito codigo="150405" descripcion="LACHAQUI"/>
+  <distrito codigo="150406" descripcion="SAN BUENAVENTURA"/>
+  <distrito codigo="150407" descripcion="SANTA ROSA DE QUIVES"/>
+  <distrito codigo="150501" descripcion="SAN VICENTE DE CAÑETE"/>
+  <distrito codigo="150502" descripcion="ASIA"/>
+  <distrito codigo="150503" descripcion="CALANGO"/>
+  <distrito codigo="150504" descripcion="CERRO AZUL"/>
+  <distrito codigo="150505" descripcion="CHILCA"/>
+  <distrito codigo="150506" descripcion="COAYLLO"/>
+  <distrito codigo="150507" descripcion="IMPERIAL"/>
+  <distrito codigo="150508" descripcion="LUNAHUANA"/>
+  <distrito codigo="150509" descripcion="MALA"/>
+  <distrito codigo="150510" descripcion="NUEVO IMPERIAL"/>
+  <distrito codigo="150511" descripcion="PACARAN"/>
+  <distrito codigo="150512" descripcion="QUILMANA"/>
+  <distrito codigo="150513" descripcion="SAN ANTONIO"/>
+  <distrito codigo="150514" descripcion="SAN LUIS"/>
+  <distrito codigo="150515" descripcion="SANTA CRUZ DE FLORES"/>
+  <distrito codigo="150516" descripcion="ZUÑIGA"/>
+  <distrito codigo="150601" descripcion="HUARAL"/>
+  <distrito codigo="150602" descripcion="ATAVILLOS ALTO"/>
+  <distrito codigo="150603" descripcion="ATAVILLOS BAJO"/>
+  <distrito codigo="150604" descripcion="AUCALLAMA"/>
+  <distrito codigo="150605" descripcion="CHANCAY"/>
+  <distrito codigo="150606" descripcion="IHUARI"/>
+  <distrito codigo="150607" descripcion="LAMPIAN"/>
+  <distrito codigo="150608" descripcion="PACARAOS"/>
+  <distrito codigo="150609" descripcion="SAN MIGUEL DE ACOS"/>
+  <distrito codigo="150610" descripcion="SANTA CRUZ DE ANDAMARCA"/>
+  <distrito codigo="150611" descripcion="SUMBILCA"/>
+  <distrito codigo="150612" descripcion="VEINTISIETE DE NOVIEMBRE"/>
+  <distrito codigo="150701" descripcion="MATUCANA"/>
+  <distrito codigo="150702" descripcion="ANTIOQUIA"/>
+  <distrito codigo="150703" descripcion="CALLAHUANCA"/>
+  <distrito codigo="150704" descripcion="CARAMPOMA"/>
+  <distrito codigo="150705" descripcion="CHICLA"/>
+  <distrito codigo="150706" descripcion="CUENCA"/>
+  <distrito codigo="150707" descripcion="HUACHUPAMPA"/>
+  <distrito codigo="150708" descripcion="HUANZA"/>
+  <distrito codigo="150709" descripcion="HUAROCHIRI"/>
+  <distrito codigo="150710" descripcion="LAHUAYTAMBO"/>
+  <distrito codigo="150711" descripcion="LANGA"/>
+  <distrito codigo="150712" descripcion="LARAOS"/>
+  <distrito codigo="150713" descripcion="MARIATANA"/>
+  <distrito codigo="150714" descripcion="RICARDO PALMA"/>
+  <distrito codigo="150715" descripcion="SAN ANDRES DE TUPICOCHA"/>
+  <distrito codigo="150716" descripcion="SAN ANTONIO"/>
+  <distrito codigo="150717" descripcion="SAN BARTOLOME"/>
+  <distrito codigo="150718" descripcion="SAN DAMIAN"/>
+  <distrito codigo="150719" descripcion="SAN JUAN DE IRIS"/>
+  <distrito codigo="150720" descripcion="SAN JUAN DE TANTARANCHE"/>
+  <distrito codigo="150721" descripcion="SAN LORENZO DE QUINTI"/>
+  <distrito codigo="150722" descripcion="SAN MATEO"/>
+  <distrito codigo="150723" descripcion="SAN MATEO DE OTAO"/>
+  <distrito codigo="150724" descripcion="SAN PEDRO DE CASTA"/>
+  <distrito codigo="150725" descripcion="SAN PEDRO DE HUANCAYRE"/>
+  <distrito codigo="150726" descripcion="SANGALLAYA"/>
+  <distrito codigo="150727" descripcion="SANTA CRUZ DE COCACHACRA"/>
+  <distrito codigo="150728" descripcion="SANTA EULALIA"/>
+  <distrito codigo="150729" descripcion="SANTIAGO DE ANCHUCAYA"/>
+  <distrito codigo="150730" descripcion="SANTIAGO DE TUNA"/>
+  <distrito codigo="150731" descripcion="SANTO DOMINGO DE LOS OLLEROS"/>
+  <distrito codigo="150732" descripcion="SURCO"/>
+  <distrito codigo="150801" descripcion="HUACHO"/>
+  <distrito codigo="150802" descripcion="AMBAR"/>
+  <distrito codigo="150803" descripcion="CALETA DE CARQUIN"/>
+  <distrito codigo="150804" descripcion="CHECRAS"/>
+  <distrito codigo="150805" descripcion="HUALMAY"/>
+  <distrito codigo="150806" descripcion="HUAURA"/>
+  <distrito codigo="150807" descripcion="LEONCIO PRADO"/>
+  <distrito codigo="150808" descripcion="PACCHO"/>
+  <distrito codigo="150809" descripcion="SANTA LEONOR"/>
+  <distrito codigo="150810" descripcion="SANTA MARIA"/>
+  <distrito codigo="150811" descripcion="SAYAN"/>
+  <distrito codigo="150812" descripcion="VEGUETA"/>
+  <distrito codigo="150901" descripcion="OYON"/>
+  <distrito codigo="150902" descripcion="ANDAJES"/>
+  <distrito codigo="150903" descripcion="CAUJUL"/>
+  <distrito codigo="150904" descripcion="COCHAMARCA"/>
+  <distrito codigo="150905" descripcion="NAVAN"/>
+  <distrito codigo="150906" descripcion="PACHANGARA"/>
+  <distrito codigo="151001" descripcion="YAUYOS"/>
+  <distrito codigo="151002" descripcion="ALIS"/>
+  <distrito codigo="151003" descripcion="AYAUCA"/>
+  <distrito codigo="151004" descripcion="AYAVIRI"/>
+  <distrito codigo="151005" descripcion="AZANGARO"/>
+  <distrito codigo="151006" descripcion="CACRA"/>
+  <distrito codigo="151007" descripcion="CARANIA"/>
+  <distrito codigo="151008" descripcion="CATAHUASI"/>
+  <distrito codigo="151009" descripcion="CHOCOS"/>
+  <distrito codigo="151010" descripcion="COCHAS"/>
+  <distrito codigo="151011" descripcion="COLONIA"/>
+  <distrito codigo="151012" descripcion="HONGOS"/>
+  <distrito codigo="151013" descripcion="HUAMPARA"/>
+  <distrito codigo="151014" descripcion="HUANCAYA"/>
+  <distrito codigo="151015" descripcion="HUANGASCAR"/>
+  <distrito codigo="151016" descripcion="HUANTAN"/>
+  <distrito codigo="151017" descripcion="HUAÑEC"/>
+  <distrito codigo="151018" descripcion="LARAOS"/>
+  <distrito codigo="151019" descripcion="LINCHA"/>
+  <distrito codigo="151020" descripcion="MADEAN"/>
+  <distrito codigo="151021" descripcion="MIRAFLORES"/>
+  <distrito codigo="151022" descripcion="OMAS"/>
+  <distrito codigo="151023" descripcion="PUTINZA"/>
+  <distrito codigo="151024" descripcion="QUINCHES"/>
+  <distrito codigo="151025" descripcion="QUINOCAY"/>
+  <distrito codigo="151026" descripcion="SAN JOAQUIN"/>
+  <distrito codigo="151027" descripcion="SAN PEDRO DE PILAS"/>
+  <distrito codigo="151028" descripcion="TANTA"/>
+  <distrito codigo="151029" descripcion="TAURIPAMPA"/>
+  <distrito codigo="151030" descripcion="TOMAS"/>
+  <distrito codigo="151031" descripcion="TUPE"/>
+  <distrito codigo="151032" descripcion="VIÑAC"/>
+  <distrito codigo="151033" descripcion="VITIS"/>
+  <distrito codigo="160101" descripcion="IQUITOS"/>
+  <distrito codigo="160102" descripcion="ALTO NANAY"/>
+  <distrito codigo="160103" descripcion="FERNANDO LORES"/>
+  <distrito codigo="160104" descripcion="INDIANA"/>
+  <distrito codigo="160105" descripcion="LAS AMAZONAS"/>
+  <distrito codigo="160106" descripcion="MAZAN"/>
+  <distrito codigo="160107" descripcion="NAPO"/>
+  <distrito codigo="160108" descripcion="PUNCHANA"/>
+  <distrito codigo="160109" descripcion="PUTUMAYO"/>
+  <distrito codigo="160110" descripcion="TORRES CAUSANA"/>
+  <distrito codigo="160112" descripcion="BELEN"/>
+  <distrito codigo="160113" descripcion="SAN JUAN BAUTISTA"/>
+  <distrito codigo="160114" descripcion="TENIENTE MANUEL CLAVERO"/>
+  <distrito codigo="160201" descripcion="YURIMAGUAS"/>
+  <distrito codigo="160202" descripcion="BALSAPUERTO"/>
+  <distrito codigo="160205" descripcion="JEBEROS"/>
+  <distrito codigo="160206" descripcion="LAGUNAS"/>
+  <distrito codigo="160210" descripcion="SANTA CRUZ"/>
+  <distrito codigo="160211" descripcion="TENIENTE CESAR LOPEZ ROJAS"/>
+  <distrito codigo="160301" descripcion="NAUTA"/>
+  <distrito codigo="160302" descripcion="PARINARI"/>
+  <distrito codigo="160303" descripcion="TIGRE"/>
+  <distrito codigo="160304" descripcion="TROMPETEROS"/>
+  <distrito codigo="160305" descripcion="URARINAS"/>
+  <distrito codigo="160401" descripcion="RAMON CASTILLA"/>
+  <distrito codigo="160402" descripcion="PEBAS"/>
+  <distrito codigo="160403" descripcion="YAVARI"/>
+  <distrito codigo="160404" descripcion="SAN PABLO"/>
+  <distrito codigo="160501" descripcion="REQUENA"/>
+  <distrito codigo="160502" descripcion="ALTO TAPICHE"/>
+  <distrito codigo="160503" descripcion="CAPELO"/>
+  <distrito codigo="160504" descripcion="EMILIO SAN MARTIN"/>
+  <distrito codigo="160505" descripcion="MAQUIA"/>
+  <distrito codigo="160506" descripcion="PUINAHUA"/>
+  <distrito codigo="160507" descripcion="SAQUENA"/>
+  <distrito codigo="160508" descripcion="SOPLIN"/>
+  <distrito codigo="160509" descripcion="TAPICHE"/>
+  <distrito codigo="160510" descripcion="JENARO HERRERA"/>
+  <distrito codigo="160511" descripcion="YAQUERANA"/>
+  <distrito codigo="160601" descripcion="CONTAMANA"/>
+  <distrito codigo="160602" descripcion="INAHUAYA"/>
+  <distrito codigo="160603" descripcion="PADRE MARQUEZ"/>
+  <distrito codigo="160604" descripcion="PAMPA HERMOSA"/>
+  <distrito codigo="160605" descripcion="SARAYACU"/>
+  <distrito codigo="160606" descripcion="VARGAS GUERRA"/>
+  <distrito codigo="160701" descripcion="BARRANCA"/>
+  <distrito codigo="160702" descripcion="CAHUAPANAS"/>
+  <distrito codigo="160703" descripcion="MANSERICHE"/>
+  <distrito codigo="160704" descripcion="MORONA"/>
+  <distrito codigo="160705" descripcion="PASTAZA"/>
+  <distrito codigo="160706" descripcion="ANDOAS"/>
+  <distrito codigo="170101" descripcion="TAMBOPATA"/>
+  <distrito codigo="170102" descripcion="INAMBARI"/>
+  <distrito codigo="170103" descripcion="LAS PIEDRAS"/>
+  <distrito codigo="170104" descripcion="LABERINTO"/>
+  <distrito codigo="170201" descripcion="MANU"/>
+  <distrito codigo="170202" descripcion="FITZCARRALD"/>
+  <distrito codigo="170203" descripcion="MADRE DE DIOS"/>
+  <distrito codigo="170204" descripcion="HUEPETUHE"/>
+  <distrito codigo="170301" descripcion="IÑAPARI"/>
+  <distrito codigo="170302" descripcion="IBERIA"/>
+  <distrito codigo="170303" descripcion="TAHUAMANU"/>
+  <distrito codigo="180101" descripcion="MOQUEGUA"/>
+  <distrito codigo="180102" descripcion="CARUMAS"/>
+  <distrito codigo="180103" descripcion="CUCHUMBAYA"/>
+  <distrito codigo="180104" descripcion="SAMEGUA"/>
+  <distrito codigo="180105" descripcion="SAN CRISTOBAL"/>
+  <distrito codigo="180106" descripcion="TORATA"/>
+  <distrito codigo="180201" descripcion="OMATE"/>
+  <distrito codigo="180202" descripcion="CHOJATA"/>
+  <distrito codigo="180203" descripcion="COALAQUE"/>
+  <distrito codigo="180204" descripcion="ICHUÑA"/>
+  <distrito codigo="180205" descripcion="LA CAPILLA"/>
+  <distrito codigo="180206" descripcion="LLOQUE"/>
+  <distrito codigo="180207" descripcion="MATALAQUE"/>
+  <distrito codigo="180208" descripcion="PUQUINA"/>
+  <distrito codigo="180209" descripcion="QUINISTAQUILLAS"/>
+  <distrito codigo="180210" descripcion="UBINAS"/>
+  <distrito codigo="180211" descripcion="YUNGA"/>
+  <distrito codigo="180301" descripcion="ILO"/>
+  <distrito codigo="180302" descripcion="EL ALGARROBAL"/>
+  <distrito codigo="180303" descripcion="PACOCHA"/>
+  <distrito codigo="190101" descripcion="CHAUPIMARCA"/>
+  <distrito codigo="190102" descripcion="HUACHON"/>
+  <distrito codigo="190103" descripcion="HUARIACA"/>
+  <distrito codigo="190104" descripcion="HUAYLLAY"/>
+  <distrito codigo="190105" descripcion="NINACACA"/>
+  <distrito codigo="190106" descripcion="PALLANCHACRA"/>
+  <distrito codigo="190107" descripcion="PAUCARTAMBO"/>
+  <distrito codigo="190108" descripcion="SAN FRANCISCO DE ASIS DE YARUSYACAN"/>
+  <distrito codigo="190109" descripcion="SIMON BOLIVAR"/>
+  <distrito codigo="190110" descripcion="TICLACAYAN"/>
+  <distrito codigo="190111" descripcion="TINYAHUARCO"/>
+  <distrito codigo="190112" descripcion="VICCO"/>
+  <distrito codigo="190113" descripcion="YANACANCHA"/>
+  <distrito codigo="190201" descripcion="YANAHUANCA"/>
+  <distrito codigo="190202" descripcion="CHACAYAN"/>
+  <distrito codigo="190203" descripcion="GOYLLARISQUIZGA"/>
+  <distrito codigo="190204" descripcion="PAUCAR"/>
+  <distrito codigo="190205" descripcion="SAN PEDRO DE PILLAO"/>
+  <distrito codigo="190206" descripcion="SANTA ANA DE TUSI"/>
+  <distrito codigo="190207" descripcion="TAPUC"/>
+  <distrito codigo="190208" descripcion="VILCABAMBA"/>
+  <distrito codigo="190301" descripcion="OXAPAMPA"/>
+  <distrito codigo="190302" descripcion="CHONTABAMBA"/>
+  <distrito codigo="190303" descripcion="HUANCABAMBA"/>
+  <distrito codigo="190304" descripcion="PALCAZU"/>
+  <distrito codigo="190305" descripcion="POZUZO"/>
+  <distrito codigo="190306" descripcion="PUERTO BERMUDEZ"/>
+  <distrito codigo="190307" descripcion="VILLA RICA"/>
+  <distrito codigo="200101" descripcion="PIURA"/>
+  <distrito codigo="200104" descripcion="CASTILLA"/>
+  <distrito codigo="200105" descripcion="CATACAOS"/>
+  <distrito codigo="200107" descripcion="CURA MORI"/>
+  <distrito codigo="200108" descripcion="EL TALLAN"/>
+  <distrito codigo="200109" descripcion="LA ARENA"/>
+  <distrito codigo="200110" descripcion="LA UNION"/>
+  <distrito codigo="200111" descripcion="LAS LOMAS"/>
+  <distrito codigo="200114" descripcion="TAMBO GRANDE"/>
+  <distrito codigo="200201" descripcion="AYABACA"/>
+  <distrito codigo="200202" descripcion="FRIAS"/>
+  <distrito codigo="200203" descripcion="JILILI"/>
+  <distrito codigo="200204" descripcion="LAGUNAS"/>
+  <distrito codigo="200205" descripcion="MONTERO"/>
+  <distrito codigo="200206" descripcion="PACAIPAMPA"/>
+  <distrito codigo="200207" descripcion="PAIMAS"/>
+  <distrito codigo="200208" descripcion="SAPILLICA"/>
+  <distrito codigo="200209" descripcion="SICCHEZ"/>
+  <distrito codigo="200210" descripcion="SUYO"/>
+  <distrito codigo="200301" descripcion="HUANCABAMBA"/>
+  <distrito codigo="200302" descripcion="CANCHAQUE"/>
+  <distrito codigo="200303" descripcion="EL CARMEN DE LA FRONTERA"/>
+  <distrito codigo="200304" descripcion="HUARMACA"/>
+  <distrito codigo="200305" descripcion="LALAQUIZ"/>
+  <distrito codigo="200306" descripcion="SAN MIGUEL DE EL FAIQUE"/>
+  <distrito codigo="200307" descripcion="SONDOR"/>
+  <distrito codigo="200308" descripcion="SONDORILLO"/>
+  <distrito codigo="200401" descripcion="CHULUCANAS"/>
+  <distrito codigo="200402" descripcion="BUENOS AIRES"/>
+  <distrito codigo="200403" descripcion="CHALACO"/>
+  <distrito codigo="200404" descripcion="LA MATANZA"/>
+  <distrito codigo="200405" descripcion="MORROPON"/>
+  <distrito codigo="200406" descripcion="SALITRAL"/>
+  <distrito codigo="200407" descripcion="SAN JUAN DE BIGOTE"/>
+  <distrito codigo="200408" descripcion="SANTA CATALINA DE MOSSA"/>
+  <distrito codigo="200409" descripcion="SANTO DOMINGO"/>
+  <distrito codigo="200410" descripcion="YAMANGO"/>
+  <distrito codigo="200501" descripcion="PAITA"/>
+  <distrito codigo="200502" descripcion="AMOTAPE"/>
+  <distrito codigo="200503" descripcion="ARENAL"/>
+  <distrito codigo="200504" descripcion="COLAN"/>
+  <distrito codigo="200505" descripcion="LA HUACA"/>
+  <distrito codigo="200506" descripcion="TAMARINDO"/>
+  <distrito codigo="200507" descripcion="VICHAYAL"/>
+  <distrito codigo="200601" descripcion="SULLANA"/>
+  <distrito codigo="200602" descripcion="BELLAVISTA"/>
+  <distrito codigo="200603" descripcion="IGNACIO ESCUDERO"/>
+  <distrito codigo="200604" descripcion="LANCONES"/>
+  <distrito codigo="200605" descripcion="MARCAVELICA"/>
+  <distrito codigo="200606" descripcion="MIGUEL CHECA"/>
+  <distrito codigo="200607" descripcion="QUERECOTILLO"/>
+  <distrito codigo="200608" descripcion="SALITRAL"/>
+  <distrito codigo="200701" descripcion="PARIÑAS"/>
+  <distrito codigo="200702" descripcion="EL ALTO"/>
+  <distrito codigo="200703" descripcion="LA BREA"/>
+  <distrito codigo="200704" descripcion="LOBITOS"/>
+  <distrito codigo="200705" descripcion="LOS ORGANOS"/>
+  <distrito codigo="200706" descripcion="MANCORA"/>
+  <distrito codigo="200801" descripcion="SECHURA"/>
+  <distrito codigo="200802" descripcion="BELLAVISTA DE LA UNION"/>
+  <distrito codigo="200803" descripcion="BERNAL"/>
+  <distrito codigo="200804" descripcion="CRISTO NOS VALGA"/>
+  <distrito codigo="200805" descripcion="VICE"/>
+  <distrito codigo="200806" descripcion="RINCONADA LLICUAR"/>
+  <distrito codigo="210101" descripcion="PUNO"/>
+  <distrito codigo="210102" descripcion="ACORA"/>
+  <distrito codigo="210103" descripcion="AMANTANI"/>
+  <distrito codigo="210104" descripcion="ATUNCOLLA"/>
+  <distrito codigo="210105" descripcion="CAPACHICA"/>
+  <distrito codigo="210106" descripcion="CHUCUITO"/>
+  <distrito codigo="210107" descripcion="COATA"/>
+  <distrito codigo="210108" descripcion="HUATA"/>
+  <distrito codigo="210109" descripcion="MAÑAZO"/>
+  <distrito codigo="210110" descripcion="PAUCARCOLLA"/>
+  <distrito codigo="210111" descripcion="PICHACANI"/>
+  <distrito codigo="210112" descripcion="PLATERIA"/>
+  <distrito codigo="210113" descripcion="SAN ANTONIO"/>
+  <distrito codigo="210114" descripcion="TIQUILLACA"/>
+  <distrito codigo="210115" descripcion="VILQUE"/>
+  <distrito codigo="210201" descripcion="AZANGARO"/>
+  <distrito codigo="210202" descripcion="ACHAYA"/>
+  <distrito codigo="210203" descripcion="ARAPA"/>
+  <distrito codigo="210204" descripcion="ASILLO"/>
+  <distrito codigo="210205" descripcion="CAMINACA"/>
+  <distrito codigo="210206" descripcion="CHUPA"/>
+  <distrito codigo="210207" descripcion="JOSE DOMINGO CHOQUEHUANCA"/>
+  <distrito codigo="210208" descripcion="MUÑANI"/>
+  <distrito codigo="210209" descripcion="POTONI"/>
+  <distrito codigo="210210" descripcion="SAMAN"/>
+  <distrito codigo="210211" descripcion="SAN ANTON"/>
+  <distrito codigo="210212" descripcion="SAN JOSE"/>
+  <distrito codigo="210213" descripcion="SAN JUAN DE SALINAS"/>
+  <distrito codigo="210214" descripcion="SANTIAGO DE PUPUJA"/>
+  <distrito codigo="210215" descripcion="TIRAPATA"/>
+  <distrito codigo="210301" descripcion="MACUSANI"/>
+  <distrito codigo="210302" descripcion="AJOYANI"/>
+  <distrito codigo="210303" descripcion="AYAPATA"/>
+  <distrito codigo="210304" descripcion="COASA"/>
+  <distrito codigo="210305" descripcion="CORANI"/>
+  <distrito codigo="210306" descripcion="CRUCERO"/>
+  <distrito codigo="210307" descripcion="ITUATA"/>
+  <distrito codigo="210308" descripcion="OLLACHEA"/>
+  <distrito codigo="210309" descripcion="SAN GABAN"/>
+  <distrito codigo="210310" descripcion="USICAYOS"/>
+  <distrito codigo="210401" descripcion="JULI"/>
+  <distrito codigo="210402" descripcion="DESAGUADERO"/>
+  <distrito codigo="210403" descripcion="HUACULLANI"/>
+  <distrito codigo="210404" descripcion="KELLUYO"/>
+  <distrito codigo="210405" descripcion="PISACOMA"/>
+  <distrito codigo="210406" descripcion="POMATA"/>
+  <distrito codigo="210407" descripcion="ZEPITA"/>
+  <distrito codigo="210501" descripcion="ILAVE"/>
+  <distrito codigo="210502" descripcion="CAPAZO"/>
+  <distrito codigo="210503" descripcion="PILCUYO"/>
+  <distrito codigo="210504" descripcion="SANTA ROSA"/>
+  <distrito codigo="210505" descripcion="CONDURIRI"/>
+  <distrito codigo="210601" descripcion="HUANCANE"/>
+  <distrito codigo="210602" descripcion="COJATA"/>
+  <distrito codigo="210603" descripcion="HUATASANI"/>
+  <distrito codigo="210604" descripcion="INCHUPALLA"/>
+  <distrito codigo="210605" descripcion="PUSI"/>
+  <distrito codigo="210606" descripcion="ROSASPATA"/>
+  <distrito codigo="210607" descripcion="TARACO"/>
+  <distrito codigo="210608" descripcion="VILQUE CHICO"/>
+  <distrito codigo="210701" descripcion="LAMPA"/>
+  <distrito codigo="210702" descripcion="CABANILLA"/>
+  <distrito codigo="210703" descripcion="CALAPUJA"/>
+  <distrito codigo="210704" descripcion="NICASIO"/>
+  <distrito codigo="210705" descripcion="OCUVIRI"/>
+  <distrito codigo="210706" descripcion="PALCA"/>
+  <distrito codigo="210707" descripcion="PARATIA"/>
+  <distrito codigo="210708" descripcion="PUCARA"/>
+  <distrito codigo="210709" descripcion="SANTA LUCIA"/>
+  <distrito codigo="210710" descripcion="VILAVILA"/>
+  <distrito codigo="210801" descripcion="AYAVIRI"/>
+  <distrito codigo="210802" descripcion="ANTAUTA"/>
+  <distrito codigo="210803" descripcion="CUPI"/>
+  <distrito codigo="210804" descripcion="LLALLI"/>
+  <distrito codigo="210805" descripcion="MACARI"/>
+  <distrito codigo="210806" descripcion="NUÑOA"/>
+  <distrito codigo="210807" descripcion="ORURILLO"/>
+  <distrito codigo="210808" descripcion="SANTA ROSA"/>
+  <distrito codigo="210809" descripcion="UMACHIRI"/>
+  <distrito codigo="210901" descripcion="MOHO"/>
+  <distrito codigo="210902" descripcion="CONIMA"/>
+  <distrito codigo="210903" descripcion="HUAYRAPATA"/>
+  <distrito codigo="210904" descripcion="TILALI"/>
+  <distrito codigo="211001" descripcion="PUTINA"/>
+  <distrito codigo="211002" descripcion="ANANEA"/>
+  <distrito codigo="211003" descripcion="PEDRO VILCA APAZA"/>
+  <distrito codigo="211004" descripcion="QUILCAPUNCU"/>
+  <distrito codigo="211005" descripcion="SINA"/>
+  <distrito codigo="211101" descripcion="JULIACA"/>
+  <distrito codigo="211102" descripcion="CABANA"/>
+  <distrito codigo="211103" descripcion="CABANILLAS"/>
+  <distrito codigo="211104" descripcion="CARACOTO"/>
+  <distrito codigo="211201" descripcion="SANDIA"/>
+  <distrito codigo="211202" descripcion="CUYOCUYO"/>
+  <distrito codigo="211203" descripcion="LIMBANI"/>
+  <distrito codigo="211204" descripcion="PATAMBUCO"/>
+  <distrito codigo="211205" descripcion="PHARA"/>
+  <distrito codigo="211206" descripcion="QUIACA"/>
+  <distrito codigo="211207" descripcion="SAN JUAN DEL ORO"/>
+  <distrito codigo="211208" descripcion="YANAHUAYA"/>
+  <distrito codigo="211209" descripcion="ALTO INAMBARI"/>
+  <distrito codigo="211210" descripcion="SAN PEDRO DE PUTINA PUNCO"/>
+  <distrito codigo="211301" descripcion="YUNGUYO"/>
+  <distrito codigo="211302" descripcion="ANAPIA"/>
+  <distrito codigo="211303" descripcion="COPANI"/>
+  <distrito codigo="211304" descripcion="CUTURAPI"/>
+  <distrito codigo="211305" descripcion="OLLARAYA"/>
+  <distrito codigo="211306" descripcion="TINICACHI"/>
+  <distrito codigo="211307" descripcion="UNICACHI"/>
+  <distrito codigo="220101" descripcion="MOYOBAMBA"/>
+  <distrito codigo="220102" descripcion="CALZADA"/>
+  <distrito codigo="220103" descripcion="HABANA"/>
+  <distrito codigo="220104" descripcion="JEPELACIO"/>
+  <distrito codigo="220105" descripcion="SORITOR"/>
+  <distrito codigo="220106" descripcion="YANTALO"/>
+  <distrito codigo="220201" descripcion="BELLAVISTA"/>
+  <distrito codigo="220202" descripcion="ALTO BIAVO"/>
+  <distrito codigo="220203" descripcion="BAJO BIAVO"/>
+  <distrito codigo="220204" descripcion="HUALLAGA"/>
+  <distrito codigo="220205" descripcion="SAN PABLO"/>
+  <distrito codigo="220206" descripcion="SAN RAFAEL"/>
+  <distrito codigo="220301" descripcion="SAN JOSE DE SISA"/>
+  <distrito codigo="220302" descripcion="AGUA BLANCA"/>
+  <distrito codigo="220303" descripcion="SAN MARTIN"/>
+  <distrito codigo="220304" descripcion="SANTA ROSA"/>
+  <distrito codigo="220305" descripcion="SHATOJA"/>
+  <distrito codigo="220401" descripcion="SAPOSOA"/>
+  <distrito codigo="220402" descripcion="ALTO SAPOSOA"/>
+  <distrito codigo="220403" descripcion="EL ESLABON"/>
+  <distrito codigo="220404" descripcion="PISCOYACU"/>
+  <distrito codigo="220405" descripcion="SACANCHE"/>
+  <distrito codigo="220406" descripcion="TINGO DE SAPOSOA"/>
+  <distrito codigo="220501" descripcion="LAMAS"/>
+  <distrito codigo="220502" descripcion="ALONSO DE ALVARADO"/>
+  <distrito codigo="220503" descripcion="BARRANQUITA"/>
+  <distrito codigo="220504" descripcion="CAYNARACHI"/>
+  <distrito codigo="220505" descripcion="CUÑUMBUQUI"/>
+  <distrito codigo="220506" descripcion="PINTO RECODO"/>
+  <distrito codigo="220507" descripcion="RUMISAPA"/>
+  <distrito codigo="220508" descripcion="SAN ROQUE DE CUMBAZA"/>
+  <distrito codigo="220509" descripcion="SHANAO"/>
+  <distrito codigo="220510" descripcion="TABALOSOS"/>
+  <distrito codigo="220511" descripcion="ZAPATERO"/>
+  <distrito codigo="220601" descripcion="JUANJUI"/>
+  <distrito codigo="220602" descripcion="CAMPANILLA"/>
+  <distrito codigo="220603" descripcion="HUICUNGO"/>
+  <distrito codigo="220604" descripcion="PACHIZA"/>
+  <distrito codigo="220605" descripcion="PAJARILLO"/>
+  <distrito codigo="220701" descripcion="PICOTA"/>
+  <distrito codigo="220702" descripcion="BUENOS AIRES"/>
+  <distrito codigo="220703" descripcion="CASPISAPA"/>
+  <distrito codigo="220704" descripcion="PILLUANA"/>
+  <distrito codigo="220705" descripcion="PUCACACA"/>
+  <distrito codigo="220706" descripcion="SAN CRISTOBAL"/>
+  <distrito codigo="220707" descripcion="SAN HILARION"/>
+  <distrito codigo="220708" descripcion="SHAMBOYACU"/>
+  <distrito codigo="220709" descripcion="TINGO DE PONASA"/>
+  <distrito codigo="220710" descripcion="TRES UNIDOS"/>
+  <distrito codigo="220801" descripcion="RIOJA"/>
+  <distrito codigo="220802" descripcion="AWAJUN"/>
+  <distrito codigo="220803" descripcion="ELIAS SOPLIN VARGAS"/>
+  <distrito codigo="220804" descripcion="NUEVA CAJAMARCA"/>
+  <distrito codigo="220805" descripcion="PARDO MIGUEL"/>
+  <distrito codigo="220806" descripcion="POSIC"/>
+  <distrito codigo="220807" descripcion="SAN FERNANDO"/>
+  <distrito codigo="220808" descripcion="YORONGOS"/>
+  <distrito codigo="220809" descripcion="YURACYACU"/>
+  <distrito codigo="220901" descripcion="TARAPOTO"/>
+  <distrito codigo="220902" descripcion="ALBERTO LEVEAU"/>
+  <distrito codigo="220903" descripcion="CACATACHI"/>
+  <distrito codigo="220904" descripcion="CHAZUTA"/>
+  <distrito codigo="220905" descripcion="CHIPURANA"/>
+  <distrito codigo="220906" descripcion="EL PORVENIR"/>
+  <distrito codigo="220907" descripcion="HUIMBAYOC"/>
+  <distrito codigo="220908" descripcion="JUAN GUERRA"/>
+  <distrito codigo="220909" descripcion="LA BANDA DE SHILCAYO"/>
+  <distrito codigo="220910" descripcion="MORALES"/>
+  <distrito codigo="220911" descripcion="PAPAPLAYA"/>
+  <distrito codigo="220912" descripcion="SAN ANTONIO"/>
+  <distrito codigo="220913" descripcion="SAUCE"/>
+  <distrito codigo="220914" descripcion="SHAPAJA"/>
+  <distrito codigo="221001" descripcion="TOCACHE"/>
+  <distrito codigo="221002" descripcion="NUEVO PROGRESO"/>
+  <distrito codigo="221003" descripcion="POLVORA"/>
+  <distrito codigo="221004" descripcion="SHUNTE"/>
+  <distrito codigo="221005" descripcion="UCHIZA"/>
+  <distrito codigo="230101" descripcion="TACNA"/>
+  <distrito codigo="230102" descripcion="ALTO DE LA ALIANZA"/>
+  <distrito codigo="230103" descripcion="CALANA"/>
+  <distrito codigo="230104" descripcion="CIUDAD NUEVA"/>
+  <distrito codigo="230105" descripcion="INCLAN"/>
+  <distrito codigo="230106" descripcion="PACHIA"/>
+  <distrito codigo="230107" descripcion="PALCA"/>
+  <distrito codigo="230108" descripcion="POCOLLAY"/>
+  <distrito codigo="230109" descripcion="SAMA"/>
+  <distrito codigo="230110" descripcion="CORONEL GREGORIO ALBARRACIN LANCHIPA"/>
+  <distrito codigo="230201" descripcion="CANDARAVE"/>
+  <distrito codigo="230202" descripcion="CAIRANI"/>
+  <distrito codigo="230203" descripcion="CAMILACA"/>
+  <distrito codigo="230204" descripcion="CURIBAYA"/>
+  <distrito codigo="230205" descripcion="HUANUARA"/>
+  <distrito codigo="230206" descripcion="QUILAHUANI"/>
+  <distrito codigo="230301" descripcion="LOCUMBA"/>
+  <distrito codigo="230302" descripcion="ILABAYA"/>
+  <distrito codigo="230303" descripcion="ITE"/>
+  <distrito codigo="230401" descripcion="TARATA"/>
+  <distrito codigo="230402" descripcion="HEROES ALBARRACIN"/>
+  <distrito codigo="230403" descripcion="ESTIQUE"/>
+  <distrito codigo="230404" descripcion="ESTIQUE-PAMPA"/>
+  <distrito codigo="230405" descripcion="SITAJARA"/>
+  <distrito codigo="230406" descripcion="SUSAPAYA"/>
+  <distrito codigo="230407" descripcion="TARUCACHI"/>
+  <distrito codigo="230408" descripcion="TICACO"/>
+  <distrito codigo="240101" descripcion="TUMBES"/>
+  <distrito codigo="240102" descripcion="CORRALES"/>
+  <distrito codigo="240103" descripcion="LA CRUZ"/>
+  <distrito codigo="240104" descripcion="PAMPAS DE HOSPITAL"/>
+  <distrito codigo="240105" descripcion="SAN JACINTO"/>
+  <distrito codigo="240106" descripcion="SAN JUAN DE LA VIRGEN"/>
+  <distrito codigo="240201" descripcion="ZORRITOS"/>
+  <distrito codigo="240202" descripcion="CASITAS"/>
+  <distrito codigo="240203" descripcion="CANOAS DE PUNTA SAL"/>
+  <distrito codigo="240301" descripcion="ZARUMILLA"/>
+  <distrito codigo="240302" descripcion="AGUAS VERDES"/>
+  <distrito codigo="240303" descripcion="MATAPALO"/>
+  <distrito codigo="240304" descripcion="PAPAYAL"/>
+  <distrito codigo="250101" descripcion="CALLERIA"/>
+  <distrito codigo="250102" descripcion="CAMPOVERDE"/>
+  <distrito codigo="250103" descripcion="IPARIA"/>
+  <distrito codigo="250104" descripcion="MASISEA"/>
+  <distrito codigo="250105" descripcion="YARINACOCHA"/>
+  <distrito codigo="250106" descripcion="NUEVA REQUENA"/>
+  <distrito codigo="250107" descripcion="MANANTAY"/>
+  <distrito codigo="250201" descripcion="RAYMONDI"/>
+  <distrito codigo="250202" descripcion="SEPAHUA"/>
+  <distrito codigo="250203" descripcion="TAHUANIA"/>
+  <distrito codigo="250204" descripcion="YURUA"/>
+  <distrito codigo="250301" descripcion="PADRE ABAD"/>
+  <distrito codigo="250302" descripcion="IRAZOLA"/>
+  <distrito codigo="250303" descripcion="CURIMANA"/>
+  <distrito codigo="250401" descripcion="PURUS"/>
+</INEI_Distritos>
