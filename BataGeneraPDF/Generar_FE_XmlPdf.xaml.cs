@@ -33,6 +33,8 @@ namespace BataGeneraPDF
         }
         private string _code_page = "ISO-8859-1";
 
+        private string _empresa = "E";
+
         private Byte[] get_img(Decimal _id)
         {
             String sqlquery = "USP_GET_BYTES_XMLCDR";
@@ -149,7 +151,8 @@ namespace BataGeneraPDF
                 MessageBox.Show(exc.Message);
             }
         }
-        private string conexion= "Server=10.10.10.28;Database=FEPE_SC;User ID=dmendoza;Password=Bata2013;Trusted_Connection=False;";
+        private string conexion = ""; 
+
         //private string conexion = "Server=10.10.10.208;Database=BdTienda;User ID=dmendoza;Password=Bata2013;Trusted_Connection=False;";
         public static string GZipDecompress(byte[] zippedData)
         {
@@ -399,6 +402,18 @@ namespace BataGeneraPDF
             string _ruta_xslt = "";
             try
             {
+
+                if (optencomer.IsChecked.Value)
+                {
+                    _empresa = "E";
+                    conexion = "Server=10.10.10.28;Database=FEPE_SC;User ID=dmendoza;Password=Bata2013;Trusted_Connection=False;";
+                }
+                else
+                {
+                    _empresa = "T";
+                    conexion = "Server=10.10.10.250;Database=FEPE_SC;User ID=dmendoza;Password=Bata2013;Trusted_Connection=False;";
+                }
+                
                 /*EXPORTAR XML DE LA FE */
                 if (!Directory.Exists(_ruta)) Directory.CreateDirectory(_ruta);                
                 if (chkxml.IsChecked.Value)                
@@ -490,7 +505,7 @@ namespace BataGeneraPDF
                                         { 
                                             if (File.Exists(_path_file_xml))
                                             { 
-                                                _ruta_xslt = _ruta_Xslt_doc(_name_archivo);
+                                                _ruta_xslt = _ruta_Xslt_doc(_name_archivo,(_empresa=="E"?"E":"T"));
                                                 if (_tipo=="XML")
                                                 { 
                                                     this.GeneratePDF(_path_file_xml, _ruta_xslt, @_pdf_ruta);
@@ -563,6 +578,14 @@ namespace BataGeneraPDF
                         }
 
                     }
+                    else
+                    {
+                        MessageBox.Show("No hay documentos en la base de datos para generar", "Aviso del sistema...", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("No hay documentos en la base de datos para generar", "Aviso del sistema...", MessageBoxButton.OK, MessageBoxImage.Exclamation);
                 }
                 //MessageBox.Show("ok");
 
@@ -607,6 +630,7 @@ namespace BataGeneraPDF
             }
             catch (Exception ex)
             {
+                MessageBox.Show(ex.Message, "Aviso del sistema...", MessageBoxButton.OK, MessageBoxImage.Error);
                 //int num2 = (int)MessageBox.Show("Ocurrio un error generando los PDFs: " + ex.Message, "Aviso del sistema...", MessageBoxButton.OK, MessageBoxImage.Error);
             }
 

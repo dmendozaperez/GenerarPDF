@@ -106,7 +106,7 @@ namespace www.facturas.electronica.com.Bll
                             if (File.Exists(@_path_file_xml))
                             {
                                 _ruta_xslt = _ruta_Xslt_doc(vrutaserver_site, _archivo_xml);
-                                GeneratePDF(vrutaserver_site, _path_file_xml, _ruta_xslt, @vrutaserver_folder);
+                                GeneratePDF(vrutaserver_site, _path_file_xml, _ruta_xslt, @vrutaserver_folder,_tipo_doc);
                                 _valida = true;
                                 _ruta_pdf = _ruta_archivo;
                                 /*SI EL PDF SE GENERO CORRECTAMENTE ENTONCES BORRAMOS EL XML Y SU HTML*/
@@ -171,7 +171,7 @@ namespace www.facturas.electronica.com.Bll
             }
             return "";
         }
-        private static void GeneratePDF(string _path_server,string strPathXML, string strPathXSLT, string strPathPDFFolder)
+        private static void GeneratePDF(string _path_server,string strPathXML, string strPathXSLT, string strPathPDFFolder,string _tipo_doc)
         {
             string path = strPathXML.ToLower().Replace(".xml", ".html");
             string pathPDF = System.IO.Path.Combine(strPathPDFFolder, System.IO.Path.GetFileName(strPathXML.ToLower().Replace(".xml", ".pdf")));
@@ -193,8 +193,17 @@ namespace www.facturas.electronica.com.Bll
             //DateTime.Now);
 
             var htmlToPdf = new NReco.PdfGenerator.HtmlToPdfConverter();
-            htmlToPdf.PageHeight = 242;
-            htmlToPdf.PageWidth = 170;
+
+            if (_tipo_doc == "20") /*retencion*/
+            {
+                htmlToPdf.PageHeight = 742;
+                htmlToPdf.PageWidth = 670;
+            }
+            else
+            {
+                htmlToPdf.PageHeight = 242;
+                htmlToPdf.PageWidth = 170;
+            }
             var margins = new NReco.PdfGenerator.PageMargins();
             margins.Bottom = 2;
             margins.Top = 1;
@@ -245,6 +254,8 @@ namespace www.facturas.electronica.com.Bll
                         case "08":
                             //nota de debito
                             return _ruta_exe_local + "\\XSLT\\ND_ND.xslt";
+                        case "20":
+                            return _ruta_exe_local + "\\XSLT\\RE_RE.xslt";
                     }
                 }
                 if (_emp == "T")

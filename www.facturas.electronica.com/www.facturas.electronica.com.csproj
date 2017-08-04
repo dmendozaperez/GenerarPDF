@@ -110,6 +110,7 @@
     <Content Include="XSLT\NC_NC.xslt" />
     <Content Include="XSLT\ND.xslt" />
     <Content Include="XSLT\ND_ND.xslt" />
+    <Content Include="XSLT\RE_RE.xslt" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bll\Basico.cs" />

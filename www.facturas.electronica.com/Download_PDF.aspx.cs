@@ -20,6 +20,12 @@ namespace www.facturas.electronica.com
             string _serie_doc = this.Request.Params["serie"].ToString();//"B424";
             string _num_doc = this.Request.Params["numero"].ToString();//43554;
 
+
+            //string _ruc = "20101951872";
+            //string _tipo_doc = "03";
+            //string _serie_doc = "B030";
+            //string _num_doc = "210";
+
             string _file_pdf = "";
             string _name_pdf = "";
             //string _tipo_doc = "03";
