@@ -21,22 +21,26 @@ namespace www.facturas.electronica.com
             string _num_doc = this.Request.Params["numero"].ToString();//43554;
 
 
+
+
             //string _ruc = "20101951872";
-            //string _tipo_doc = "03";
-            //string _serie_doc = "B030";
-            //string _num_doc = "210";
+            //string _tipo_doc = "01";
+            //string _serie_doc = "F023";
+            //string _num_doc = "189";
 
             string _file_pdf = "";
             string _name_pdf = "";
             //string _tipo_doc = "03";
             //string _serie_doc = "B143";
             //decimal _num_doc = 1;
-            Boolean _descarga = Basico.download_pdf(this,_ruc,_tipo_doc,_serie_doc,Convert.ToDecimal(_num_doc),ref _file_pdf,ref _name_pdf);
+            String _ERROR = "";
 
+            Boolean _descarga = Basico.download_pdf(this,_ruc,_tipo_doc,_serie_doc,Convert.ToDecimal(_num_doc),ref _file_pdf,ref _name_pdf,ref _ERROR);
+            //lblmsg.Text = _ERROR;
             if (_descarga)
             {
                 Response.Clear();
-                
+
                 //string pdfPath = _rutapdf;
                 WebClient client = new WebClient();
                 Byte[] buffer = client.DownloadData(@_file_pdf);
@@ -49,7 +53,7 @@ namespace www.facturas.electronica.com
                 Response.Close();
             }
 
-            
+
         }
     }
 }

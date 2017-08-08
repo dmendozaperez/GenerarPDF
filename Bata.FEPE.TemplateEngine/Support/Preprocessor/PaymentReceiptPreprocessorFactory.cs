@@ -1,18 +1,18 @@
 ﻿// Decompiled with JetBrains decompiler
 // Type: Carvajal.FEPE.TemplateEngine.Support.Preprocessor.PaymentReceiptPreprocessorFactory
 // Assembly: Carvajal.FEPE.TemplateEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-// MVID: AB4FD6BE-70AA-4F27-A8BF-3F770A12367A
-// Assembly location: D:\David\Generador PDF\PDFGenerator\Proy2015\Proy2015\Proy2015\bin\Debug\Carvajal.FEPE.TemplateEngine.dll
+// MVID: E45B097E-B0D8-406E-B5BE-61961D953F9A
+// Assembly location: D:\Fuentes\Generador PDF\dllcompiler\Carvajal.FEPE.TemplateEngine\Carvajal.FEPE.TemplateEngine.dll
 
 using System.Xml;
 using System.Xml.XPath;
 
-namespace Bata.FEPE.TemplateEngine.Support.Preprocessor
+namespace Carvajal.FEPE.TemplateEngine.Support.Preprocessor
 {
   public class PaymentReceiptPreprocessorFactory
   {
-    private const int DefaultDetailLineWidth = 250;
     private readonly XmlNamespaceManager templateXmlNamespaceManager;
+    private const int DefaultDetailLineWidth = 250;
 
     public string PaymentReceiptType { get; private set; }
 
@@ -46,12 +46,11 @@ namespace Bata.FEPE.TemplateEngine.Support.Preprocessor
 
     public IPaymentReceiptPreprocessor Build(XmlDocument templateXmlDocument, XmlNamespaceManager paymentReceiptXmlNamespaceManager, string adjustmentType)
     {
-      string str = adjustmentType;
-      if (str == "N")
+      if (adjustmentType == "N")
         return (IPaymentReceiptPreprocessor) NoPreprocessing.Instance;
-      if (str == "T")
+      if (adjustmentType == "T")
         return (IPaymentReceiptPreprocessor) new DescriptionTextPreprocessor(this.GetDetailLineWidth(templateXmlDocument), this.AdjustmentXPaths, paymentReceiptXmlNamespaceManager);
-      if (str == "W")
+      if (adjustmentType == "W")
         return (IPaymentReceiptPreprocessor) new DescriptionWordsPreprocessor(this.GetDetailLineWidth(templateXmlDocument), this.AdjustmentXPaths, paymentReceiptXmlNamespaceManager);
       return (IPaymentReceiptPreprocessor) NoPreprocessing.Instance;
     }
@@ -59,7 +58,9 @@ namespace Bata.FEPE.TemplateEngine.Support.Preprocessor
     private int GetDetailLineWidth(XmlDocument templateXmlDocument)
     {
       int result;
-      return int.TryParse(this.GetFieldValue(templateXmlDocument, "/xsl:stylesheet/xsl:variable[@name='anchoLinea']"), out result) ? result : 250;
+      if (!int.TryParse(this.GetFieldValue(templateXmlDocument, "/xsl:stylesheet/xsl:variable[@name='anchoLinea']"), out result))
+        return 250;
+      return result;
     }
 
     private string GetFieldValue(XmlDocument xmlDocument, string xpath)

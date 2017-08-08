@@ -12,13 +12,15 @@ using System.Xml;
 using Common.Entities.UBL;
 using Bata.FEPE.TemplateEngine.Support.Sunat;
 using System.Xml.Xsl;
+using Carvajal.FEPE.TemplateEngine.Mapper;
+using Carvajal.FEPE.PDFService.Core.Services;
 
 namespace www.facturas.electronica.com.Bll
 {
     
     public class Basico
     {
-        private static string conexion = "Server=10.10.10.28;Database=FEPE_SC;User ID=dmendoza;Password=Bata2013;Trusted_Connection=False;";
+        private static string conexion ="";// "Server=10.10.10.28;Database=FEPE_SC;User ID=dmendoza;Password=Bata2013;Trusted_Connection=False;";
 
 
 
@@ -50,13 +52,23 @@ namespace www.facturas.electronica.com.Bll
             return dt;
         }
 
-        public static Boolean download_pdf(Page pag,string _ruc, string _tipo_doc, string _ser_doc, Decimal _num_doc,ref string _ruta_pdf,ref string _name_pdf)
+        public static Boolean download_pdf(Page pag,string _ruc, string _tipo_doc, string _ser_doc, Decimal _num_doc,ref string _ruta_pdf,ref string _name_pdf,ref string _error )
         {
             Boolean _valida = false;
             DataTable dt = null;
             string _ruta_xslt = "";
             try
             {
+
+                if (_ruc== "20408990816")
+                {
+                    conexion = "Server=10.10.10.250;Database=FEPE_SC;User ID=dmendoza;Password=Bata2013;Trusted_Connection=False;";
+                }
+                else
+                {
+                    conexion= "Server=10.10.10.28;Database=FEPE_SC;User ID=dmendoza;Password=Bata2013;Trusted_Connection=False;";
+                }
+
                 dt = dt_getxmldoc_empresa(_ruc, _tipo_doc, _ser_doc, _num_doc);
                 if (dt!=null)
                 {
@@ -74,10 +86,35 @@ namespace www.facturas.electronica.com.Bll
 
                         _name_pdf = _archivo_pdf;
 
+                        string _plantilla = "";
+                        switch (_tipo_doc)
+                        {
+                            /*FACTURA*/
+                            case "01":
+                                _plantilla = "FA";
+                                break;
+                            /*BOLETA*/
+                            case "03":
+                                _plantilla = "BO";
+                                break;
+                            /*NOTE DE CREDITO*/
+                            case "07":
+                                _plantilla = "NC";
+                                break;
+                            /*NOTA DE DEBITO*/
+                            case "08":
+                                _plantilla = "ND";
+                                break;
+                            /*RETENCION*/
+                            case "20":
+                                _plantilla = "20";
+                                break;
+                        }
+
                         /*verificar si existe la carpeta*/
                         //string path = Path.Combine(Server.MapPath("~/imagenes/anuncios"), id_anun);
                         //string vrutaserver_folder=pag.Server.MapPath("../../" + _carpeta_default + "/" + _carpeta_pdf);
-
+                       
                         string vrutaserver_folder = pag.Server.MapPath("~/" + _carpeta_default + "/" + _carpeta_pdf);
                         string vrutaserver_site = pag.Server.MapPath("");
 
@@ -101,12 +138,22 @@ namespace www.facturas.electronica.com.Bll
                             string _path_file_html = vrutaserver_folder + "\\" + _archivo_html;
                             Byte[] _xml =(Byte[]) dt.Rows[0]["documento"];
                             enviar_xml(_xml, _path_file_xml);
-
+                            
                             /*si existe el xml entonces se va generar el pdf*/
                             if (File.Exists(@_path_file_xml))
                             {
-                                _ruta_xslt = _ruta_Xslt_doc(vrutaserver_site, _archivo_xml);
-                                GeneratePDF(vrutaserver_site, _path_file_xml, _ruta_xslt, @vrutaserver_folder,_tipo_doc);
+                                //_ruta_xslt = _ruta_Xslt_doc(vrutaserver_site, _archivo_xml);
+                                string xmlstr = File.ReadAllText(@_path_file_xml);
+                                XmlDocument xmldoc = new XmlDocument();
+                                xmldoc.LoadXml(xmlstr);
+
+                                GenericDocumentMapper formato_new = new GenericDocumentMapper();
+                                XmlDocument xmlnew = new XmlDocument();
+                                xmlnew = formato_new.Transform(xmldoc);
+                               
+                                GeneratePDF(_path_file_xml, xmlnew.InnerXml, @vrutaserver_folder, _ruc, _tipo_doc, _plantilla,ref _error);
+                               
+                                //GeneratePDF(vrutaserver_site, _path_file_xml, _ruta_xslt, @vrutaserver_folder,_tipo_doc);
                                 _valida = true;
                                 _ruta_pdf = _ruta_archivo;
                                 /*SI EL PDF SE GENERO CORRECTAMENTE ENTONCES BORRAMOS EL XML Y SU HTML*/
@@ -148,22 +195,22 @@ namespace www.facturas.electronica.com.Bll
         {
             try
             {
-                XmlDocument xmlDocument = new XmlDocument();
-                xmlDocument.LoadXml(inputXml);
-                string cdpType = GetCdpType(xmlDocument);
-                XmlNamespaceManager xmlNamespaceManager = XmlNamespaceManagerFactory.ForPaymentReceiptFile(cdpType, xmlDocument.NameTable);
-                SunatBarcode sunatBarcode = new SunatBarcodeFactory(cdpType, xmlNamespaceManager).Build(xmlDocument);
-                XsltArgumentList arguments = new XsltArgumentList();
-                arguments.AddParam("codigoBarras", string.Empty, (object)sunatBarcode.ToBase64());
-                arguments.AddParam("hash", string.Empty, (object)sunatBarcode.DigestValue);
-                XsltSettings settings = new XsltSettings(true, true);
-                XslCompiledTransform compiledTransform = new XslCompiledTransform();
-                using (XmlReader stylesheet = XmlReader.Create((TextReader)new StringReader(xsltString)))
-                    compiledTransform.Load(stylesheet, settings, (XmlResolver)new XmlUrlResolver());
-                StringWriter stringWriter = new StringWriter();
-                using (XmlReader input = XmlReader.Create((TextReader)new StringReader(inputXml)))
-                    compiledTransform.Transform(input, arguments, (TextWriter)stringWriter);
-                return stringWriter.ToString();
+                //XmlDocument xmlDocument = new XmlDocument();
+                //xmlDocument.LoadXml(inputXml);
+                //string cdpType = GetCdpType(xmlDocument);
+                //XmlNamespaceManager xmlNamespaceManager = XmlNamespaceManagerFactory.ForPaymentReceiptFile(cdpType, xmlDocument.NameTable);
+                //SunatBarcode sunatBarcode = new SunatBarcodeFactory(cdpType, xmlNamespaceManager).Build(xmlDocument);
+                //XsltArgumentList arguments = new XsltArgumentList();
+                //arguments.AddParam("codigoBarras", string.Empty, (object)sunatBarcode.ToBase64());
+                //arguments.AddParam("hash", string.Empty, (object)sunatBarcode.DigestValue);
+                //XsltSettings settings = new XsltSettings(true, true);
+                //XslCompiledTransform compiledTransform = new XslCompiledTransform();
+                //using (XmlReader stylesheet = XmlReader.Create((TextReader)new StringReader(xsltString)))
+                //    compiledTransform.Load(stylesheet, settings, (XmlResolver)new XmlUrlResolver());
+                //StringWriter stringWriter = new StringWriter();
+                //using (XmlReader input = XmlReader.Create((TextReader)new StringReader(inputXml)))
+                //    compiledTransform.Transform(input, arguments, (TextWriter)stringWriter);
+                //return stringWriter.ToString();
             }
             catch (Exception exc)
             {
@@ -171,20 +218,30 @@ namespace www.facturas.electronica.com.Bll
             }
             return "";
         }
-        private static void GeneratePDF(string _path_server,string strPathXML, string strPathXSLT, string strPathPDFFolder,string _tipo_doc)
+        private static void GeneratePDF(string strPathXML, string strxml_new, string strPathPDFFolder, string ruc, string tipo, string plantilla,ref string _error)
         {
+            try
+            { 
             string path = strPathXML.ToLower().Replace(".xml", ".html");
             string pathPDF = System.IO.Path.Combine(strPathPDFFolder, System.IO.Path.GetFileName(strPathXML.ToLower().Replace(".xml", ".pdf")));
             pathPDF = pathPDF.ToUpper().ToString();
-            string xsltString = File.ReadAllText(strPathXSLT);
+                //string xsltString = File.ReadAllText(strPathXSLT);
 
-            string _ruta_exe_local = _path_server;//System.IO.Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+                //string _ruta_exe_local = System.IO.Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 
-            xsltString = xsltString.Replace("../ReferenceData/ISO.xslt", @_ruta_exe_local + "/ReferenceData/ISO.xslt");
-            xsltString = xsltString.Replace("../ReferenceData/INEI.xslt", @_ruta_exe_local + "/ReferenceData/INEI.xslt");
+                //xsltString = xsltString.Replace("../ReferenceData/ISO.xslt", @_ruta_exe_local + "/ReferenceData/ISO.xslt");
+                //xsltString = xsltString.Replace("../ReferenceData/INEI.xslt", @_ruta_exe_local + "/ReferenceData/INEI.xslt");
 
-            string str = TransformXMLToHTML(File.ReadAllText(strPathXML, Encoding.GetEncoding("iso8859-1")), xsltString);
-            File.WriteAllText(path, str);
+
+                //string str = this.TransformXMLToHTML(File.ReadAllText(strPathXML, Encoding.GetEncoding("iso8859-1")), xsltString);
+                //_error = "aaaaa";
+                PdfGenerator genera_html = new PdfGenerator();
+                //_error = "xxxxx";
+                string str = genera_html.GeneratePdfFromXmlContent(strxml_new, ruc, tipo, plantilla);
+
+                //_error = "rrrrrr";
+
+                File.WriteAllText(path, str);
             //this.HtmlToPDF(str, pathPDF);
             //GetPDF(str);
             var htmlContent = str;
@@ -194,7 +251,7 @@ namespace www.facturas.electronica.com.Bll
 
             var htmlToPdf = new NReco.PdfGenerator.HtmlToPdfConverter();
 
-            if (_tipo_doc == "20") /*retencion*/
+            if (tipo == "20")
             {
                 htmlToPdf.PageHeight = 742;
                 htmlToPdf.PageWidth = 670;
@@ -204,6 +261,9 @@ namespace www.facturas.electronica.com.Bll
                 htmlToPdf.PageHeight = 242;
                 htmlToPdf.PageWidth = 170;
             }
+
+
+
             var margins = new NReco.PdfGenerator.PageMargins();
             margins.Bottom = 2;
             margins.Top = 1;
@@ -225,10 +285,72 @@ namespace www.facturas.electronica.com.Bll
             _archivo_pdf = _archivo_pdf.ToUpper().ToString();
 
             System.IO.File.WriteAllBytes(@_archivo_pdf, pdfBytes);
-
+            }
+            catch(Exception exc)
+            {
+                _error = exc.Message;
+            }
             //File.Delete(path);
             //Console.Write("Listo");
         }
+        //private static void GeneratePDF(string _path_server,string strPathXML, string strPathXSLT, string strPathPDFFolder,string _tipo_doc)
+        //{
+        //    string path = strPathXML.ToLower().Replace(".xml", ".html");
+        //    string pathPDF = System.IO.Path.Combine(strPathPDFFolder, System.IO.Path.GetFileName(strPathXML.ToLower().Replace(".xml", ".pdf")));
+        //    pathPDF = pathPDF.ToUpper().ToString();
+        //    string xsltString = File.ReadAllText(strPathXSLT);
+
+        //    string _ruta_exe_local = _path_server;//System.IO.Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+
+        //    xsltString = xsltString.Replace("../ReferenceData/ISO.xslt", @_ruta_exe_local + "/ReferenceData/ISO.xslt");
+        //    xsltString = xsltString.Replace("../ReferenceData/INEI.xslt", @_ruta_exe_local + "/ReferenceData/INEI.xslt");
+
+        //    string str = TransformXMLToHTML(File.ReadAllText(strPathXML, Encoding.GetEncoding("iso8859-1")), xsltString);
+        //    File.WriteAllText(path, str);
+        //    //this.HtmlToPDF(str, pathPDF);
+        //    //GetPDF(str);
+        //    var htmlContent = str;
+
+        //    //var htmlContent = String.Format(str,
+        //    //DateTime.Now);
+
+        //    var htmlToPdf = new NReco.PdfGenerator.HtmlToPdfConverter();
+
+        //    if (_tipo_doc == "20") /*retencion*/
+        //    {
+        //        htmlToPdf.PageHeight = 742;
+        //        htmlToPdf.PageWidth = 670;
+        //    }
+        //    else
+        //    {
+        //        htmlToPdf.PageHeight = 242;
+        //        htmlToPdf.PageWidth = 170;
+        //    }
+        //    var margins = new NReco.PdfGenerator.PageMargins();
+        //    margins.Bottom = 2;
+        //    margins.Top = 1;
+        //    margins.Left = 2;
+        //    margins.Right = 5;
+        //    htmlToPdf.Margins = margins;
+        //    htmlToPdf.Orientation = NReco.PdfGenerator.PageOrientation.Portrait;
+        //    htmlToPdf.Zoom = 1F;
+        //    htmlToPdf.Size = NReco.PdfGenerator.PageSize.A4;
+
+        //    //htmlToPdf.Orientation = NReco.PdfGenerator.PageOrientation.Portrait;
+        //    //htmlToPdf.Margins = new NReco.PdfGenerator.PageMargins { Top = 25, Bottom = 25, Left = 25, Right = 25 };
+        //    //htmlToPdf.Zoom = 2.88f;
+        //    //htmlToPdf.CustomWkHtmlArgs = "--encoding UTF-8";
+        //    var pdfBytes = htmlToPdf.GeneratePdf(htmlContent);
+
+        //    string _archivo_pdf = strPathPDFFolder + "\\" + System.IO.Path.GetFileName(strPathXML.ToLower().Replace(".xml", ".pdf"));
+
+        //    _archivo_pdf = _archivo_pdf.ToUpper().ToString();
+
+        //    System.IO.File.WriteAllBytes(@_archivo_pdf, pdfBytes);
+
+        //    //File.Delete(path);
+        //    //Console.Write("Listo");
+        //}
         private static string _ruta_Xslt_doc(string _ruta_server,string _archivo, string _emp = "E")
         {
             string _ruta_xslt = "";

@@ -1,21 +1,21 @@
 ﻿// Decompiled with JetBrains decompiler
 // Type: Carvajal.FEPE.TemplateEngine.Support.TemplateSettingsReader
 // Assembly: Carvajal.FEPE.TemplateEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-// MVID: AB4FD6BE-70AA-4F27-A8BF-3F770A12367A
-// Assembly location: D:\David\Generador PDF\PDFGenerator\Proy2015\Proy2015\Proy2015\bin\Debug\Carvajal.FEPE.TemplateEngine.dll
+// MVID: E45B097E-B0D8-406E-B5BE-61961D953F9A
+// Assembly location: D:\Fuentes\Generador PDF\dllcompiler\Carvajal.FEPE.TemplateEngine\Carvajal.FEPE.TemplateEngine.dll
 
 using System.Xml;
 using System.Xml.XPath;
 
-namespace Bata.FEPE.TemplateEngine.Support
+namespace Carvajal.FEPE.TemplateEngine.Support
 {
   public class TemplateSettingsReader
   {
+    private readonly XmlNamespaceManager xmlNamespaceManager;
     private const string DefaultAdjustmentType = "N";
     private const double DefaultScaleXFactor = 1.0;
     private const double DefaultScaleYFactor = 1.0;
     private const string DefaultPageSize = "A4";
-    private readonly XmlNamespaceManager xmlNamespaceManager;
 
     public TemplateSettingsReader(XmlNamespaceManager xmlNamespaceManager)
     {
@@ -25,7 +25,9 @@ namespace Bata.FEPE.TemplateEngine.Support
     public string GetPageSize(XmlDocument templateXmlDocument)
     {
       string fieldValue = this.GetFieldValue(templateXmlDocument, "/xsl:stylesheet/xsl:variable[@name='tamanoPagina']");
-      return !string.IsNullOrEmpty(fieldValue) ? fieldValue : "A4";
+      if (string.IsNullOrEmpty(fieldValue))
+        return "A4";
+      return fieldValue;
     }
 
     public double GetScaleXFactor(XmlDocument templateXmlDocument)
@@ -41,13 +43,17 @@ namespace Bata.FEPE.TemplateEngine.Support
     public string GetAdjustmentType(XmlDocument templateXmlDocument)
     {
       string fieldValue = this.GetFieldValue(templateXmlDocument, "/xsl:stylesheet/xsl:variable[@name='tipoAjuste']");
-      return !string.IsNullOrEmpty(fieldValue) ? fieldValue : "N";
+      if (string.IsNullOrEmpty(fieldValue))
+        return "N";
+      return fieldValue;
     }
 
     public double GetFieldDoubleValue(XmlDocument xmlDocument, string xpath, double defaultValue)
     {
       double result;
-      return double.TryParse(this.GetFieldValue(xmlDocument, xpath), out result) ? result : defaultValue;
+      if (!double.TryParse(this.GetFieldValue(xmlDocument, xpath), out result))
+        return defaultValue;
+      return result;
     }
 
     private string GetFieldValue(XmlDocument xmlDocument, string xpath)

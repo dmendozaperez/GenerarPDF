@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ISO4217>
+  <moneda codigo="AED" descripcion="Dirham de los Emiratos Árabes Unidos"/>
+  <moneda codigo="AFN" descripcion="Afgani afgano"/>
+  <moneda codigo="ALL" descripcion="Lek albano"/>
+  <moneda codigo="AMD" descripcion="Dram armenio"/>
+  <moneda codigo="ANG" descripcion="Florín de las Antillas Holandesas"/>
+  <moneda codigo="AOA" descripcion="Kwanza angoleño"/>
+  <moneda codigo="ARS" descripcion="Peso argentino"/>
+  <moneda codigo="AUD" descripcion="Dólar australiano"/>
+  <moneda codigo="AWG" descripcion="Florín arubeño"/>
+  <moneda codigo="AZM" descripcion="Manat azerbaiyano"/>
+  <moneda codigo="BAM" descripcion="Marco convertible de Bosnia-Herzegovina"/>
+  <moneda codigo="BBD" descripcion="Dólar de Barbados"/>
+  <moneda codigo="BDT" descripcion="Taka de Bangladesh"/>
+  <moneda codigo="BGN" descripcion="Lev búlgaro"/>
+  <moneda codigo="BHD" descripcion="Dinar bahreiní"/>
+  <moneda codigo="BIF" descripcion="Franco burundés"/>
+  <moneda codigo="BMD" descripcion="Dólar de Bermuda"/>
+  <moneda codigo="BND" descripcion="Dólar de Brunei"/>
+  <moneda codigo="BOB" descripcion="Boliviano"/>
+  <moneda codigo="BOV" descripcion="Mvdol boliviano (código de fondos)"/>
+  <moneda codigo="BRL" descripcion="Real brasileño"/>
+  <moneda codigo="BSD" descripcion="Dólar bahameño"/>
+  <moneda codigo="BTN" descripcion="Ngultrum de Bután"/>
+  <moneda codigo="BWP" descripcion="Pula de Botswana"/>
+  <moneda codigo="BYR" descripcion="Rublo bielorruso"/>
+  <moneda codigo="BZD" descripcion="Dólar de Belice"/>
+  <moneda codigo="CAD" descripcion="Dólar canadiense"/>
+  <moneda codigo="CDF" descripcion="Franco congoleño"/>
+  <moneda codigo="CHF" descripcion="Franco suizo"/>
+  <moneda codigo="CLF" descripcion="Unidades de fomento chilenas (código de fondos)"/>
+  <moneda codigo="CLP" descripcion="Peso chileno"/>
+  <moneda codigo="CNY" descripcion="Yuan Renminbi de China"/>
+  <moneda codigo="COP" descripcion="Peso colombiano"/>
+  <moneda codigo="COU" descripcion="Unidad de valor real colombiana (añadida al COP)"/>
+  <moneda codigo="CRC" descripcion="Colón costarricense"/>
+  <moneda codigo="CSD" descripcion="Dinar serbio (It was replaced by RSD on October 25, 2006)"/>
+  <moneda codigo="CUP" descripcion="Peso cubano"/>
+  <moneda codigo="CVE" descripcion="Escudo caboverdiano"/>
+  <moneda codigo="CYP" descripcion="Libra chipriota"/>
+  <moneda codigo="CZK" descripcion="Koruna checo"/>
+  <moneda codigo="DJF" descripcion="Franco yibutiano"/>
+  <moneda codigo="DKK" descripcion="Corona danesa"/>
+  <moneda codigo="DOP" descripcion="Peso dominicano"/>
+  <moneda codigo="DZD" descripcion="Dinar algerino"/>
+  <moneda codigo="EEK" descripcion="Corona estonia"/>
+  <moneda codigo="EGP" descripcion="Libra egipcia"/>
+  <moneda codigo="ERN" descripcion="Nakfa eritreo"/>
+  <moneda codigo="ETB" descripcion="Birr etíope"/>
+  <moneda codigo="EUR" descripcion="Euro"/>
+  <moneda codigo="FJD" descripcion="Dólar fijiano"/>
+  <moneda codigo="FKP" descripcion="Libra malvinense"/>
+  <moneda codigo="GBP" descripcion="Libra esterlina (libra de Gran Bretaña)"/>
+  <moneda codigo="GEL" descripcion="Lari georgiano"/>
+  <moneda codigo="GHC" descripcion="Cedi ghanés"/>
+  <moneda codigo="GIP" descripcion="Libra de Gibraltar"/>
+  <moneda codigo="GMD" descripcion="Dalasi gambiano"/>
+  <moneda codigo="GNF" descripcion="Franco guineano"/>
+  <moneda codigo="GTQ" descripcion="Quetzal guatemalteco"/>
+  <moneda codigo="GYD" descripcion="Dólar guyanés"/>
+  <moneda codigo="HKD" descripcion="Dólar de Hong Kong"/>
+  <moneda codigo="HNL" descripcion="Lempira hondureño"/>
+  <moneda codigo="HRK" descripcion="Kuna croata"/>
+  <moneda codigo="HTG" descripcion="Gourde haitiano"/>
+  <moneda codigo="HUF" descripcion="Forint húngaro"/>
+  <moneda codigo="IDR" descripcion="Rupiah indonesia"/>
+  <moneda codigo="ILS" descripcion="Nuevo shequel israelí"/>
+  <moneda codigo="INR" descripcion="Rupia india"/>
+  <moneda codigo="IQD" descripcion="Dinar iraquí"/>
+  <moneda codigo="IRR" descripcion="Rial iraní"/>
+  <moneda codigo="ISK" descripcion="Króna islandesa"/>
+  <moneda codigo="JMD" descripcion="Dólar jamaicano"/>
+  <moneda codigo="JOD" descripcion="Dinar jordano"/>
+  <moneda codigo="JPY" descripcion="Yen japonés"/>
+  <moneda codigo="KES" descripcion="Chelín keniata"/>
+  <moneda codigo="KGS" descripcion="Som kirguís (de Kirguistán)"/>
+  <moneda codigo="KHR" descripcion="Riel camboyano"/>
+  <moneda codigo="KMF" descripcion="Franco comoriano (de Comoras)"/>
+  <moneda codigo="KPW" descripcion="Won norcoreano"/>
+  <moneda codigo="KRW" descripcion="Won surcoreano"/>
+  <moneda codigo="KWD" descripcion="Dinar kuwaití"/>
+  <moneda codigo="KYD" descripcion="Dólar caimano (de Islas Caimán)"/>
+  <moneda codigo="KZT" descripcion="Tenge kazajo (de Kazajistán)"/>
+  <moneda codigo="LAK" descripcion="Kip lao"/>
+  <moneda codigo="LBP" descripcion="Libra libanesa"/>
+  <moneda codigo="LKR" descripcion="Rupia de Sri Lanka"/>
+  <moneda codigo="LRD" descripcion="Dólar liberiano"/>
+  <moneda codigo="LSL" descripcion="Loti lesothense (de Lesotho)"/>
+  <moneda codigo="LTL" descripcion="Litas lituano"/>
+  <moneda codigo="LVL" descripcion="Lat letón"/>
+  <moneda codigo="LYD" descripcion="Dinar libio"/>
+  <moneda codigo="MAD" descripcion="Dirham marroquí"/>
+  <moneda codigo="MDL" descripcion="Leu moldavo"/>
+  <moneda codigo="MGA" descripcion="Ariary malgache (de Madagascar)"/>
+  <moneda codigo="MKD" descripcion="Denar macedonio"/>
+  <moneda codigo="MMK" descripcion="Kyat myanmaro"/>
+  <moneda codigo="MNT" descripcion="Tughrik mongol"/>
+  <moneda codigo="MOP" descripcion="Pataca de Macao"/>
+  <moneda codigo="MRO" descripcion="Ouguiya mauritana"/>
+  <moneda codigo="MTL" descripcion="Lira maltesa"/>
+  <moneda codigo="MUR" descripcion="Rupia mauricia"/>
+  <moneda codigo="MVR" descripcion="Rufiyaa maldiva"/>
+  <moneda codigo="MWK" descripcion="Kwacha malawiano"/>
+  <moneda codigo="MXN" descripcion="Peso mexicano"/>
+  <moneda codigo="MXV" descripcion="Unidad de Inversión (UDI) mexicana (código de fondos)"/>
+  <moneda codigo="MYR" descripcion="Ringgit malayo"/>
+  <moneda codigo="MZM" descripcion="Metical mozambiqueño"/>
+  <moneda codigo="NAD" descripcion="Dólar namibio"/>
+  <moneda codigo="NGN" descripcion="Naira nigeriana"/>
+  <moneda codigo="NIO" descripcion="Córdoba nicaragüense"/>
+  <moneda codigo="NOK" descripcion="Corona noruega"/>
+  <moneda codigo="NPR" descripcion="Rupia nepalesa"/>
+  <moneda codigo="NZD" descripcion="Dólar neozelandés"/>
+  <moneda codigo="OMR" descripcion="Rial omaní (de Omán)"/>
+  <moneda codigo="PAB" descripcion="Balboa panameña"/>
+  <moneda codigo="PEN" descripcion="Nuevo sol peruano"/>
+  <moneda codigo="PGK" descripcion="Kina de Papúa Nueva Guinea"/>
+  <moneda codigo="PHP" descripcion="Peso filipino"/>
+  <moneda codigo="PKR" descripcion="Rupia pakistaní"/>
+  <moneda codigo="PLN" descripcion="zloty polaco"/>
+  <moneda codigo="PYG" descripcion="Guaraní paraguayo"/>
+  <moneda codigo="QAR" descripcion="Rial qatarí"/>
+  <moneda codigo="RON" descripcion="Leu rumano (desde el 1 de julio de 2005)"/>
+  <moneda codigo="RUB" descripcion="Rublo ruso"/>
+  <moneda codigo="RWF" descripcion="Franco ruandés"/>
+  <moneda codigo="SAR" descripcion="Riyal saudí"/>
+  <moneda codigo="SBD" descripcion="Dólar de las Islas Salomón"/>
+  <moneda codigo="SCR" descripcion="Rupia de Seychelles"/>
+  <moneda codigo="SDD" descripcion="Dinar sudanés"/>
+  <moneda codigo="SEK" descripcion="Corona sueca"/>
+  <moneda codigo="SGD" descripcion="Dólar de Singapur"/>
+  <moneda codigo="SHP" descripcion="Libra de Santa Helena"/>
+  <moneda codigo="SKK" descripcion="Corona eslovaca"/>
+  <moneda codigo="SLL" descripcion="Leone de Sierra Leona"/>
+  <moneda codigo="SOS" descripcion="Chelín somalí"/>
+  <moneda codigo="SRD" descripcion="Dólar surinamés (desde el 1 de enero de 2004)"/>
+  <moneda codigo="STD" descripcion="Dobra de Santo Tomé y Príncipe"/>
+  <moneda codigo="SYP" descripcion="Libra siria"/>
+  <moneda codigo="SZL" descripcion="Lilangeni suazi (de Suazilandia)"/>
+  <moneda codigo="THB" descripcion="Baht tailandés"/>
+  <moneda codigo="TJS" descripcion="Somoni tayik (de Tayikistán)"/>
+  <moneda codigo="TMM" descripcion="Manat turcomano"/>
+  <moneda codigo="TND" descripcion="Dinar tunecino"/>
+  <moneda codigo="TOP" descripcion="Pa'anga tongano"/>
+  <moneda codigo="TRY" descripcion="Nueva lira turca"/>
+  <moneda codigo="TTD" descripcion="Dólar de Trinidad y Tobago"/>
+  <moneda codigo="TWD" descripcion="Dólar taiwanés"/>
+  <moneda codigo="TZS" descripcion="Chelín tanzano"/>
+  <moneda codigo="UAH" descripcion="Hryvnia ucraniana"/>
+  <moneda codigo="UGX" descripcion="Chelín ugandés"/>
+  <moneda codigo="USD" descripcion="Dólar estadounidense"/>
+  <moneda codigo="USN" descripcion="Dólar estadounidense (Siguiente día) (código de fondos)"/>
+  <moneda codigo="USS" descripcion="United States dollar (Mismo día) (código de fondos)"/>
+  <moneda codigo="UYU" descripcion="Peso uruguayo"/>
+  <moneda codigo="UZS" descripcion="Sum uzbeco"/>
+  <moneda codigo="VEB" descripcion="Bolívar venezolano"/>
+  <moneda codigo="VEF" descripcion="Bolívar fuerte venezolano"/>
+  <moneda codigo="VND" descripcion="Dong vietnamita"/>
+  <moneda codigo="VUV" descripcion="Vatu vanuatense"/>
+  <moneda codigo="WST" descripcion="Tala samoana"/>
+  <moneda codigo="XAF" descripcion="Franco CFA"/>
+  <moneda codigo="XAG" descripcion="Onza de plata"/>
+  <moneda codigo="XAU" descripcion="Onza de oro"/>
+  <moneda codigo="XBA" descripcion="European Composite Unit (EURCO) (Bonds market unit)"/>
+  <moneda codigo="XBB" descripcion="European Monetary Unit (E.M.U.-6) (Bonds market unit)"/>
+  <moneda codigo="XBC" descripcion="European Unit of Account 9 (E.U.A.-9) (Bonds market unit)"/>
+  <moneda codigo="XBD" descripcion="European Unit of Account 17 (E.U.A.-17) (Bonds market unit)"/>
+  <moneda codigo="XCD" descripcion="Dólar del Caribe Oriental"/>
+  <moneda codigo="XDR" descripcion="Special Drawing Rights (FMI)"/>
+  <moneda codigo="XFO" descripcion="Franco de oro (Special settlement currency)"/>
+  <moneda codigo="XFU" descripcion="Franco UIC (Special settlement currency)"/>
+  <moneda codigo="XOF" descripcion="Franco CFA"/>
+  <moneda codigo="XPD" descripcion="Onza de paladio"/>
+  <moneda codigo="XPF" descripcion="Franco CFP"/>
+  <moneda codigo="XPT" descripcion="Onza de platino"/>
+  <moneda codigo="XTS" descripcion="Reservado para pruebas"/>
+  <moneda codigo="XXX" descripcion="Sin divisa"/>
+  <moneda codigo="YER" descripcion="Rial yemení (de Yemen)"/>
+  <moneda codigo="ZAR" descripcion="Rand sudafricano"/>
+  <moneda codigo="ZMK" descripcion="Kwacha zambiano"/>
+  <moneda codigo="ZWD" descripcion="Dólar zimbabuense"/>
+</ISO4217>

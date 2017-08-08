@@ -30,6 +30,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -49,8 +50,17 @@
     <Reference Include="Bata.FEPE.TemplateEngine.PDF417Lib">
       <HintPath>..\BataGeneraPDF\bin\Debug\Bata.FEPE.TemplateEngine.PDF417Lib.dll</HintPath>
     </Reference>
-    <Reference Include="Common">
-      <HintPath>..\BataGeneraPDF\bin\Debug\Common.dll</HintPath>
+    <Reference Include="Carvajal.FEPE.PDFService.Persistence, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\dllcompiler\Carvajal.FEPE.PDFService.Core\bin\Debug\Carvajal.FEPE.PDFService.Persistence.dll</HintPath>
+    </Reference>
+    <Reference Include="Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Carvajal.FEPE.PDFService.Core\bin\Debug\Common.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net40-full\log4net.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="NReco.PdfGenerator">
@@ -76,41 +86,50 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Download_PDF.aspx" />
-    <Content Include="ReferenceData\INEI.xslt" />
-    <Content Include="ReferenceData\INEI_Departamentos.xml" />
-    <Content Include="ReferenceData\INEI_Distritos.xml" />
-    <Content Include="ReferenceData\INEI_Provincias.xml" />
-    <Content Include="ReferenceData\ISO.xslt" />
-    <Content Include="ReferenceData\ISO3166.xml" />
-    <Content Include="ReferenceData\ISO4217.xml" />
-    <Content Include="ReferenceData\SUNAT_DOCUMENTOS.xslt" />
-    <Content Include="ReferenceData\SUNAT_TRIBUTOS.xslt" />
-    <Content Include="ReferenceData\SUNAT_T_Afectacion_IGV.xml" />
-    <Content Include="ReferenceData\SUNAT_T_Documentos.xml" />
-    <Content Include="ReferenceData\SUNAT_T_Documentos_Identidad.xml" />
-    <Content Include="ReferenceData\SUNAT_T_Documentos_Relacionados.xml" />
-    <Content Include="ReferenceData\SUNAT_T_Elementos_Adicionales.xml" />
-    <Content Include="ReferenceData\SUNAT_T_Notas.xml" />
-    <Content Include="ReferenceData\SUNAT_T_Otros_Conceptos_Tributarios.xml" />
-    <Content Include="ReferenceData\SUNAT_T_Precio_Venta.xml" />
-    <Content Include="ReferenceData\SUNAT_T_Sis_Calculo_ISC.xml" />
-    <Content Include="ReferenceData\SUNAT_T_Tributos.xml" />
-    <Content Include="ReferenceData\SUNAT_T_Valor_Venta.xml" />
-    <Content Include="ReferenceData\UBL.xslt" />
-    <Content Include="ReferenceData\UBL_T_Categorias_Tributos.xml" />
-    <Content Include="ReferenceData\UBL_T_Descuentos_Cargos.xml" />
-    <Content Include="ReferenceData\UNECE.xslt" />
-    <Content Include="ReferenceData\UNECE_T_Unidad_Medida.xml" />
+    <Content Include="Templates\00000000000\20.xslt" />
+    <Content Include="Templates\00000000000\40.xslt" />
+    <Content Include="Templates\00000000000\BO.xslt" />
+    <Content Include="Templates\00000000000\FA.xslt" />
+    <Content Include="Templates\00000000000\NC.xslt" />
+    <Content Include="Templates\00000000000\ND.xslt" />
+    <Content Include="Templates\20101951872\20_20.xslt" />
+    <Content Include="Templates\20101951872\40_40.xslt" />
+    <Content Include="Templates\20101951872\BO_BO.xslt" />
+    <Content Include="Templates\20101951872\FA_FA.xslt" />
+    <Content Include="Templates\20101951872\NC_NC.xslt" />
+    <Content Include="Templates\20101951872\ND_ND.xslt" />
+    <Content Include="Templates\20408990816\20_20.xslt" />
+    <Content Include="Templates\20408990816\40_20.xslt" />
+    <Content Include="Templates\20408990816\BO_BO.xslt" />
+    <Content Include="Templates\20408990816\FA_FA.xslt" />
+    <Content Include="Templates\20408990816\NC_NC.xslt" />
+    <Content Include="Templates\20408990816\ND_ND.xslt" />
+    <Content Include="Templates\ReferenceData\INEI.xslt" />
+    <Content Include="Templates\ReferenceData\INEI_Departamentos.xml" />
+    <Content Include="Templates\ReferenceData\INEI_Distritos.xml" />
+    <Content Include="Templates\ReferenceData\INEI_Provincias.xml" />
+    <Content Include="Templates\ReferenceData\ISO.xslt" />
+    <Content Include="Templates\ReferenceData\ISO3166.xml" />
+    <Content Include="Templates\ReferenceData\ISO4217.xml" />
+    <Content Include="Templates\ReferenceData\SUNAT_DOCUMENTOS.xslt" />
+    <Content Include="Templates\ReferenceData\SUNAT_TRIBUTOS.xslt" />
+    <Content Include="Templates\ReferenceData\SUNAT_T_Afectacion_IGV.xml" />
+    <Content Include="Templates\ReferenceData\SUNAT_T_Documentos.xml" />
+    <Content Include="Templates\ReferenceData\SUNAT_T_Documentos_Identidad.xml" />
+    <Content Include="Templates\ReferenceData\SUNAT_T_Documentos_Relacionados.xml" />
+    <Content Include="Templates\ReferenceData\SUNAT_T_Elementos_Adicionales.xml" />
+    <Content Include="Templates\ReferenceData\SUNAT_T_Notas.xml" />
+    <Content Include="Templates\ReferenceData\SUNAT_T_Otros_Conceptos_Tributarios.xml" />
+    <Content Include="Templates\ReferenceData\SUNAT_T_Precio_Venta.xml" />
+    <Content Include="Templates\ReferenceData\SUNAT_T_Sis_Calculo_ISC.xml" />
+    <Content Include="Templates\ReferenceData\SUNAT_T_Tributos.xml" />
+    <Content Include="Templates\ReferenceData\SUNAT_T_Valor_Venta.xml" />
+    <Content Include="Templates\ReferenceData\UBL.xslt" />
+    <Content Include="Templates\ReferenceData\UBL_T_Categorias_Tributos.xml" />
+    <Content Include="Templates\ReferenceData\UBL_T_Descuentos_Cargos.xml" />
+    <Content Include="Templates\ReferenceData\UNECE.xslt" />
+    <Content Include="Templates\ReferenceData\UNECE_T_Unidad_Medida.xml" />
     <Content Include="Web.config" />
-    <Content Include="XSLT\BO.xslt" />
-    <Content Include="XSLT\BO_BO.xslt" />
-    <Content Include="XSLT\FA.xslt" />
-    <Content Include="XSLT\FA_FA.xslt" />
-    <Content Include="XSLT\NC.xslt" />
-    <Content Include="XSLT\NC_NC.xslt" />
-    <Content Include="XSLT\ND.xslt" />
-    <Content Include="XSLT\ND_ND.xslt" />
-    <Content Include="XSLT\RE_RE.xslt" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bll\Basico.cs" />
@@ -124,6 +143,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\GeneraPDF_Web.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -134,6 +154,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Descargar\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Carvajal.FEPE.PDFService.Core\Carvajal.FEPE.PDFService.Core.csproj">
+      <Project>{A17386D2-E862-4B27-95B9-4CBEC6F8F3AC}</Project>
+      <Name>Carvajal.FEPE.PDFService.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,4 +1,7 @@
 ﻿using Bata.FEPE.TemplateEngine.Support.Sunat;
+using Carvajal.FEPE.PDFService.Core.Services;
+using Carvajal.FEPE.TemplateEngine.Mapper;
+using Carvajal.FEPE.TemplateEngine.Support.Sunat;
 using Common.Entities.UBL;
 using Microsoft.Win32;
 using System;
@@ -35,37 +38,37 @@ namespace BataGeneraPDF
         private void btnejcutar_Click(object sender, RoutedEventArgs e)
 
         {
-            string text1 = @"D:\David\Generador PDF\PDFGenerator\XSLT\FA_FA.xslt"; //this.textBoxTemplatePath.Text;
-            string text2 = @"D:\David\Generador PDF\PDFGenerator\XML";//this.textBoxXMLFolderPath.Text;
-            string text3 = @"D:\David\Generador PDF\PDFGenerator\PDF";//this.textBoxPDFFolderPath.Text;
-            if (string.IsNullOrEmpty(text3) || string.IsNullOrEmpty(text2) || string.IsNullOrEmpty(text1))
-            {
-                int num1 = (int)MessageBox.Show("Todos los campos deben tener información", "Error");
-            }
-            else
-            {
-                try
-                {
-                    FileInfo[] files = new DirectoryInfo(text2).GetFiles("*.xml");
-                    if (files.Length > 0)
-                    {
-                        prbgenera.Value = 0;
-                        prbgenera.Maximum = files.Length;
-                        foreach (FileSystemInfo fileSystemInfo in files)
-                            this.GeneratePDF(fileSystemInfo.FullName, text1, text3);
-                        prbgenera.Value += 1;
-                        int num2 = (int)MessageBox.Show("Todos los PDFs se generaron correctamente", "Información");
-                    }
-                    else
-                    {
-                        int num3 = (int)MessageBox.Show("No se encontraron XMLs en la carpeta seleccionada.", "Información");
-                    }
-                }
-                catch (Exception ex)
-                {
-                    int num2 = (int)MessageBox.Show("Ocurrio un error generando los PDFs: " + ex.Message, "Error");
-                }
-            }
+            //string text1 = @"D:\David\Generador PDF\PDFGenerator\XSLT\FA_FA.xslt"; //this.textBoxTemplatePath.Text;
+            //string text2 = @"D:\David\Generador PDF\PDFGenerator\XML";//this.textBoxXMLFolderPath.Text;
+            //string text3 = @"D:\David\Generador PDF\PDFGenerator\PDF";//this.textBoxPDFFolderPath.Text;
+            //if (string.IsNullOrEmpty(text3) || string.IsNullOrEmpty(text2) || string.IsNullOrEmpty(text1))
+            //{
+            //    int num1 = (int)MessageBox.Show("Todos los campos deben tener información", "Error");
+            //}
+            //else
+            //{
+            //    try
+            //    {
+            //        FileInfo[] files = new DirectoryInfo(text2).GetFiles("*.xml");
+            //        if (files.Length > 0)
+            //        {
+            //            prbgenera.Value = 0;
+            //            prbgenera.Maximum = files.Length;
+            //            foreach (FileSystemInfo fileSystemInfo in files)
+            //                this.GeneratePDF(fileSystemInfo.FullName, text1, text3);
+            //            prbgenera.Value += 1;
+            //            int num2 = (int)MessageBox.Show("Todos los PDFs se generaron correctamente", "Información");
+            //        }
+            //        else
+            //        {
+            //            int num3 = (int)MessageBox.Show("No se encontraron XMLs en la carpeta seleccionada.", "Información");
+            //        }
+            //    }
+            //    catch (Exception ex)
+            //    {
+            //        int num2 = (int)MessageBox.Show("Ocurrio un error generando los PDFs: " + ex.Message, "Error");
+            //    }
+            //}
         }
         public string GetCdpType(XmlDocument xmlDocument)
         {
@@ -89,22 +92,22 @@ namespace BataGeneraPDF
         {
             try
             {
-                XmlDocument xmlDocument = new XmlDocument();
-                xmlDocument.LoadXml(inputXml);
-                string cdpType = this.GetCdpType(xmlDocument);
-                XmlNamespaceManager xmlNamespaceManager = XmlNamespaceManagerFactory.ForPaymentReceiptFile(cdpType, xmlDocument.NameTable);
-                SunatBarcode sunatBarcode = new SunatBarcodeFactory(cdpType, xmlNamespaceManager).Build(xmlDocument);
-                XsltArgumentList arguments = new XsltArgumentList();
-                arguments.AddParam("codigoBarras", string.Empty, (object)sunatBarcode.ToBase64());
-                arguments.AddParam("hash", string.Empty, (object)sunatBarcode.DigestValue);
-                XsltSettings settings = new XsltSettings(true, true);
-                XslCompiledTransform compiledTransform = new XslCompiledTransform();
-                using (XmlReader stylesheet = XmlReader.Create((TextReader)new StringReader(xsltString)))
-                    compiledTransform.Load(stylesheet, settings, (XmlResolver)new XmlUrlResolver());
-                StringWriter stringWriter = new StringWriter();
-                using (XmlReader input = XmlReader.Create((TextReader)new StringReader(inputXml)))
-                    compiledTransform.Transform(input, arguments, (TextWriter)stringWriter);
-                return stringWriter.ToString();
+                //XmlDocument xmlDocument = new XmlDocument();
+                //xmlDocument.LoadXml(inputXml);
+                //string cdpType = this.GetCdpType(xmlDocument);
+                //XmlNamespaceManager xmlNamespaceManager = XmlNamespaceManagerFactory.ForPaymentReceiptFile(cdpType, xmlDocument.NameTable);
+                //SunatBarcode sunatBarcode = new SunatBarcodeFactory(cdpType, xmlNamespaceManager).Build(xmlDocument);
+                //XsltArgumentList arguments = new XsltArgumentList();
+                //arguments.AddParam("codigoBarras", string.Empty, (object)sunatBarcode.ToBase64());
+                //arguments.AddParam("hash", string.Empty, (object)sunatBarcode.DigestValue);
+                //XsltSettings settings = new XsltSettings(true, true);
+                //XslCompiledTransform compiledTransform = new XslCompiledTransform();
+                //using (XmlReader stylesheet = XmlReader.Create((TextReader)new StringReader(xsltString)))
+                //    compiledTransform.Load(stylesheet, settings, (XmlResolver)new XmlUrlResolver());
+                //StringWriter stringWriter = new StringWriter();
+                //using (XmlReader input = XmlReader.Create((TextReader)new StringReader(inputXml)))
+                //    compiledTransform.Transform(input, arguments, (TextWriter)stringWriter);
+                //return stringWriter.ToString();
             }
             catch (Exception exc)
             {
@@ -112,19 +115,27 @@ namespace BataGeneraPDF
             }
             return "";
         }
-        private void GeneratePDF(string strPathXML, string strPathXSLT, string strPathPDFFolder)
+        private void GeneratePDF(string strPathXML, string strxml_new, string strPathPDFFolder, string ruc, string tipo, string plantilla)
         {
             string path = strPathXML.ToLower().Replace(".xml", ".html");
             string pathPDF = System.IO.Path.Combine(strPathPDFFolder, System.IO.Path.GetFileName(strPathXML.ToLower().Replace(".xml", ".pdf")));
             pathPDF = pathPDF.ToUpper().ToString();
-            string xsltString = File.ReadAllText(strPathXSLT);
+            //string xsltString = File.ReadAllText(strPathXSLT);
 
-            string _ruta_exe_local = System.IO.Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            //string _ruta_exe_local = System.IO.Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 
-            xsltString = xsltString.Replace("../ReferenceData/ISO.xslt", @_ruta_exe_local +  "/ReferenceData/ISO.xslt");
-            xsltString = xsltString.Replace("../ReferenceData/INEI.xslt", @_ruta_exe_local  +"/ReferenceData/INEI.xslt");
+            //xsltString = xsltString.Replace("../ReferenceData/ISO.xslt", @_ruta_exe_local + "/ReferenceData/ISO.xslt");
+            //xsltString = xsltString.Replace("../ReferenceData/INEI.xslt", @_ruta_exe_local + "/ReferenceData/INEI.xslt");
 
-            string str = this.TransformXMLToHTML(File.ReadAllText(strPathXML, Encoding.GetEncoding("iso8859-1")), xsltString);
+
+            //string str = this.TransformXMLToHTML(File.ReadAllText(strPathXML, Encoding.GetEncoding("iso8859-1")), xsltString);
+
+            PdfGenerator genera_html = new PdfGenerator();
+
+            string str = genera_html.GeneratePdfFromXmlContent(strxml_new, ruc, tipo, plantilla);
+
+
+
             File.WriteAllText(path, str);
             //this.HtmlToPDF(str, pathPDF);
             //GetPDF(str);
@@ -142,10 +153,10 @@ namespace BataGeneraPDF
             margins.Left = 2;
             margins.Right = 5;
             htmlToPdf.Margins = margins;
-            htmlToPdf.Orientation = NReco.PdfGenerator.PageOrientation.Portrait;            
+            htmlToPdf.Orientation = NReco.PdfGenerator.PageOrientation.Portrait;
             htmlToPdf.Zoom = 1F;
             htmlToPdf.Size = NReco.PdfGenerator.PageSize.A4;
-            
+
             //htmlToPdf.Orientation = NReco.PdfGenerator.PageOrientation.Portrait;
             //htmlToPdf.Margins = new NReco.PdfGenerator.PageMargins { Top = 25, Bottom = 25, Left = 25, Right = 25 };
             //htmlToPdf.Zoom = 2.88f;
@@ -267,9 +278,46 @@ namespace BataGeneraPDF
                     double pro = 0;
                     UpdateProgressBarDelegate updatePbDelegate = new UpdateProgressBarDelegate(prbgenera.SetValue);
                     foreach (FileSystemInfo fileSystemInfo in files)
-                    {                
-                        _ruta_xslt = _ruta_Xslt_doc(fileSystemInfo.Name);
-                            this.GeneratePDF(fileSystemInfo.FullName, _ruta_xslt, @_pdf_ruta);
+                    {
+                        string _tipo_compro = fileSystemInfo.Name.Substring(12,2);
+                        string _ruc= fileSystemInfo.Name.Substring(0, 11);
+                        string _plantilla = "";
+                        switch (_tipo_compro)
+                        {
+                            /*FACTURA*/
+                            case "01":
+                                _plantilla = "FA";
+                                break;
+                            /*BOLETA*/
+                            case "03":
+                                _plantilla = "BO";
+                                break;
+                            /*NOTE DE CREDITO*/
+                            case "07":
+                                _plantilla = "NC";
+                                break;
+                            /*NOTA DE DEBITO*/
+                            case "08":
+                                _plantilla = "ND";
+                                break;
+                            /*RETENCION*/
+                            case "20":
+                                _plantilla = "20";
+                                break;
+                        }
+
+                        string xmlstr = File.ReadAllText(@fileSystemInfo.FullName);
+                        XmlDocument xmldoc = new XmlDocument();
+                        xmldoc.LoadXml(xmlstr);
+
+                        GenericDocumentMapper formato_new = new GenericDocumentMapper();
+                        XmlDocument xmlnew = new XmlDocument();
+                        xmlnew = formato_new.Transform(xmldoc);
+
+                        this.GeneratePDF(fileSystemInfo.FullName, xmlnew.InnerXml, @_pdf_ruta, _ruc, _tipo_compro, _plantilla);
+
+                        //_ruta_xslt = _ruta_Xslt_doc(fileSystemInfo.Name);
+                        //    this.GeneratePDF(fileSystemInfo.FullName, _ruta_xslt, @_pdf_ruta);
 
                         value += 1;
 

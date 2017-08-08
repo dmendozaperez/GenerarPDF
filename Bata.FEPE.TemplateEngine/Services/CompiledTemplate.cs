@@ -1,19 +1,19 @@
 ﻿// Decompiled with JetBrains decompiler
 // Type: Carvajal.FEPE.TemplateEngine.Services.CompiledTemplate
 // Assembly: Carvajal.FEPE.TemplateEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-// MVID: AB4FD6BE-70AA-4F27-A8BF-3F770A12367A
-// Assembly location: D:\David\Generador PDF\PDFGenerator\Proy2015\Proy2015\Proy2015\bin\Debug\Carvajal.FEPE.TemplateEngine.dll
+// MVID: E45B097E-B0D8-406E-B5BE-61961D953F9A
+// Assembly location: D:\Fuentes\Generador PDF\dllcompiler\Carvajal.FEPE.TemplateEngine\Carvajal.FEPE.TemplateEngine.dll
 
-using Bata.FEPE.TemplateEngine.ABCpdf;
-using Bata.FEPE.TemplateEngine.Support;
-using Bata.FEPE.TemplateEngine.Support.Preprocessor;
-using Bata.FEPE.TemplateEngine.Support.Sunat;
+using Carvajal.FEPE.TemplateEngine.ABCpdf;
+using Carvajal.FEPE.TemplateEngine.Support;
+using Carvajal.FEPE.TemplateEngine.Support.Preprocessor;
+using Carvajal.FEPE.TemplateEngine.Support.Sunat;
 using System.Text;
 using System.Xml;
 using System.Xml.XPath;
 using System.Xml.Xsl;
 
-namespace Bata.FEPE.TemplateEngine.Services
+namespace Carvajal.FEPE.TemplateEngine.Services
 {
   public class CompiledTemplate
   {
@@ -33,29 +33,27 @@ namespace Bata.FEPE.TemplateEngine.Services
 
     public string BuildHtmlContent(XmlDocument paymentReceiptXmlDocument)
     {
-      SunatBarcode sunatBarcode = new SunatBarcodeFactory(this.settings.PaymentReceiptType, this.xmlNamespaceManager).Build(paymentReceiptXmlDocument);
+      SunatCodeGenerator sunatCodeGenerator = new SunatBarcodeFactory(this.settings.PaymentReceiptType, this.xmlNamespaceManager).Build(paymentReceiptXmlDocument);
       XsltArgumentList arguments = new XsltArgumentList();
-      arguments.AddParam("codigoBarras", string.Empty, (object) sunatBarcode.ToBase64());
-      arguments.AddParam("hash", string.Empty, (object) sunatBarcode.DigestValue);
+      arguments.AddParam("codigoBarras", string.Empty, (object) sunatCodeGenerator.BarCodeToBase64(sunatCodeGenerator.GetBarCodeString()));
+      arguments.AddParam("codigoQr", string.Empty, (object) sunatCodeGenerator.QrCodeToBase64(sunatCodeGenerator.GetQrCodeString()));
+      arguments.AddParam("hash", string.Empty, (object) sunatCodeGenerator.DigestValue);
       StringBuilder output = new StringBuilder();
-      XmlWriterSettings xmlWriterSettings = new XmlWriterSettings();
-      int num1 = 0;
-      xmlWriterSettings.ConformanceLevel = (ConformanceLevel) num1;
-      int num2 = 1;
-      xmlWriterSettings.Indent = num2 != 0;
-      Encoding encoding = CompiledTemplate.OutputEncoding;
-      xmlWriterSettings.Encoding = encoding;
-      int num3 = 1;
-      xmlWriterSettings.CloseOutput = num3 != 0;
-      XmlWriterSettings settings = xmlWriterSettings;
-      string str;
+      XmlWriterSettings settings = new XmlWriterSettings()
+      {
+        ConformanceLevel = ConformanceLevel.Document,
+        Indent = true,
+        Encoding = CompiledTemplate.OutputEncoding,
+        CloseOutput = true
+      };
       using (XmlWriter results = XmlWriter.Create(output, settings))
       {
         this.preprocessor.Preprocess(paymentReceiptXmlDocument);
         this.xslCompiledTransform.Transform((IXPathNavigable) paymentReceiptXmlDocument, arguments, results);
-        str = output.ToString();
+
+                string HTML= output.ToString();
+                return output.ToString();
       }
-      return str;
     }
 
     public byte[] BuildPdfDocument(string htmlContent)

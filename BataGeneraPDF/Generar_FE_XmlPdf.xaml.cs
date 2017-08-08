@@ -19,6 +19,9 @@ using System.Xml;
 using Common.Entities.UBL;
 using Bata.FEPE.TemplateEngine.Support.Sunat;
 using System.Xml.Xsl;
+using Carvajal.FEPE.TemplateEngine.Support.Sunat;
+using Carvajal.FEPE.PDFService.Core.Services;
+using Carvajal.FEPE.TemplateEngine.Mapper;
 
 namespace BataGeneraPDF
 {
@@ -231,7 +234,7 @@ namespace BataGeneraPDF
                         _valor = true;
                         return _valor;
                     }
-                    if (Left(_ser,1)!="F" && Left(_ser, 1) != "B")
+                    if (Left(_ser,1)!="F" && Left(_ser, 1) != "B" && Left(_ser, 1) != "R")
                     {
                         MessageBox.Show("La Serie debe de empezar con la letra F ó B", "Aviso del sistema...", MessageBoxButton.OK, MessageBoxImage.Exclamation);
                         txtserie.Focus();
@@ -496,6 +499,35 @@ namespace BataGeneraPDF
                                         Decimal _id =Convert.ToDecimal(fila["id"]);
                                         string _tipo = fila["tipo"].ToString();
                                         string _name_archivo = fila["RUC"].ToString() + "-" + fila["idtipocomprobante"].ToString() + "-" + fila["serie"].ToString() + "-" + fila["numero"].ToString().PadLeft(8,'0') + ".xml";
+                                        string _tipo_compro = fila["idtipocomprobante"].ToString();
+
+                                        string _plantilla = "";
+                                        switch(_tipo_compro)
+                                        {
+                                        /*FACTURA*/
+                                        case "01":
+                                            _plantilla = "FA";
+                                            break;
+                                        /*BOLETA*/
+                                        case "03":
+                                            _plantilla = "BO";
+                                            break;
+                                        /*NOTE DE CREDITO*/
+                                        case "07":
+                                            _plantilla = "NC";
+                                            break;
+                                        /*NOTA DE DEBITO*/
+                                        case "08":
+                                            _plantilla = "ND";
+                                            break;
+                                        /*RETENCION*/
+                                        case "20":
+                                            _plantilla = "20";
+                                            break;           
+                                        }
+
+                                        string _ruc = fila["RUC"].ToString();
+
                                         string _path_file_xml =((_tipo=="XML")? _xml_ruta:_cdr_ruta) + "/" + _name_archivo;
                                         Byte[] _xml =  get_img(_id);
                                         if (_xml!=null)
@@ -504,11 +536,20 @@ namespace BataGeneraPDF
                                         if (chkpdf.IsChecked.Value)
                                         { 
                                             if (File.Exists(_path_file_xml))
-                                            { 
-                                                _ruta_xslt = _ruta_Xslt_doc(_name_archivo,(_empresa=="E"?"E":"T"));
+                                            {
+                                            //_ruta_xslt = _ruta_Xslt_doc(_name_archivo,(_empresa=="E"?"E":"T"));
+                                                string xmlstr= File.ReadAllText(@_path_file_xml);
+                                                XmlDocument xmldoc = new XmlDocument();
+                                                xmldoc.LoadXml(xmlstr);
+
+                                                GenericDocumentMapper formato_new = new GenericDocumentMapper();
+                                                XmlDocument xmlnew = new XmlDocument();
+                                                xmlnew = formato_new.Transform(xmldoc);    
+
+
                                                 if (_tipo=="XML")
                                                 { 
-                                                    this.GeneratePDF(_path_file_xml, _ruta_xslt, @_pdf_ruta);
+                                                    this.GeneratePDF(_path_file_xml,xmlnew.InnerXml, @_pdf_ruta, _ruc, _tipo_compro,_plantilla);
                                                 }
                                                 string _html = _path_file_xml.Replace(".xml",".html");
                                                 if (File.Exists(_html))
@@ -654,26 +695,56 @@ namespace BataGeneraPDF
             }
             return "";
         }
+
+
         private string TransformXMLToHTML(string inputXml, string xsltString)
         {
             try
             {
-                XmlDocument xmlDocument = new XmlDocument();
-                xmlDocument.LoadXml(inputXml);
-                string cdpType = this.GetCdpType(xmlDocument);
-                XmlNamespaceManager xmlNamespaceManager = XmlNamespaceManagerFactory.ForPaymentReceiptFile(cdpType, xmlDocument.NameTable);
-                SunatBarcode sunatBarcode = new SunatBarcodeFactory(cdpType, xmlNamespaceManager).Build(xmlDocument);
-                XsltArgumentList arguments = new XsltArgumentList();
-                arguments.AddParam("codigoBarras", string.Empty, (object)sunatBarcode.ToBase64());
-                arguments.AddParam("hash", string.Empty, (object)sunatBarcode.DigestValue);
-                XsltSettings settings = new XsltSettings(true, true);
-                XslCompiledTransform compiledTransform = new XslCompiledTransform();
-                using (XmlReader stylesheet = XmlReader.Create((TextReader)new StringReader(xsltString)))
-                    compiledTransform.Load(stylesheet, settings, (XmlResolver)new XmlUrlResolver());
-                StringWriter stringWriter = new StringWriter();
-                using (XmlReader input = XmlReader.Create((TextReader)new StringReader(inputXml)))
-                    compiledTransform.Transform(input, arguments, (TextWriter)stringWriter);
-                return stringWriter.ToString();
+
+                //#region<NUEVO CODIGO>
+                //XmlDocument xmlDocument = new XmlDocument();
+                //xmlDocument.LoadXml(inputXml);
+                //string cdpType = this.GetCdpType(xmlDocument);
+                //SunatCodeGenerator sunatCodeGenerator = new SunatBarcodeFactory(cdpType, this.xmlNamespaceManager).Build(paymentReceiptXmlDocument);
+                //XsltArgumentList arguments = new XsltArgumentList();
+                //arguments.AddParam("codigoBarras", string.Empty, (object)sunatCodeGenerator.BarCodeToBase64(sunatCodeGenerator.GetBarCodeString()));
+                //arguments.AddParam("codigoQr", string.Empty, (object)sunatCodeGenerator.QrCodeToBase64(sunatCodeGenerator.GetQrCodeString()));
+                //arguments.AddParam("hash", string.Empty, (object)sunatCodeGenerator.DigestValue);
+                //StringBuilder output = new StringBuilder();
+                //XmlWriterSettings settings = new XmlWriterSettings()
+                //{
+                //    ConformanceLevel = ConformanceLevel.Document,
+                //    Indent = true,
+                //    Encoding = CompiledTemplate.OutputEncoding,
+                //    CloseOutput = true
+                //};
+                //using (XmlWriter results = XmlWriter.Create(output, settings))
+                //{
+                //    this.preprocessor.Preprocess(paymentReceiptXmlDocument);
+                //    this.xslCompiledTransform.Transform((IXPathNavigable)paymentReceiptXmlDocument, arguments, results);
+
+                //    string HTML = output.ToString();
+                //    return output.ToString();
+                //}
+                //#endregion
+
+                //XmlDocument xmlDocument = new XmlDocument();
+                //xmlDocument.LoadXml(inputXml);
+                //string cdpType = this.GetCdpType(xmlDocument);
+                //XmlNamespaceManager xmlNamespaceManager = XmlNamespaceManagerFactory.ForPaymentReceiptFile(cdpType, xmlDocument.NameTable);
+                //SunatCodeGenerator sunatBarcode = new SunatBarcodeFactory(cdpType, xmlNamespaceManager).Build(xmlDocument);
+                //XsltArgumentList arguments = new XsltArgumentList();
+                //arguments.AddParam("codigoBarras", string.Empty, (object)sunatBarcode.ToBase64());
+                //arguments.AddParam("hash", string.Empty, (object)sunatBarcode.DigestValue);
+                //XsltSettings settings = new XsltSettings(true, true);
+                //XslCompiledTransform compiledTransform = new XslCompiledTransform();
+                //using (XmlReader stylesheet = XmlReader.Create((TextReader)new StringReader(xsltString)))
+                //    compiledTransform.Load(stylesheet, settings, (XmlResolver)new XmlUrlResolver());
+                //StringWriter stringWriter = new StringWriter();
+                //using (XmlReader input = XmlReader.Create((TextReader)new StringReader(inputXml)))
+                //    compiledTransform.Transform(input, arguments, (TextWriter)stringWriter);
+                //return stringWriter.ToString();
             }
             catch (Exception exc)
             {
@@ -681,19 +752,27 @@ namespace BataGeneraPDF
             }
             return "";
         }
-        private void GeneratePDF(string strPathXML, string strPathXSLT, string strPathPDFFolder)
+        private void GeneratePDF(string strPathXML,string strxml_new, string strPathPDFFolder,string ruc,string tipo,string plantilla)
         {
             string path = strPathXML.ToLower().Replace(".xml", ".html");
             string pathPDF = System.IO.Path.Combine(strPathPDFFolder, System.IO.Path.GetFileName(strPathXML.ToLower().Replace(".xml", ".pdf")));
             pathPDF = pathPDF.ToUpper().ToString();
-            string xsltString = File.ReadAllText(strPathXSLT);
+            //string xsltString = File.ReadAllText(strPathXSLT);
 
-            string _ruta_exe_local = System.IO.Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            //string _ruta_exe_local = System.IO.Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 
-            xsltString = xsltString.Replace("../ReferenceData/ISO.xslt", @_ruta_exe_local + "/ReferenceData/ISO.xslt");
-            xsltString = xsltString.Replace("../ReferenceData/INEI.xslt", @_ruta_exe_local + "/ReferenceData/INEI.xslt");
+            //xsltString = xsltString.Replace("../ReferenceData/ISO.xslt", @_ruta_exe_local + "/ReferenceData/ISO.xslt");
+            //xsltString = xsltString.Replace("../ReferenceData/INEI.xslt", @_ruta_exe_local + "/ReferenceData/INEI.xslt");
 
-            string str = this.TransformXMLToHTML(File.ReadAllText(strPathXML, Encoding.GetEncoding("iso8859-1")), xsltString);
+
+            //string str = this.TransformXMLToHTML(File.ReadAllText(strPathXML, Encoding.GetEncoding("iso8859-1")), xsltString);
+
+            PdfGenerator genera_html = new PdfGenerator();
+
+            string str = genera_html.GeneratePdfFromXmlContent(strxml_new, ruc, tipo, plantilla);
+
+
+
             File.WriteAllText(path, str);
             //this.HtmlToPDF(str, pathPDF);
             //GetPDF(str);
@@ -703,8 +782,20 @@ namespace BataGeneraPDF
             //DateTime.Now);
 
             var htmlToPdf = new NReco.PdfGenerator.HtmlToPdfConverter();
-            htmlToPdf.PageHeight = 242;
-            htmlToPdf.PageWidth = 170;
+
+            if (tipo=="20")
+            {
+                htmlToPdf.PageHeight = 742;
+                htmlToPdf.PageWidth = 670;
+            }
+            else
+            {
+                htmlToPdf.PageHeight = 242;
+                htmlToPdf.PageWidth = 170;
+            }
+           
+
+
             var margins = new NReco.PdfGenerator.PageMargins();
             margins.Bottom = 2;
             margins.Top = 1;

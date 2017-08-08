@@ -76,6 +76,7 @@
                         <ComboBoxItem Content="Boleta" Tag="03"  />
                         <ComboBoxItem Content="Nota de Credito" Tag="07"  />
                         <ComboBoxItem Content="Nota de Debito" Tag="08"  />
+                        <ComboBoxItem Content="Retencion" Tag="20"  />
                     </ComboBox>
                     <TextBox Name="txtserie" MaxLength="4" CharacterCasing="Upper" Margin="67,53,131,80" KeyDown="txtserie_KeyDown"/>
                     <Label Content="Desde" Margin="16,86,194,20"/>

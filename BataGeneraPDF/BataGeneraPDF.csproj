@@ -30,7 +30,7 @@
     <SuiteName>%28Corporacion Bata%29</SuiteName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>10</ApplicationRevision>
+    <ApplicationRevision>16</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -38,7 +38,7 @@
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>x86</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -165,48 +165,19 @@
       <Project>{b644c8b4-b159-441b-b860-d5cb54651beb}</Project>
       <Name>Bata.FEPE.TemplateEngine</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Carvajal.FEPE.PDFService.Core\Carvajal.FEPE.PDFService.Core.csproj">
+      <Project>{a17386d2-e862-4b27-95b9-4cbec6f8f3ac}</Project>
+      <Name>Carvajal.FEPE.PDFService.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="imagespdf.jpg" />
-    <Content Include="ReferenceData\INEI.xslt" />
-    <Content Include="ReferenceData\INEI_Departamentos.xml" />
-    <Content Include="ReferenceData\INEI_Distritos.xml" />
-    <Content Include="ReferenceData\INEI_Provincias.xml" />
-    <Content Include="ReferenceData\ISO.xslt" />
-    <Content Include="ReferenceData\ISO3166.xml" />
-    <Content Include="ReferenceData\ISO4217.xml" />
-    <Content Include="ReferenceData\SUNAT_DOCUMENTOS.xslt" />
-    <Content Include="ReferenceData\SUNAT_TRIBUTOS.xslt" />
-    <Content Include="ReferenceData\SUNAT_T_Afectacion_IGV.xml" />
-    <Content Include="ReferenceData\SUNAT_T_Documentos.xml" />
-    <Content Include="ReferenceData\SUNAT_T_Documentos_Identidad.xml" />
-    <Content Include="ReferenceData\SUNAT_T_Documentos_Relacionados.xml" />
-    <Content Include="ReferenceData\SUNAT_T_Elementos_Adicionales.xml" />
-    <Content Include="ReferenceData\SUNAT_T_Notas.xml" />
-    <Content Include="ReferenceData\SUNAT_T_Otros_Conceptos_Tributarios.xml" />
-    <Content Include="ReferenceData\SUNAT_T_Precio_Venta.xml" />
-    <Content Include="ReferenceData\SUNAT_T_Sis_Calculo_ISC.xml" />
-    <Content Include="ReferenceData\SUNAT_T_Tributos.xml" />
-    <Content Include="ReferenceData\SUNAT_T_Valor_Venta.xml" />
-    <Content Include="ReferenceData\UBL.xslt" />
-    <Content Include="ReferenceData\UBL_T_Categorias_Tributos.xml" />
-    <Content Include="ReferenceData\UBL_T_Descuentos_Cargos.xml" />
-    <Content Include="ReferenceData\UNECE.xslt" />
-    <Content Include="ReferenceData\UNECE_T_Unidad_Medida.xml" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="pdfcreador.ico" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="xmlimg.png" />
-    <Content Include="XSLT\BO.xslt" />
-    <Content Include="XSLT\BO_BO.xslt" />
-    <Content Include="XSLT\FA.xslt" />
-    <Content Include="XSLT\FA_FA.xslt" />
-    <Content Include="XSLT\NC.xslt" />
-    <Content Include="XSLT\NC_NC.xslt" />
-    <Content Include="XSLT\ND.xslt" />
-    <Content Include="XSLT\ND_ND.xslt" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0">
@@ -226,7 +197,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <PublishFile Include="ReferenceData\INEI_Departamentos.xml">
+    <PublishFile Include="Templates\20101951872\20_20.xslt">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -236,7 +207,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="ReferenceData\INEI_Distritos.xml">
+    <PublishFile Include="Templates\20101951872\40_40.xslt">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -246,7 +217,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="ReferenceData\INEI_Provincias.xml">
+    <PublishFile Include="Templates\20101951872\BO_BO.xslt">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -256,7 +227,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="ReferenceData\ISO.xslt">
+    <PublishFile Include="Templates\20101951872\FA_FA.xslt">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -266,7 +237,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="ReferenceData\ISO3166.xml">
+    <PublishFile Include="Templates\20101951872\NC_NC.xslt">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -276,7 +247,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="ReferenceData\ISO4217.xml">
+    <PublishFile Include="Templates\20101951872\ND_ND.xslt">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -286,7 +257,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="ReferenceData\SUNAT_DOCUMENTOS.xslt">
+    <PublishFile Include="Templates\20408990816\20_20.xslt">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -296,7 +267,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="ReferenceData\SUNAT_TRIBUTOS.xslt">
+    <PublishFile Include="Templates\20408990816\40_20.xslt">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -306,7 +277,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="ReferenceData\SUNAT_T_Afectacion_IGV.xml">
+    <PublishFile Include="Templates\20408990816\BO_BO.xslt">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -316,7 +287,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="ReferenceData\SUNAT_T_Documentos.xml">
+    <PublishFile Include="Templates\20408990816\FA_FA.xslt">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -326,7 +297,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="ReferenceData\SUNAT_T_Documentos_Identidad.xml">
+    <PublishFile Include="Templates\20408990816\NC_NC.xslt">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -336,7 +307,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="ReferenceData\SUNAT_T_Documentos_Relacionados.xml">
+    <PublishFile Include="Templates\20408990816\ND_ND.xslt">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -346,7 +317,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="ReferenceData\SUNAT_T_Elementos_Adicionales.xml">
+    <PublishFile Include="Templates\ReferenceData\INEI.xslt">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -356,7 +327,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="ReferenceData\SUNAT_T_Notas.xml">
+    <PublishFile Include="Templates\ReferenceData\INEI_Departamentos.xml">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -366,7 +337,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="ReferenceData\SUNAT_T_Otros_Conceptos_Tributarios.xml">
+    <PublishFile Include="Templates\ReferenceData\INEI_Distritos.xml">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -376,7 +347,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="ReferenceData\SUNAT_T_Precio_Venta.xml">
+    <PublishFile Include="Templates\ReferenceData\INEI_Provincias.xml">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -386,7 +357,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="ReferenceData\SUNAT_T_Sis_Calculo_ISC.xml">
+    <PublishFile Include="Templates\ReferenceData\ISO.xslt">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -396,7 +367,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="ReferenceData\SUNAT_T_Tributos.xml">
+    <PublishFile Include="Templates\ReferenceData\ISO3166.xml">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -406,7 +377,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="ReferenceData\SUNAT_T_Valor_Venta.xml">
+    <PublishFile Include="Templates\ReferenceData\ISO4217.xml">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -416,7 +387,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="ReferenceData\UBL.xslt">
+    <PublishFile Include="Templates\ReferenceData\SUNAT_DOCUMENTOS.xslt">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -426,7 +397,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="ReferenceData\UBL_T_Categorias_Tributos.xml">
+    <PublishFile Include="Templates\ReferenceData\SUNAT_TRIBUTOS.xslt">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -436,7 +407,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="ReferenceData\UBL_T_Descuentos_Cargos.xml">
+    <PublishFile Include="Templates\ReferenceData\SUNAT_T_Afectacion_IGV.xml">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -446,7 +417,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="ReferenceData\UNECE.xslt">
+    <PublishFile Include="Templates\ReferenceData\SUNAT_T_Documentos.xml">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -456,7 +427,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="ReferenceData\UNECE_T_Unidad_Medida.xml">
+    <PublishFile Include="Templates\ReferenceData\SUNAT_T_Documentos_Identidad.xml">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -466,7 +437,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="XSLT\BO.xslt">
+    <PublishFile Include="Templates\ReferenceData\SUNAT_T_Documentos_Relacionados.xml">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -476,7 +447,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="XSLT\BO_BO.xslt">
+    <PublishFile Include="Templates\ReferenceData\SUNAT_T_Elementos_Adicionales.xml">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -486,7 +457,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="XSLT\FA.xslt">
+    <PublishFile Include="Templates\ReferenceData\SUNAT_T_Notas.xml">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -496,7 +467,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="XSLT\FA_FA.xslt">
+    <PublishFile Include="Templates\ReferenceData\SUNAT_T_Otros_Conceptos_Tributarios.xml">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -506,7 +477,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="XSLT\NC.xslt">
+    <PublishFile Include="Templates\ReferenceData\SUNAT_T_Precio_Venta.xml">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -516,7 +487,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="XSLT\NC_NC.xslt">
+    <PublishFile Include="Templates\ReferenceData\SUNAT_T_Sis_Calculo_ISC.xml">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -526,7 +497,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="XSLT\ND.xslt">
+    <PublishFile Include="Templates\ReferenceData\SUNAT_T_Tributos.xml">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -536,7 +507,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="XSLT\ND_ND.xslt">
+    <PublishFile Include="Templates\ReferenceData\SUNAT_T_Valor_Venta.xml">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -546,6 +517,103 @@
       <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
+    <PublishFile Include="Templates\ReferenceData\UBL.xslt">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Templates\ReferenceData\UBL_T_Categorias_Tributos.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Templates\ReferenceData\UBL_T_Descuentos_Cargos.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Templates\ReferenceData\UNECE.xslt">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Templates\ReferenceData\UNECE_T_Unidad_Medida.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Templates\00000000000\20.xslt" />
+    <Resource Include="Templates\00000000000\40.xslt" />
+    <Resource Include="Templates\00000000000\BO.xslt" />
+    <Resource Include="Templates\00000000000\FA.xslt" />
+    <Resource Include="Templates\00000000000\NC.xslt" />
+    <Resource Include="Templates\00000000000\ND.xslt" />
+    <Content Include="Templates\20101951872\20_20.xslt" />
+    <Content Include="Templates\20101951872\40_40.xslt" />
+    <Content Include="Templates\20101951872\BO_BO.xslt" />
+    <Content Include="Templates\20101951872\FA_FA.xslt" />
+    <Content Include="Templates\20101951872\NC_NC.xslt" />
+    <Content Include="Templates\20101951872\ND_ND.xslt" />
+    <Content Include="Templates\ReferenceData\INEI.xslt" />
+    <Content Include="Templates\ReferenceData\INEI_Departamentos.xml" />
+    <Content Include="Templates\ReferenceData\INEI_Distritos.xml" />
+    <Content Include="Templates\ReferenceData\INEI_Provincias.xml" />
+    <Content Include="Templates\ReferenceData\ISO.xslt" />
+    <Content Include="Templates\ReferenceData\ISO3166.xml" />
+    <Content Include="Templates\ReferenceData\ISO4217.xml" />
+    <Content Include="Templates\ReferenceData\SUNAT_DOCUMENTOS.xslt" />
+    <Content Include="Templates\ReferenceData\SUNAT_TRIBUTOS.xslt" />
+    <Content Include="Templates\ReferenceData\SUNAT_T_Afectacion_IGV.xml" />
+    <Content Include="Templates\ReferenceData\SUNAT_T_Documentos.xml" />
+    <Content Include="Templates\ReferenceData\SUNAT_T_Documentos_Identidad.xml" />
+    <Content Include="Templates\ReferenceData\SUNAT_T_Documentos_Relacionados.xml" />
+    <Content Include="Templates\ReferenceData\SUNAT_T_Elementos_Adicionales.xml" />
+    <Content Include="Templates\ReferenceData\SUNAT_T_Notas.xml" />
+    <Content Include="Templates\ReferenceData\SUNAT_T_Otros_Conceptos_Tributarios.xml" />
+    <Content Include="Templates\ReferenceData\SUNAT_T_Precio_Venta.xml" />
+    <Content Include="Templates\ReferenceData\SUNAT_T_Sis_Calculo_ISC.xml" />
+    <Content Include="Templates\ReferenceData\SUNAT_T_Tributos.xml" />
+    <Content Include="Templates\ReferenceData\SUNAT_T_Valor_Venta.xml" />
+    <Content Include="Templates\ReferenceData\UBL.xslt" />
+    <Content Include="Templates\ReferenceData\UBL_T_Categorias_Tributos.xml" />
+    <Content Include="Templates\ReferenceData\UBL_T_Descuentos_Cargos.xml" />
+    <Content Include="Templates\ReferenceData\UNECE.xslt" />
+    <Content Include="Templates\ReferenceData\UNECE_T_Unidad_Medida.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Templates\20408990816\20_20.xslt" />
+    <Content Include="Templates\20408990816\40_20.xslt" />
+    <Content Include="Templates\20408990816\BO_BO.xslt" />
+    <Content Include="Templates\20408990816\FA_FA.xslt" />
+    <Content Include="Templates\20408990816\NC_NC.xslt" />
+    <Content Include="Templates\20408990816\ND_ND.xslt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,18 +1,18 @@
 ﻿// Decompiled with JetBrains decompiler
 // Type: Carvajal.FEPE.TemplateEngine.Support.Sunat.SunatBarcodeFactory
 // Assembly: Carvajal.FEPE.TemplateEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-// MVID: AB4FD6BE-70AA-4F27-A8BF-3F770A12367A
-// Assembly location: D:\David\Generador PDF\PDFGenerator\Proy2015\Proy2015\Proy2015\bin\Debug\Carvajal.FEPE.TemplateEngine.dll
+// MVID: E45B097E-B0D8-406E-B5BE-61961D953F9A
+// Assembly location: D:\Fuentes\Generador PDF\dllcompiler\Carvajal.FEPE.TemplateEngine\Carvajal.FEPE.TemplateEngine.dll
 
 using System;
 using System.Xml;
 
-namespace Bata.FEPE.TemplateEngine.Support.Sunat
+namespace Carvajal.FEPE.TemplateEngine.Support.Sunat
 {
   public class SunatBarcodeFactory
   {
-    private const char SerialNumberSeparator = '-';
     private readonly XmlNamespaceManager xmlNamespaceManager;
+    private const char SerialNumberSeparator = '-';
 
     public string PaymentReceiptType { get; private set; }
 
@@ -44,7 +44,7 @@ namespace Bata.FEPE.TemplateEngine.Support.Sunat
         this.BarcodeXPaths = SunatBarcodeFieldsXPaths.InvoiceOrBallot;
     }
 
-    public SunatBarcode Build(XmlDocument paymentReceiptXmlDocument)
+    public SunatCodeGenerator Build(XmlDocument paymentReceiptXmlDocument)
     {
       string digestValue = this.GetDigestValue(paymentReceiptXmlDocument);
       string signatureValue = this.GetSignatureValue(paymentReceiptXmlDocument);
@@ -61,21 +61,15 @@ namespace Bata.FEPE.TemplateEngine.Support.Sunat
       return this.GetFieldValue(paymentReceiptXmlDocument, "//ds:SignatureValue");
     }
 
-    private SunatBarcode CreateSunatBarcode(XmlDocument paymentReceiptXmlDocument, string digestValue, string signatureValue)
+    private SunatCodeGenerator CreateSunatBarcode(XmlDocument paymentReceiptXmlDocument, string digestValue, string signatureValue)
     {
-      string[] strArray = SunatBarcodeFactory.ParseSerialNumber(this.GetFieldValue(paymentReceiptXmlDocument, this.BarcodeXPaths.PaymentReceiptSerialNumber));
-      return new SunatBarcode(this.GetFieldValue(paymentReceiptXmlDocument, this.BarcodeXPaths.CompanyRuc), this.GetFieldValue(paymentReceiptXmlDocument, this.BarcodeXPaths.PaymentReceiptType), strArray.Length >= 1 ? strArray[0] : string.Empty, strArray.Length >= 2 ? strArray[1] : string.Empty, this.GetFieldValue(paymentReceiptXmlDocument, this.BarcodeXPaths.Igv), this.GetFieldValue(paymentReceiptXmlDocument, this.BarcodeXPaths.Total), this.GetFieldValue(paymentReceiptXmlDocument, this.BarcodeXPaths.IssueDate), this.GetFieldValue(paymentReceiptXmlDocument, this.BarcodeXPaths.ReceiverDocumentType), this.GetFieldValue(paymentReceiptXmlDocument, this.BarcodeXPaths.ReceiverDocumentNumber), digestValue, signatureValue);
+      string[] serialNumber = SunatBarcodeFactory.ParseSerialNumber(this.GetFieldValue(paymentReceiptXmlDocument, this.BarcodeXPaths.PaymentReceiptSerialNumber));
+      return new SunatCodeGenerator(this.GetFieldValue(paymentReceiptXmlDocument, this.BarcodeXPaths.CompanyRuc), this.PaymentReceiptType, serialNumber.Length >= 1 ? serialNumber[0] : string.Empty, serialNumber.Length >= 2 ? serialNumber[1] : string.Empty, this.GetFieldValue(paymentReceiptXmlDocument, this.BarcodeXPaths.Igv), this.GetFieldValue(paymentReceiptXmlDocument, this.BarcodeXPaths.Total), this.GetFieldValue(paymentReceiptXmlDocument, this.BarcodeXPaths.IssueDate), this.GetFieldValue(paymentReceiptXmlDocument, this.BarcodeXPaths.ReceiverDocumentType), this.GetFieldValue(paymentReceiptXmlDocument, this.BarcodeXPaths.ReceiverDocumentNumber), digestValue, signatureValue);
     }
 
     private static string[] ParseSerialNumber(string serialNumber)
     {
-      string str = serialNumber;
-      char[] separator = new char[1];
-      int index = 0;
-      int num1 = 45;
-      separator[index] = (char) num1;
-      int num2 = 1;
-      return str.Split(separator, (StringSplitOptions) num2);
+      return serialNumber.Split(new char[1]{ '-' }, StringSplitOptions.RemoveEmptyEntries);
     }
 
     private string GetFieldValue(XmlDocument xmlDocument, string xpath)

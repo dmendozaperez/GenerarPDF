@@ -1,22 +1,22 @@
 ﻿// Decompiled with JetBrains decompiler
 // Type: Carvajal.FEPE.TemplateEngine.Support.Preprocessor.DescriptionWordsPreprocessor
 // Assembly: Carvajal.FEPE.TemplateEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-// MVID: AB4FD6BE-70AA-4F27-A8BF-3F770A12367A
-// Assembly location: D:\David\Generador PDF\PDFGenerator\Proy2015\Proy2015\Proy2015\bin\Debug\Carvajal.FEPE.TemplateEngine.dll
+// MVID: E45B097E-B0D8-406E-B5BE-61961D953F9A
+// Assembly location: D:\Fuentes\Generador PDF\dllcompiler\Carvajal.FEPE.TemplateEngine\Carvajal.FEPE.TemplateEngine.dll
 
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Xml;
 
-namespace Bata.FEPE.TemplateEngine.Support.Preprocessor
+namespace Carvajal.FEPE.TemplateEngine.Support.Preprocessor
 {
   public class DescriptionWordsPreprocessor : IPaymentReceiptPreprocessor
   {
+    private readonly XmlNamespaceManager xmlNamespaceManager;
     private const string FirstDescriptionElementMarker = "esPrimero";
     private const string LastDescriptionElementMarker = "esUltimo";
     private const char WordsSeparator = ' ';
-    private readonly XmlNamespaceManager xmlNamespaceManager;
 
     public int DetailLineWidth { get; private set; }
 
@@ -31,8 +31,8 @@ namespace Bata.FEPE.TemplateEngine.Support.Preprocessor
 
     public void Preprocess(XmlDocument paymentReceiptXmlDocument)
     {
-      foreach (XmlNode descriptionXmlNode in paymentReceiptXmlDocument.SelectNodes(this.AdjustmentXPaths.Description, this.xmlNamespaceManager))
-        this.TryAdjustDescriptionXmlNode(paymentReceiptXmlDocument, descriptionXmlNode);
+      foreach (XmlNode selectNode in paymentReceiptXmlDocument.SelectNodes(this.AdjustmentXPaths.Description, this.xmlNamespaceManager))
+        this.TryAdjustDescriptionXmlNode(paymentReceiptXmlDocument, selectNode);
     }
 
     private void TryAdjustDescriptionXmlNode(XmlDocument paymentReceiptXmlDocument, XmlNode descriptionXmlNode)
@@ -74,24 +74,18 @@ namespace Bata.FEPE.TemplateEngine.Support.Preprocessor
 
     private Dictionary<int, string> AdjustWords(string line)
     {
-      string str1 = line;
-      char[] separator = new char[1];
-      int index = 0;
-      int num1 = 32;
-      separator[index] = (char) num1;
-      int num2 = 1;
-      string[] strArray = str1.Split(separator, (StringSplitOptions) num2);
+      string[] strArray = line.Split(new char[1]{ ' ' }, StringSplitOptions.RemoveEmptyEntries);
       Dictionary<int, string> dictionary = new Dictionary<int, string>();
       StringBuilder stringBuilder = new StringBuilder();
       int key = 1;
-      foreach (string str2 in strArray)
+      foreach (string str in strArray)
       {
-        if (stringBuilder.Length + str2.Length < this.DetailLineWidth)
+        if (stringBuilder.Length + str.Length < this.DetailLineWidth)
         {
           if (stringBuilder.Length == 0)
-            stringBuilder.Append(str2);
+            stringBuilder.Append(str);
           else
-            stringBuilder.Append(" " + str2);
+            stringBuilder.Append(" " + str);
         }
         else
         {

@@ -30,8 +30,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Carvajal.FEPE.TemplateEngine.ABCpdf">
+      <HintPath>..\..\..\dllcompiler\Carvajal.FEPE.TemplateEngine\Carvajal.FEPE.TemplateEngine\bin\Debug\Carvajal.FEPE.TemplateEngine.ABCpdf.dll</HintPath>
+    </Reference>
+    <Reference Include="Carvajal.FEPE.TemplateEngine.PDF417Lib">
+      <HintPath>..\..\..\dllcompiler\Carvajal.FEPE.TemplateEngine\Carvajal.FEPE.TemplateEngine\bin\Debug\Carvajal.FEPE.TemplateEngine.PDF417Lib.DLL</HintPath>
+    </Reference>
     <Reference Include="Common">
       <HintPath>C:\Users\DM\Desktop\PDFGenerator\Carvajal.FEPE\ABCPDF\Carvajal.FEPE.TemplateEngine\lib\Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Gma.QrCodeNet.Encoding">
+      <HintPath>..\..\..\dllcompiler\Carvajal.FEPE.TemplateEngine\Carvajal.FEPE.TemplateEngine\bin\Debug\Gma.QrCodeNet.Encoding.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -44,6 +53,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Mapper\GenericDocumentMapper.cs" />
+    <Compile Include="Mapper\IDocumentMapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\CompiledTemplate.cs" />
     <Compile Include="Services\CompiledTemplateFactory.cs" />
@@ -62,12 +73,14 @@
     <Compile Include="Support\Sunat\SunatBarcode.cs" />
     <Compile Include="Support\Sunat\SunatBarcodeFactory.cs" />
     <Compile Include="Support\Sunat\SunatBarcodeFieldsXPaths.cs" />
+    <Compile Include="Support\Sunat\SunatCodeGenerator.cs" />
     <Compile Include="Support\TemplatePageSizes.cs" />
     <Compile Include="Support\TemplateParametersNames.cs" />
     <Compile Include="Support\TemplateSettings.cs" />
     <Compile Include="Support\TemplateSettingsReader.cs" />
     <Compile Include="Support\TemplateSettingsXPaths.cs" />
     <Compile Include="Support\TemplateXmlUrlResolver.cs" />
+    <Compile Include="Support\XmlDocumentUtils.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Bata.FEPE.TemplateEngine.ABCpdf\Bata.FEPE.TemplateEngine.ABCpdf.csproj">

@@ -1,20 +1,20 @@
 ﻿// Decompiled with JetBrains decompiler
 // Type: Carvajal.FEPE.TemplateEngine.Support.Preprocessor.DescriptionTextPreprocessor
 // Assembly: Carvajal.FEPE.TemplateEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-// MVID: AB4FD6BE-70AA-4F27-A8BF-3F770A12367A
-// Assembly location: D:\David\Generador PDF\PDFGenerator\Proy2015\Proy2015\Proy2015\bin\Debug\Carvajal.FEPE.TemplateEngine.dll
+// MVID: E45B097E-B0D8-406E-B5BE-61961D953F9A
+// Assembly location: D:\Fuentes\Generador PDF\dllcompiler\Carvajal.FEPE.TemplateEngine\Carvajal.FEPE.TemplateEngine.dll
 
 using System;
 using System.Collections.Generic;
 using System.Xml;
 
-namespace Bata.FEPE.TemplateEngine.Support.Preprocessor
+namespace Carvajal.FEPE.TemplateEngine.Support.Preprocessor
 {
   public class DescriptionTextPreprocessor : IPaymentReceiptPreprocessor
   {
+    private readonly XmlNamespaceManager xmlNamespaceManager;
     private const string FirstDescriptionElementMarker = "esPrimero";
     private const string LastDescriptionElementMarker = "esUltimo";
-    private readonly XmlNamespaceManager xmlNamespaceManager;
 
     public int DetailLineWidth { get; private set; }
 
@@ -29,8 +29,8 @@ namespace Bata.FEPE.TemplateEngine.Support.Preprocessor
 
     public void Preprocess(XmlDocument paymentReceiptXmlDocument)
     {
-      foreach (XmlNode descriptionXmlNode in paymentReceiptXmlDocument.SelectNodes(this.AdjustmentXPaths.Description, this.xmlNamespaceManager))
-        this.TryAdjustDescriptionXmlNode(paymentReceiptXmlDocument, descriptionXmlNode);
+      foreach (XmlNode selectNode in paymentReceiptXmlDocument.SelectNodes(this.AdjustmentXPaths.Description, this.xmlNamespaceManager))
+        this.TryAdjustDescriptionXmlNode(paymentReceiptXmlDocument, selectNode);
     }
 
     private void TryAdjustDescriptionXmlNode(XmlDocument paymentReceiptXmlDocument, XmlNode descriptionXmlNode)
@@ -72,21 +72,16 @@ namespace Bata.FEPE.TemplateEngine.Support.Preprocessor
 
     private IDictionary<int, string> AdjustText(string description)
     {
-      Dictionary<int, string> dictionary1 = new Dictionary<int, string>();
-      int num1 = (int) Math.Ceiling((double) description.Length / (double) this.DetailLineWidth);
-      for (int index = 0; index < num1; ++index)
+      Dictionary<int, string> dictionary = new Dictionary<int, string>();
+      int num = (int) Math.Ceiling((double) description.Length / (double) this.DetailLineWidth);
+      for (int index = 0; index < num; ++index)
       {
         int startIndex = index * this.DetailLineWidth;
         int length = description.Length - startIndex;
-        string str1 = length <= this.DetailLineWidth ? description.Substring(startIndex, length) : description.Substring(startIndex, this.DetailLineWidth);
-        Dictionary<int, string> dictionary2 = dictionary1;
-        int num2 = index + 1;
-        string str2 = str1;
-        int key = num2;
-        string str3 = str2;
-        dictionary2.Add(key, str3);
+        string str = length <= this.DetailLineWidth ? description.Substring(startIndex, length) : description.Substring(startIndex, this.DetailLineWidth);
+        dictionary.Add(index + 1, str);
       }
-      return (IDictionary<int, string>) dictionary1;
+      return (IDictionary<int, string>) dictionary;
     }
   }
 }
