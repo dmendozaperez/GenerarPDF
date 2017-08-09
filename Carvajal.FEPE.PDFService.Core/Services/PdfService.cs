@@ -13,7 +13,7 @@ using Common;
 using Common.Entities;
 using Common.Services;
 using Common.Support;
-using log4net;
+//using log4net;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -27,7 +27,7 @@ namespace Carvajal.FEPE.PDFService.Core.Services
   {
     private readonly Encoding Iso88591Encoding = Encoding.GetEncoding("ISO-8859-1");
     private const int DefaultBatchSize = 50;
-    private readonly ILog logger;
+    //private readonly ILog logger;
     private readonly ApplicationLog applicationLog;
 
     public IPdfServiceDao PdfServiceDao { get; set; }
@@ -42,7 +42,7 @@ namespace Carvajal.FEPE.PDFService.Core.Services
 
     public PdfService()
     {
-      this.logger = LogManager.GetLogger(typeof (PdfService));
+      //this.logger = LogManager.GetLogger(typeof (PdfService));
       this.applicationLog = new ApplicationLog();
     }
 
@@ -55,7 +55,7 @@ namespace Carvajal.FEPE.PDFService.Core.Services
       }
       catch (Exception ex)
       {
-        this.logger.Info((object) string.Format("Se ha producido una excepción al ejecutar el servicio Carvajal.FEPE.PDFService: \n{0}", (object) ex), ex);
+        //this.logger.Info((object) string.Format("Se ha producido una excepción al ejecutar el servicio Carvajal.FEPE.PDFService: \n{0}", (object) ex), ex);
       }
     }
 
@@ -80,11 +80,12 @@ namespace Carvajal.FEPE.PDFService.Core.Services
       IList<PdfRequest> processingStatus = this.GetPdfRequestsInPendingOrProcessingStatus();
       if (((ICollection<PdfRequest>) processingStatus).Count > 0)
       {
-        this.logger.Info((object) string.Format("Cantidad de peticiones de generación de PDF pendientes por procesar: {0}", (object) ((ICollection<PdfRequest>) processingStatus).Count));
+        //this.logger.Info((object) string.Format("Cantidad de peticiones de generación de PDF pendientes por procesar: {0}", (object) ((ICollection<PdfRequest>) processingStatus).Count));
         this.SaveFailedPdfGenerationEvent(this.HandlePdfRequestsBatch((IEnumerable<PdfRequest>) processingStatus));
       }
       else
-        this.logger.Info((object) "No hay peticiones de generación de PDF pendientes por procesar.");
+            { }
+        //this.logger.Info((object) "No hay peticiones de generación de PDF pendientes por procesar.");
     }
 
     private List<string> HandlePdfRequestsBatch(IEnumerable<PdfRequest> pdfRequests)
@@ -103,12 +104,12 @@ namespace Carvajal.FEPE.PDFService.Core.Services
           catch (PdfRequestValidationException ex)
           {
             this.PdfServiceDao.RemovePdfRequest(current.PdfRequestId);
-            this.logger.Error((object) ex.Message, (Exception) ex);
+            //this.logger.Error((object) ex.Message, (Exception) ex);
           }
           catch (PdfGenerationException ex)
           {
             this.PdfServiceDao.RemovePdfRequest(current.PdfRequestId);
-            this.logger.Error((object) ex.Message, (Exception) ex);
+            //this.logger.Error((object) ex.Message, (Exception) ex);
             stringList.Add(ex.Message);
           }
         }
@@ -159,16 +160,16 @@ namespace Carvajal.FEPE.PDFService.Core.Services
         PdfGeneratorOutput pdfFile = this.GeneratePdfFile(pdfRequest.PaymentReceiptId, paymentReceiptDescriptors, workingDirectories, pdfRequest.TemplateCode);
         string pdfFilePath = FileUtilities.GetPdfFilePath(workingDirectories.PdfFilesOutputDirectory, paymentReceiptDescriptors.CompanyRuc, paymentReceiptDescriptors.IssueDate, pdfFileName);
         this.SavePdfGeneratorOuput(pdfFile, pdfFilePath, paymentReceiptDescriptors, workingDirectories);
-        this.logger.Info((object) string.Format("Se generó el archivo PDF para la petición con ID {0}", (object) pdfRequest.PdfRequestId));
+        //this.logger.Info((object) string.Format("Se generó el archivo PDF para la petición con ID {0}", (object) pdfRequest.PdfRequestId));
         if (!this.IsPrintEnabledForCompany(pdfRequest.CompanyId))
         {
           this.PdfServiceDao.UpdatePaymentReceiptPrintStatus(pdfRequest.PaymentReceiptId, 0);
-          this.logger.Debug((object) string.Format("La empresa con ID {0} no tiene habilitada la impresión local", (object) pdfRequest.CompanyId));
+          //this.logger.Debug((object) string.Format("La empresa con ID {0} no tiene habilitada la impresión local", (object) pdfRequest.CompanyId));
         }
         else if (!this.IsPrintRequired(pdfRequest))
         {
           this.PdfServiceDao.UpdatePaymentReceiptPrintStatus(pdfRequest.PaymentReceiptId, 0);
-          this.logger.Debug((object) string.Format("La petición de generación de PDF con ID {0} no require impresión", (object) pdfRequest.PdfRequestId));
+          //this.logger.Debug((object) string.Format("La petición de generación de PDF con ID {0} no require impresión", (object) pdfRequest.PdfRequestId));
         }
         else
           this.SendToPrint(pdfRequest, pdfFileName, pdfFilePath);
@@ -253,13 +254,13 @@ namespace Carvajal.FEPE.PDFService.Core.Services
         pdfServiceDao.SchedulePdfPrint(printRequest);
         if (flag1)
           this.SavePrintScheduledToDefaultPrinterEvent(pdfFileName);
-        this.logger.Debug((object) string.Format("Se programó la impresión del archivo {0} en la impresora {1} con número de copias {2}", (object) pdfFileName, (object) str1, (object) pdfRequest.NumberOfCopies));
+        //this.logger.Debug((object) string.Format("Se programó la impresión del archivo {0} en la impresora {1} con número de copias {2}", (object) pdfFileName, (object) str1, (object) pdfRequest.NumberOfCopies));
       }
       else
       {
         this.PdfServiceDao.UpdatePaymentReceiptPrintStatus(pdfRequest.PaymentReceiptId, 0);
         this.SavePrinterCodeNotFoundEvent(pdfFileName);
-        this.logger.Info((object) string.Format("El código {0} no está asociado a una impresora configurada para la empresa con ID {1} ni la empresa tiene una impresora predeterminada configurada", (object) pdfRequest.PrinterCode, (object) pdfRequest.CompanyId));
+        //this.logger.Info((object) string.Format("El código {0} no está asociado a una impresora configurada para la empresa con ID {1} ni la empresa tiene una impresora predeterminada configurada", (object) pdfRequest.PrinterCode, (object) pdfRequest.CompanyId));
       }
     }
 
@@ -300,29 +301,29 @@ namespace Carvajal.FEPE.PDFService.Core.Services
 
     private void LogPdfServiceStatus()
     {
-      this.logger.Info((object) "Servicio de Generación Local de PDF");
-      this.logger.Info((object) string.Format("Ruta del Directorio de Plantillas: {0}", (object) this.PdfGenerator.TemplatesRootDirectoryPath));
-      this.logger.Info((object) string.Format("Ruta del Directorio de Datos de Referencia: {0}", (object) this.PdfGenerator.ReferenceDataDirectoryPath));
-      this.logger.Info((object) string.Format("# de Items en Caché de Plantillas: {0}", (object) this.PdfGenerator.TemplateCacheManager.Count));
+      //this.logger.Info((object) "Servicio de Generación Local de PDF");
+      //this.logger.Info((object) string.Format("Ruta del Directorio de Plantillas: {0}", (object) this.PdfGenerator.TemplatesRootDirectoryPath));
+      //this.logger.Info((object) string.Format("Ruta del Directorio de Datos de Referencia: {0}", (object) this.PdfGenerator.ReferenceDataDirectoryPath));
+      //this.logger.Info((object) string.Format("# de Items en Caché de Plantillas: {0}", (object) this.PdfGenerator.TemplateCacheManager.Count));
     }
 
     private void LogPdfRequest(PdfRequest pdfRequest)
     {
-      this.logger.Debug((object) string.Format("RECIBIDA Petición de Generación de PDF con ID {0}", (object) pdfRequest.PdfRequestId));
-      this.logger.Debug((object) string.Format("Estado: {0} - ID Comprobante: {1} - ID de Empresa : {2} - Código de Plantilla: {3} - Código de Impresora: {4} - Número de Copias: {5}", (object) pdfRequest.PdfStatus, (object) pdfRequest.PaymentReceiptId, (object) pdfRequest.CompanyId, (object) pdfRequest.TemplateCode, (object) pdfRequest.PrinterCode, (object) pdfRequest.NumberOfCopies));
+      //this.logger.Debug((object) string.Format("RECIBIDA Petición de Generación de PDF con ID {0}", (object) pdfRequest.PdfRequestId));
+      //this.logger.Debug((object) string.Format("Estado: {0} - ID Comprobante: {1} - ID de Empresa : {2} - Código de Plantilla: {3} - Código de Impresora: {4} - Número de Copias: {5}", (object) pdfRequest.PdfStatus, (object) pdfRequest.PaymentReceiptId, (object) pdfRequest.CompanyId, (object) pdfRequest.TemplateCode, (object) pdfRequest.PrinterCode, (object) pdfRequest.NumberOfCopies));
     }
 
     private void LogPaymentReceiptDescriptors(PaymentReceiptDescriptors paymentReceiptDescriptors)
     {
-      this.logger.Debug((object) string.Format("Descriptores del Comprobante de Pago de la Empresa Emisora con RUC {0}", (object) paymentReceiptDescriptors.CompanyRuc));
-      this.logger.Debug((object) string.Format("Tipo: {0} - Serie: {1} - Numero: {2} - Codigo Documento Receptor: {3} - Numero Documento Receptor: {4} - Fecha Emision: {5}", (object) paymentReceiptDescriptors.PaymentReceiptType, (object) paymentReceiptDescriptors.Serial, (object) paymentReceiptDescriptors.CorrelativeNumber, (object) paymentReceiptDescriptors.ReceiverDocumentCode, (object) paymentReceiptDescriptors.ReceiverDocumentNumber, (object) paymentReceiptDescriptors.IssueDate));
+      //this.logger.Debug((object) string.Format("Descriptores del Comprobante de Pago de la Empresa Emisora con RUC {0}", (object) paymentReceiptDescriptors.CompanyRuc));
+      //this.logger.Debug((object) string.Format("Tipo: {0} - Serie: {1} - Numero: {2} - Codigo Documento Receptor: {3} - Numero Documento Receptor: {4} - Fecha Emision: {5}", (object) paymentReceiptDescriptors.PaymentReceiptType, (object) paymentReceiptDescriptors.Serial, (object) paymentReceiptDescriptors.CorrelativeNumber, (object) paymentReceiptDescriptors.ReceiverDocumentCode, (object) paymentReceiptDescriptors.ReceiverDocumentNumber, (object) paymentReceiptDescriptors.IssueDate));
     }
 
     private void LogWorkingDirectories(WorkingDirectories workingDirectories)
     {
-      this.logger.Debug((object) string.Format("Directorios de Trabajo de la Empresa con RUC {0}", (object) workingDirectories.CompanyRuc));
-      this.logger.Debug((object) string.Format("Ruta del Directorio de Salida de Archivos PDF Generados: {0}", (object) workingDirectories.PdfFilesOutputDirectory));
-      this.logger.Debug((object) string.Format("Ruta del Directorio de Entrada de Archivos XML: {0}", (object) workingDirectories.XmlFilesInputDirectory));
+      //this.logger.Debug((object) string.Format("Directorios de Trabajo de la Empresa con RUC {0}", (object) workingDirectories.CompanyRuc));
+      //this.logger.Debug((object) string.Format("Ruta del Directorio de Salida de Archivos PDF Generados: {0}", (object) workingDirectories.PdfFilesOutputDirectory));
+      //this.logger.Debug((object) string.Format("Ruta del Directorio de Entrada de Archivos XML: {0}", (object) workingDirectories.XmlFilesInputDirectory));
     }
 
     public IList<PdfRequest> GetPdfRequestsInPendingOrProcessingStatus()

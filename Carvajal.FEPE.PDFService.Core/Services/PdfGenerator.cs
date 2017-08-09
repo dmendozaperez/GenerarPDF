@@ -8,7 +8,7 @@ using Carvajal.FEPE.PDFService.Core.Entities;
 using Carvajal.FEPE.TemplateEngine.Mapper;
 using Carvajal.FEPE.TemplateEngine.Services;
 using Carvajal.FEPE.TemplateEngine.Support.IO;
-using log4net;
+//using log4net;
 using System;
 using System.IO;
 using System.Xml;
@@ -17,7 +17,7 @@ namespace Carvajal.FEPE.PDFService.Core.Services
 {
   public class PdfGenerator
   {
-    private readonly ILog Logger = LogManager.GetLogger(typeof (PdfGenerator));
+    //private readonly ILog Logger = LogManager.GetLogger(typeof (PdfGenerator));
 
     public string TemplatesRootDirectoryPath { get; private set; }
 
@@ -40,7 +40,7 @@ namespace Carvajal.FEPE.PDFService.Core.Services
             try
             {                
                 string templateFilePath = FileUtilities.GetCustomOrDefaultTemplateFilePath(this.TemplatesRootDirectoryPath, companyRuc, paymentReceiptType, templateCode);
-                this.Logger.Debug((object)("Ruta de la plantilla seleccionada: " + templateFilePath));
+                //this.Logger.Debug((object)("Ruta de la plantilla seleccionada: " + templateFilePath));
                 CompiledTemplate compiledTemplate = this.TemplateCacheManager.AddOrGet(templateFilePath, paymentReceiptType);
                 XmlDocument xmlDocument1 = new XmlDocument();
                 xmlDocument1.LoadXml(paymentReceiptXmlContent);
@@ -51,7 +51,7 @@ namespace Carvajal.FEPE.PDFService.Core.Services
                 string str1 = compiledTemplate.BuildHtmlContent(xmlDocument2);
                 _html = str1;
             }
-            catch
+            catch(Exception exc)
             {
                 _html = "";
             }

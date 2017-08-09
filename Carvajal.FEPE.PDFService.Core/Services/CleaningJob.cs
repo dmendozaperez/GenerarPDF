@@ -4,7 +4,7 @@
 // MVID: 63E25BB8-FD78-4265-A9A0-A22797765D0D
 // Assembly location: D:\Fuentes\Generador PDF\Carvajal.FEPE.PDFService.Core.dll
 
-using log4net;
+//using log4net;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -17,14 +17,14 @@ namespace Carvajal.FEPE.PDFService.Core.Services
     private static readonly TimeSpan DefaultCleaningProcessInterval = TimeSpan.FromHours(24.0);
     private readonly string InstallationDirectoryPath;
     private const string TemporalDirectoriesNamePattern = "*-*-*-*";
-    private readonly ILog logger;
+    //private readonly ILog logger;
 
     public string CleaningProcessInterval { get; set; }
 
     public CleaningJob()
     {
       this.InstallationDirectoryPath = Environment.CurrentDirectory;
-      this.logger = LogManager.GetLogger(typeof (CleaningJob));
+      //this.logger = LogManager.GetLogger(typeof (CleaningJob));
     }
 
     public TimeSpan GetCleaningProcessInterval()
@@ -43,14 +43,14 @@ namespace Carvajal.FEPE.PDFService.Core.Services
       }
       catch (Exception ex)
       {
-        this.logger.Info((object) "CleaningJob - Ha ocurrido un error inesperado.", ex);
+        //this.logger.Info((object) "CleaningJob - Ha ocurrido un error inesperado.", ex);
       }
     }
 
     private void CleanInstallationDirectory()
     {
       DateTime now = DateTime.Now;
-      this.logger.Info((object) string.Format("Limpieza del directorio de instalación iniciada el {0}", (object) now.ToLongDateString()));
+      //this.logger.Info((object) string.Format("Limpieza del directorio de instalación iniciada el {0}", (object) now.ToLongDateString()));
       foreach (string temporalDirectory in this.FindTemporalDirectories(now))
         Directory.Delete(temporalDirectory, true);
     }
